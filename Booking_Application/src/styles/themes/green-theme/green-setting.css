@@ -1,0 +1,267 @@
+/*Switch Toggle View CSS Design */
+.thm-green .view-toggle {
+    background-color: var(--dark2_switch_view-bg-clr);
+}
+
+.thm-green .view-toggle svg {
+    filter: invert(1);
+}
+
+.thm-green .view-toggle > .active-view {
+    background-image: var(--dark2_actv_vew-opt-bg-clr);
+}
+
+/* ----------------------------- */
+
+
+
+/* Grid View Data CSS Design */
+.thm-green .tmplt_box {
+    background-color: var(--dark2_grid_box-bg-clr);
+    border-color: var(--dark2_grid_box-bdr-clr);
+}
+
+.thm-green .tmplt_box.crt_nw_tmplt,
+.thm-green .tmplt_add_doc .add_tmplt {
+    border-color: var(--dark2_grid_add_box-bdr-clr);
+}
+
+.thm-green .tmplt_add_doc .add_tmplt > svg path {
+    fill: var(--greenIconColor);
+}
+
+.thm-green .tmplt_name {
+    background-color: var(--dark2_grid_box-title-bg-clr);
+    color: var(--white1);
+}
+
+.thm-green .evnt_tmplt_itm_wrp .tmplt_snp_view .evnt_dtls {
+    background-color: var(--dark2_grid_box_snp-bg-clr);
+}
+
+.thm-green .tmplt_name .tmplt_clone > svg {
+    filter: invert(1);
+}
+
+.thm-green .tmplt_snp_view > .tmplt_doc {
+    border: 0;
+}
+
+.thm-green .templt_act > span {
+    color: var(--white1);
+}
+
+.thm-green .templt_act > .tmplt_dlt {
+    background-color: var(--dark2_grid_box-act-dlt-bg-clr);
+}
+
+.thm-green .templt_act > .tmplt_prevw {
+    background-color: var(--dark2_grid_box-act-vew-bg-clr);
+}
+
+.thm-green .templt_act > .tmplt_edit {
+    background-color: var(--dark2_grid_box-act-edt-bg-clr);
+}
+.thm-green .tmplt_snp_view > .tmplt_doc {
+    background-color: var(--dark2_Grid_dtls_crd-bg-clr);
+}
+
+/* -------------------------------- */
+
+
+/* List View Data Design CSS */
+.thm-green .list-view-template .add_tmplt_wrp {
+    background-color: var(--dark2_list_add-box-bg-clr);
+    border-color: var(--dark2_list_add_box-bdr-clr);
+}
+
+.thm-green .list-view-template .add_tmplt_wrp:hover {
+    background-color: var(--dark2_list_box-bg-hvr-clr);
+}
+
+.thm-green .list-view-template .add_tmplt_icon {
+    border-color: var(--dark2_list_add_box-bdr-clr);
+}
+
+.thm-green .list-view-template .add_tmplt_icon > svg path {
+    fill: var(--greenIconColor);
+}
+
+.thm-green .list-view-template .tmplt_lst .tmplt_list_item {
+    background-color: var(--dark2_list_box-bg-clr);
+    border-color: var(--dark2_list_box-bdr-clr);
+}
+
+.thm-green .list-view-template .tmplt_lst .tmplt_list_item:hover {
+    background-color: var(--dark2_list_box-bg-hvr-clr);
+}
+
+.thm-green .list-view-template .tmplt_lst .tmplt_list_item .tmplt_act svg {
+    filter: invert(1);
+}
+
+.thm-green .list-view-template .tmplt_lst .opt_item {
+    border-color: var(--dark2_custm_drpdwn_bdr-clr);
+    background-color: var(--dark2_custm_drpdwn_bg-clr);
+}
+
+.thm-green .list-view-template .tmplt_lst .opt_item > li:hover, 
+.thm-green .list-view-template .tmplt_lst .opt_item > li.active_item {
+    background-color: var(--dark2_custm_drpdwn_opt-actv-bg-clr);
+}
+
+.thm-green .list-view-template .tmplt_lst .tmplt_list_item .tmplt_col > a {
+    color: var(--white1);
+}
+.thm-green .list-view-template .tmplt_lst .tmplt_list_item.itm_delete .tmplt_col,
+.thm-green .list-view-template .tmplt_lst .tmplt_list_item.itm_delete .tag_txt {
+    opacity: 0.2;
+}
+.thm-green .list-view-template .tmplt_lst .tmplt_list_item.itm_delete::after {
+    display: none;
+}
+
+/* --------------------------------- */
+
+
+/* Meeting Type Option Buttons for Create Events */
+.thm-green .crt_evnt_tmplt_frm .metng_opts_items > span {
+    border-color: var(--green7);
+}
+.thm-green .crt_evnt_tmplt_frm .metng_opts_items svg {
+    filter: invert(1);
+}
+.thm-green .crt_evnt_tmplt_frm .metng_opts_items > span:hover, 
+.thm-green .crt_evnt_tmplt_frm .metng_opts_items > span.actv_opt {
+    background-color: var(--green4);
+}
+
+/* ---------------------------------- */
+
+
+/* Group Creation CSS Design */
+.thm-green .add_group_frm_wpr .view-toggle .active-frm-grp {
+    color: var(--green7);
+}
+.thm-green .add_group_frm_wpr .view-toggle .icon_circle {
+    background-color: var(--greenIconColor);
+}
+.thm-green .add_group_frm_wpr .view-toggle .icon_circle svg {
+    filter: invert(0);
+}
+.thm-green .add_group_frm_wpr .view-toggle .icon_circle svg path {
+    fill: var(--white1);
+}
+.thm-green .add_group_frm_wpr .member_list .membar_item.group_admin::after {
+    background-color: var(--green1);
+}
+
+.thm-green .member_list .membar_item {
+    border-color: var(--dark2_cntct_usr_crd-bdr-clr);
+}
+.thm-green .member_list .membar_item:hover {
+    background-color: var(--dark2_cntct_usr_crd-hvr-bg-clr);
+}
+.thm-green .member_list .membar_item .usr_nme,
+.thm-green .member_list .membar_item .usr_eml {
+    color: var(--white1);
+}
+.thm-green .member_list .membar_item .membr_remove {
+    background-color: var(--dark2_cntct_usr_crd-bdr-clr);
+}
+
+.thm-green .member_list .membar_item .membr_remove .MuiSvgIcon-root {
+    fill: var(--white1);
+}
+
+.thm-green .group_crtn_frm .crnt_grp_mmbr_lst.member_list,
+.thm-green .member_list {
+    background-color: var(--dark2_cntct_usr_lst-col-bg-clr);
+}
+
+
+
+
+
+/* ---------- All Contact List CSS --------------- */
+.thm-green .contact-list-wrapper {
+    background: var(--dark2TabBoxBG);
+}
+.thm-green .contact-list-wrapper .tbl_srch_optns_col {
+    background: var(--dark2_grdnt-bg-clr-2);
+}
+.thm-green .list-view-template .tmplt_lst .tmplt_list_item .tmplt_nme.prsn_nme .text {
+    color: var(--dark1PrimaryTextColor);
+}
+.thm-green .list-view-template .tmplt_lst .tmplt_list_item .tmplt_nme.prsn_nme svg path {
+    fill: var(--dark1PrimaryTextColor);
+}
+.thm-green .tbl_srch_optns_col .input-text .MuiInputBase-root {
+    background-color: var(--green6);
+    border-color: var(--green4);
+}
+
+/* Education Review CSS Design */
+.thm-green .review_col {
+    background-color: var(--green4);
+}
+.thm-green .status-tag {
+    background-color: var(--green7);
+}
+
+
+/* Plan & Pricing Page CSS Design */
+.thm-green .plan-feature {
+    border: 0;
+}
+.thm-green .compare-features-col .MuiAccordionSummary-root.MuiButtonBase-root {
+    background: var(--dark2_compareFeatureCTA-BG-Color);
+    color: var(--white1);
+}
+.thm-green .plan-compare-table-row .plan-details {
+    background: var(--dark2_PlanDetails-Box-BG-Color);
+}
+.thm-green .compare-features-col .MuiAccordionDetails-root {
+    background-color: var(--dark_green1);
+}
+.thm-green .billing-cycle-col > p > span {
+    color: var(--green7);
+}
+.thm-green .billing-daurations .duration-item {
+    border-color: var(--green5);
+}
+.thm-green .compare-features-col table tr td,
+.thm-green .plan-compare-table-row .MuiTableCell-root,
+.thm-green .compare-features-col .MuiAccordionDetails-root {
+    border-color: var(--green5);
+}
+
+
+/* View Details CSS Design */
+.thm-green .view_details_card .MuiFormControl-root .MuiInputBase-root.Mui-disabled input {
+    -webkit-text-fill-color: var(--white1);
+}
+.thm-green .view_details_card .grp_nme .MuiInputBase-root.Mui-disabled input {
+    -webkit-text-fill-color: var(--green7);
+}
+.thm-green .view_details_card .member_list {
+    border-color: var(--orange8);
+}
+.thm-green .view_details_card .member_list .member_items .membar_item {
+    background-color: var(--orang11);
+}
+.thm-green .view_details_card .group_crtn_frm .grp_nme .grp_thmb {
+    background-color: var(--green1);
+}
+
+.api-key-action {
+    border: 0.5px solid;
+    border-radius: 14px;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.api-key-action.Mui-selected  {
+    font-weight: 700;
+}

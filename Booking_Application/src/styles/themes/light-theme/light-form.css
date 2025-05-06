@@ -1,0 +1,51 @@
+
+/*Color of input fields*/
+.thm-light .MuiFormControl-root .MuiInputBase-root {
+    border-color: var(--lightInputBorderColor);
+}
+.thm-light .MuiFormControl-root .MuiInputBase-root.Mui-focused {
+    border-color: var(--lightInputHoverBorderColor);
+}
+.thm-light .MuiInputBase-root.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border-color: var(--lightInputBorderColor);
+}
+.thm-light .MuiOutlinedInput-root.MuiInputBase-sizeSmall .MuiOutlinedInput-notchedOutline {
+    border-color:var(--lightSecondaryColor);  
+}
+.thm-light .MuiOutlinedInput-root.MuiInputBase-sizeSmall:hover .MuiOutlinedInput-notchedOutline {
+    border-color:var(--lightHeaderBG);  
+}
+.thm-light .MuiMultiSectionDigitalClock-root .MuiMenuItem-root.Mui-selected {
+    background-color: var(--lightPrimaryBtn);
+}
+
+.thm-light .MuiFormControl-root .MuiInputBase-root.Mui-error {border-color: var(--errorColor);}
+.thm-light .MuiInputBase-root.MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {border-color: var(--errorColor);}
+.thm-light .form-input {
+    border-color: var(--lightInputBorderColor);
+}
+
+.thm-light .form-input:hover,
+.thm-light .form-input:focus,
+.thm-light .form-input:active {
+    border-color: var(--lightInputHoverBorderColor);
+}
+
+.thm-light .ql-toolbar.ql-snow,
+.thm-light .ql-container.ql-snow {
+    border-color: var(--lightInputBorderColor);
+}
+
+/* Light Theme -- Form Label Color CSS */
+.thm-light .form-label,
+.thm-light .input-label,
+.thm-light .MuiFormControl-root > label,
+.thm-light .MuiRadioGroup-root .MuiTypography-root,
+.thm-light .MuiFormControl-root > label.Mui-focused {
+    color: var(--lightFormLabelColor);
+}
+
+.thm-light .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option:hover,
+.thm-light .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option[aria-selected="true"] {
+    background-color: var(--light3);
+}

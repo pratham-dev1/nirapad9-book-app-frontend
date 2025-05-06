@@ -1,0 +1,63 @@
+
+/* Table Color CSS Design */
+.thm-orange .MuiDataGrid-main .MuiDataGrid-columnHeadersInner > div .MuiDataGrid-columnHeader:nth-child(2),
+.thm-orange .MuiDataGrid-main .MuiDataGrid-columnHeadersInner > div .MuiDataGrid-columnHeader:first-child,
+.thm-orange .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:nth-child(2),
+.thm-orange .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:first-child {
+    background: var(--dark1TabBoxBG);
+}
+.thm-orange .MuiDataGrid-main {
+    color: var(--dark1PrimaryTextColor);
+}
+
+.thm-orange .MuiTableCell-root,
+.thm-orange .MuiTableCell-root,
+.thm-orange .MuiTableCell-root a {
+    color: var(--dark1PrimaryTextColor);
+}
+
+.thm-orange .tab-panel-content .MuiDataGrid-main .MuiDataGrid-cell a {
+    color: var(--dark1PrimaryTextColor);
+}
+
+.thm-orange .MuiDataGrid-virtualScroller .MuiDataGrid-row:hover {background-color: var(--dark1BGHover);}
+.thm-orange .MuiDataGrid-virtualScroller .MuiDataGrid-row.Mui-selected {background-color: var(--dark1BGHover);}
+.thm-orange .MuiDataGrid-main .MuiDataGrid-row .MuiDataGrid-cell {border-bottom: 0;}
+
+.thm-orange .MuiDataGrid-main .MuiDataGrid-row.makeStyles-rowWithLineThrough-1, 
+.thm-orange .MuiDataGrid-main .MuiDataGrid-row.jss2 {
+    opacity: 0.14;
+}
+.thm-orange .history-table-wrapper .MuiDataGrid-columnHeader {
+    border-color: var(--grey5);
+}
+.thm-orange .MuiDataGrid-columnHeaderTitleContainer {
+    color: var(--dark_Tbl-hdr_txt-clr);
+}
+.thm-orange .history-table-wrapper .MuiDataGrid-main .MuiDataGrid-row .MuiDataGrid-cell {
+    color: var(--dark_Tbl-data_txt-clr);
+    border-color: var(--grey3);
+}
+.thm-orange .MuiDataGrid-main .MuiDataGrid-row .MuiDataGrid-cell[data-field='title'] {
+    color: var(--white1);
+}
+
+.thm-orange .MuiDataGrid-main input[type="checkbox"] ~ svg {
+    color: var(--dark1PrimaryTextColor);
+}
+.thm-orange .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:nth-child(2):hover,
+.thm-orange .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:first-child:hover {
+    background-color: transparent;
+}
+
+.thm-orange .history-table-wrapper .MuiDataGrid-columnHeadersInner {
+    background-color: var(--dark1TabBoxBG);
+}
+
+.thm-orange .user-table-wrapper .MuiDataGrid-columnHeaders {
+    background-color: var(--dark1TabBoxBG);
+}
+
+.thm-orange .MuiDataGrid-main .MuiDataGrid-row {
+    border-color: var(--grey3);
+}

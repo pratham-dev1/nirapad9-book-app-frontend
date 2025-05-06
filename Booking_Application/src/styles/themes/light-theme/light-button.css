@@ -1,0 +1,66 @@
+.thm-light .MuiButton-root {
+    background-color: var(--lightCTAColor);
+    border-color: var(--lightCTAColor);
+}
+.thm-light .MuiButton-root.Mui-disabled {
+    background-color: var(--lightCTAColor);
+    color: var(--white1);
+}
+.thm-light .primary_btns, 
+.thm-light .submit-btn,
+.thm-light .MuiButtonBase-root.MuiButton-root {
+    background-color: var(--lightCTAColor);
+    border-color: var(--lightCTAColor);
+}
+.thm-light .primary_btns:hover, 
+.thm-light .submit-btn:hover,
+.thm-light .MuiButtonBase-root.MuiButton-root:hover {
+    background-color: var(--lightPrimaryBtnHover);
+    border-color: var(--lightPrimaryBtnHover);
+}
+.thm-light .MuiButton-root.secondary_btns, 
+.thm-light .MuiButton-root.cancel-btn {
+    border-color: var(--lightCTAColor);
+    color: var(--lightCTAColor);
+    background-color: transparent;
+}
+
+.thm-light .MuiButton-root.secondary_btns:hover,
+.thm-light .MuiButton-root.cancel-btn:hover {
+    background-color: var(--lightSecondaryHoverColor);
+}
+
+
+.thm-light .MuiButton-root.secondary_btns.back_cta {
+    border-color: var(--light_BackCTA-Color);
+    color: var(--light_BackCTA-Color);
+}
+
+.thm-light .secondary_btns .linear-icon svg,
+.thm-light .secondary_btns .linear-icon svg path,
+.thm-light .linear-icon svg path {
+  stroke: var(--lightCTAColor);
+}
+
+.thm-light .btn_wth_opts svg path {
+    fill: var(--lightCTAColor);
+}
+.thm-light .btn_wth_opts > .opnts > li:hover {
+    background-color: var(--light3);
+}
+.thm-light .btn_wth_opts > .opnts > li > a {
+    text-decoration: none;
+    color: var(--black1);
+}
+
+
+/* Pick Contact list Button Dropdown */ 
+.thm-light .pck_cntct_list_drpdwn:hover > button {
+    background-color: var(--light3);
+}
+.thm-light .pck_cntct_list_drpdwn > ul {
+    border-color: var(--lightPrimaryColor);
+}
+.thm-light .pck_cntct_list_drpdwn > ul > li:hover {
+    background-color: var(--light3);
+}

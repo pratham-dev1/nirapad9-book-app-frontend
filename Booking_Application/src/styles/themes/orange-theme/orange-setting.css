@@ -1,0 +1,238 @@
+/*Switch Toggle View CSS Design */
+.thm-orange .view-toggle {
+    background-color: var(--dark1_switch_view-bg-clr);
+}
+
+.thm-orange .view-toggle svg {
+    filter: invert(1);
+}
+
+.thm-orange .view-toggle > .active-view {
+    background-image: var(--dark_actv_vew-opt-bg-clr);
+}
+
+/* ----------------------------- */
+
+
+/* Grid View Data CSS Design */
+.thm-orange .tmplt_box {
+    background-color: var(--dark1_grid_box-bg-clr);
+    border-color: var(--dark1_grid_box-bdr-clr);
+}
+
+.thm-orange .tmplt_box.crt_nw_tmplt,
+.thm-orange .tmplt_add_doc .add_tmplt {
+    border-color: var(--dark1_grid_add_box-bdr-clr);
+}
+
+.thm-orange .tmplt_add_doc .add_tmplt > svg path {
+    fill: var(--orangePrimaryBtn);
+}
+
+.thm-orange .tmplt_name {
+    background-color: var(--dark1_grid_box-title-bg-clr);
+    color: var(--white1);
+}
+
+.thm-orange .evnt_tmplt_itm_wrp .tmplt_snp_view .evnt_dtls {
+    background-color: var(--dark1_grid_box_snp-bg-clr);
+}
+
+.thm-orange .tmplt_name .tmplt_clone > svg {
+    filter: invert(1);
+}
+
+.thm-orange .tmplt_snp_view > .tmplt_doc {
+    border: 0;
+}
+
+.thm-orange .templt_act > span {
+    color: var(--white1);
+}
+
+.thm-orange .templt_act > .tmplt_dlt {
+    background-color: var(--dark1_grid_box-act-dlt-bg-clr);
+}
+
+.thm-orange .templt_act > .tmplt_prevw {
+    background-color: var(--dark1_grid_box-act-vew-bg-clr);
+}
+
+.thm-orange .templt_act > .tmplt_edit {
+    background-color: var(--dark1_grid_box-act-edt-bg-clr);
+}
+.thm-orange .tmplt_snp_view > .tmplt_doc {
+    background-color: var(--dark1_Grid_dtls_crd-bg-clr);
+}
+
+/* -------------------------------- */
+
+
+/* List View Data Design CSS */
+.thm-orange .list-view-template .add_tmplt_wrp {
+    background-color: var(--dark1_list_add-box-bg-clr);
+    border-color: var(--dark1_list_add_box-bdr-clr);
+}
+
+.thm-orange .list-view-template .add_tmplt_wrp:hover {
+    background-color: var(--dark1_list_box-bg-hvr-clr);
+}
+
+.thm-orange .list-view-template .add_tmplt_icon {
+    border-color: var(--dark1_list_add_box-bdr-clr);
+}
+
+.thm-orange .list-view-template .add_tmplt_icon > svg path {
+    fill: var(--orangePrimaryBtn);
+}
+
+.thm-orange .list-view-template .tmplt_lst .tmplt_list_item {
+    background-color: var(--dark1_list_box-bg-clr);
+    border-color: var(--dark1_list_box-bdr-clr);
+}
+
+.thm-orange .list-view-template .tmplt_lst .tmplt_list_item.itm_delete .tmplt_col,
+.thm-orange .list-view-template .tmplt_lst .tmplt_list_item.itm_delete .tag_txt {
+    opacity: 0.2;
+}
+
+.thm-orange .list-view-template .tmplt_lst .tmplt_list_item.itm_delete::after {
+    display: none;
+}
+
+.thm-orange .list-view-template .tmplt_lst .tmplt_list_item:hover {
+    background-color: var(--dark1_list_box-bg-hvr-clr);
+}
+
+.thm-orange .list-view-template .tmplt_lst .tmplt_list_item .tmplt_act svg {
+    filter: invert(1);
+}
+
+.thm-orange .list-view-template .tmplt_lst .opt_item {
+    border-color: var(--dark1_custm_drpdwn_bdr-clr);
+    background-color: var(--dark1_custm_drpdwn_bg-clr);
+}
+
+.thm-orange .list-view-template .tmplt_lst .opt_item > li:hover, 
+.thm-orange .list-view-template .tmplt_lst .opt_item > li.active_item {
+    background-color: var(--dark1_custm_drpdwn_opt-actv-bg-clr);
+}
+
+.thm-orange .list-view-template .tmplt_lst .tmplt_list_item .tmplt_col > a {
+    color: var(--white1);
+}
+
+/* --------------------------------- */
+
+
+/* Meeting Type Option Buttons for Create Events */
+.thm-orange .crt_evnt_tmplt_frm .metng_opts_items > span {
+    border-color: var(--orange5);
+}
+.thm-orange .crt_evnt_tmplt_frm .metng_opts_items svg {
+    filter: invert(1);
+}
+.thm-orange .crt_evnt_tmplt_frm .metng_opts_items > span:hover, 
+.thm-orange .crt_evnt_tmplt_frm .metng_opts_items > span.actv_opt {
+    background-color: var(--orange6);
+}
+
+/* ---------------------------------- */
+
+
+/* Group Creation CSS Design */
+.thm-orange .add_group_frm_wpr .view-toggle .active-frm-grp {
+    color: var(--orange5);
+}
+.thm-orange .add_group_frm_wpr .view-toggle .icon_circle {
+    background-color: var(--orange6);
+}
+.thm-orange .group_crtn_frm .member_list,
+.thm-orange .group_crtn_frm .crnt_grp_mmbr_lst.member_list {
+    background-color: var(--dark1_cntct_usr_lst-col-bg-clr);
+}
+.thm-orange .add_group_frm_wpr .member_list .membar_item.group_admin::after {
+    background-color: var(--orange3);
+}
+
+
+
+/* ---------- All Contact List CSS --------------- */
+.thm-orange .contact-list-wrapper {
+    background: var(--dark1TabBoxBG);
+}
+.thm-orange .contact-list-wrapper .tbl_srch_optns_col {
+    background: var(--dark1_grdnt-bg-clr-2);
+}
+.thm-orange .list-view-template .tmplt_lst .tmplt_list_item .tmplt_nme.prsn_nme .text {
+    color: var(--dark1PrimaryTextColor);
+}
+.thm-orange .list-view-template .tmplt_lst .tmplt_list_item .tmplt_nme.prsn_nme svg path {
+    fill: var(--dark1PrimaryTextColor);
+}
+.thm-orange .tbl_srch_optns_col .input-text .MuiInputBase-root {
+    background-color: var(--orange11);
+    border-color: var(--orange7);
+}
+
+
+/* Education Review CSS Design */
+.thm-orange .review_col {
+    background-color: var(--orange7);
+}
+.thm-orange .status-tag {
+    background-color: var(--orange3);
+}
+
+
+/* Plan & Pricing CSS Design */
+.thm-orange .checkout-steps .plan-step {
+    background-color: var(--dark1_curnt_pln_stp-stck_bg-clr);
+    color: var(--white1);
+}
+.thm-orange .checkout-steps .plan-step::after {
+    border-left-color: var(--dark1_curnt_pln_stp-stck_bg-clr);
+}
+
+.thm-orange .checkout-steps .subscription-step {
+    background-color: var(--dark1_compareFeatureCTA-BG-Color);
+    color: var(--white1);
+}
+.thm-orange .checkout-steps .subscription-step::after {
+    border-left-color: var(--dark1_compareFeatureCTA-BG-Color);
+}
+
+.thm-orange .checkout-steps .payment-step {
+    background-color: var(--dark1_PlanDetails-Box-BG-Color);
+    color: var(--white1);
+}
+.thm-orange .checkout-steps .payment-step::after {
+    border-left-color: var(--dark1_PlanDetails-Box-BG-Color);
+}
+.thm-orange .compare-features-col .MuiAccordionSummary-root.MuiButtonBase-root {
+    background: var(--dark1_compareFeatureCTA-BG-Color);
+    color: var(--white1);
+}
+.thm-orange .plan-compare-table-row .plan-details {
+    background: var(--dark1_PlanDetails-Box-BG-Color);
+}
+.thm-orange .billing-cycle-col > p > span {
+    color: var(--dark1linkColor);
+}
+
+/* View Details CSS Design */
+.thm-orange .view_details_card .MuiFormControl-root .MuiInputBase-root.Mui-disabled input {
+    -webkit-text-fill-color: var(--white1);
+}
+.thm-orange .view_details_card .grp_nme .MuiInputBase-root.Mui-disabled input {
+    -webkit-text-fill-color: var(--orange5);
+}
+.thm-orange .view_details_card .member_list {
+    border-color: var(--orange8);
+}
+.thm-orange .view_details_card .member_list .member_items .membar_item {
+    background-color: var(--orang11);
+}
+.thm-orange .view_details_card .group_crtn_frm .grp_nme .grp_thmb {
+    background-color: var(--orange6);
+}

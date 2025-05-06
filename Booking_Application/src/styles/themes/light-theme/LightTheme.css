@@ -1,0 +1,241 @@
+/* Light Theme Variable */
+@import 'light-variable.css';
+
+/* Header CSS*/
+@import 'light-header.css';
+
+/* Button CSS*/
+@import 'light-button.css';
+
+/* Modal Popup CSS*/
+@import 'light-modal.css';
+
+/* tab CSS */
+@import 'light-tab.css';
+
+/* Filter Toolbar CSS */
+@import 'light-filter-toolbar.css';
+
+/* Table CSS */
+@import 'light-table.css';
+
+/* Form CSS */
+@import 'light-form.css';
+
+/* Event Hub CSS*/
+@import 'light-eventhub.css';
+
+/* Setting CSS */
+@import 'light-setting.css';
+
+
+.thm-light .primary_color {
+    color: var(--lightCTAColor);
+}
+
+.thm-light .card-box {
+    border-color: var(--lightCard_box-bdr_clr);
+}
+
+.thm-light .open-dialog-link {
+    color: var(--lightCTAColor);
+}
+
+.thm-light .grdnt-bg-1 {
+    background: var(--light_grd-bg-1);
+}
+.thm-light .bdr-btm-1 {
+    border-color: var(--light3);
+}
+.thm-light .sec-bg-2 {
+    background-color: var(--light7);
+}
+
+.thm-light .temp_preview_content a {
+    color: var(--lightCTAColor);
+}
+
+/* Merge Calendar CSS */
+.thm-light #view-change>.activeView {
+    border: 1px solid var(--light1);
+    background-color: var(--lightBG);
+} 
+.thm-light .calendar-toolbar-item .personal-calendar .MuiButtonBase-root:hover,
+.thm-light .calendar-toolbar-item .personal-calendar .MuiButtonBase-root.Mui-selected {
+    background-color: var(--light4);
+}
+
+.thm-light .rbc-calendar .rbc-toolbar #event-btn {
+    background-color: var(--lightCTAColor);
+}
+.thm-light .rbc-calendar > .rbc-toolbar .rbc-btn-group button:hover {
+    background-color: var(--lightBG);
+}
+
+.thm-light .rbc-agenda-view table.rbc-agenda-table thead > tr > th {
+    background-color: var(--light_Clndr-agnda-tabl-hdr_bg-clr);
+}
+.thm-light .rbc-row-content .rbc-show-more {
+    color: var(--lightCTAColor);
+}
+
+/* Change date button colors in MUI calendar for light theme */
+.thm-light .MuiPickersDay-root:not(.Mui-disabled):hover {
+    background-color:var(--lightBG); /* Hover background color */
+    border:1px solid #000000;
+}
+  
+/* Today's date */
+.thm-light .MuiDateCalendar-root .MuiPickersDay-root.MuiPickersDay-today {
+    background-color:var(--lightHeaderBG); /* Hover background color */
+    border:1px solid var(--black1);
+}
+
+/* Selected date */
+.thm-light .MuiDateCalendar-root .MuiPickersDay-root.Mui-selected {
+    background-color: var(--lightCTAColor); /* Background color */
+    color: var(--white1);
+}
+
+  
+.thm-light .rbc-day-slot.rbc-time-column.rbc-now.rbc-today {
+    background-color: var(--lightBG); /* Background color */ 
+}
+.thm-light .rbc-today {
+    background-color: var(--lightBG); /* Background color for today's date */
+}
+
+.thm-light .about-content small {color: var(--lightlinkColor);}
+
+.thm-light .add-tag-popup .add-tag-form > .MuiButtonBase-root {background-color: var(--lightPrimaryBtn);border-color: var(--lightPrimaryBtn);}
+.thm-light .add-tag-popup .add-tag-form > .MuiButtonBase-root:hover {background-color: var(--lightPrimaryBtnHover);border-color: var(--lightPrimaryBtnHover);}
+.thm-light .settings-inner-options .taglist-table .MuiPaper-elevation table tr td a:hover {background-color: var(--lightPrimaryBtn);}
+
+.thm-light .update-number-dialog .add-new-phone-number .MuiButtonBase-root {background-color: var(--lightPrimaryBtn);border-color: var(--lightPrimaryBtn);}
+.thm-light .update-number-dialog .add-new-phone-number .MuiButtonBase-root:hover {background-color: var(--lightPrimaryBtnHover);border-color: var(--lightPrimaryBtnHover);}
+.thm-light .edit-event-popup-inner .form-act .MuiButton-root {background-color: var(--lightPrimaryBtn);border-color: var(--lightPrimaryBtn);}
+.thm-light .edit-event-popup-inner .form-act .MuiButton-root:hover {background-color: var(--lightPrimaryBtnHover);border-color: var(--lightPrimaryBtnHover);}
+
+.thm-light .sideleft-nav {background-color: var(--light1);}
+.thm-light .sidelogo > p, .thm-light .available-slots-header {color: #000;}
+.thm-light .sideleft-nav .profile_dtls .user_name, .thm-light .profile-adnl-info {color: #000;}
+.thm-light .available-slots-main .sideright-main .top-head {border-bottom: 2px solid #bcbbb9;}
+.thm-light .available-slots-main {background-color: #f9f9f9;}
+
+.thm-light .slots-container2 .MuiPickersCalendarHeader-root {background-color: var(--light1);}
+.thm-light .available-slots-container form .MuiFormControl-fullWidth .MuiOutlinedInput-notchedOutline {border-color: var(--light1);}
+.thm-light .MuiFormControl-root .MuiFormLabel-root.Mui-focused {color: var(--lightLabelColor);}
+.thm-light .available-slots-container form .form-act button {background-color: var(--lightPrimaryBtn);border-color: var(--lightPrimaryBtn);}
+.thm-light .available-slots-container form .form-act button:hover {background-color: var(--lightPrimaryBtnHover);border-color: var(--lightPrimaryBtnHover);} 
+.thm-light .user-profile .MuiAvatar-circular {background: var(--lightSecondaryColor);}
+.thm-light .user-profile .MuiAvatar-circular .MuiSvgIcon-root {fill: var(--lightPrimaryColor)}
+
+
+.thm-light .right-slide-popup .MuiPaper-elevation .popup-inner {background-color: var(--lightbg3);border: 1px solid var(--lightBoxBorderColor);}
+.thm-light .userId-dialog .user-details-view .verify-link {color: var(--lightCTAColor);}
+
+
+.thm-light .update-number-dialog .phone-list .MuiFormControl-root.primary-number .MuiFormLabel-root {color: var(--orange3);}
+
+
+/* Notification CSS */
+.thm-light #notification-panel .notification-list,
+.thm-light .all_ntfct_lnk {border-color: var(--light1);}
+.thm-light #notification-panel .notification-list > li:hover {
+    background-color: var(--light4);
+}
+.thm-light #notification-panel .MuiList-root .MuiMenuItem-root .ntf_icn {
+    border-color: var(--lightPrimaryColor);
+}
+.thm-light #notification-panel .ntf_icn svg path {
+    stroke: var(--lightPrimaryColor);
+}
+.thm-light #notification-panel .MuiList-root .MuiMenuItem-root a {
+    color: var(--lightlinkColor);
+}
+
+
+.thm-light .all-notification-list .notification-item:hover {
+    background-color: var(--light4);
+}
+.thm-light .all-notification-list .notification-item .notification-icon{
+    border-color: var(--lightPrimaryColor);
+}
+.thm-light .all-notification-list .notification-item .notification-icon svg path {
+    stroke: var(--lightPrimaryColor);
+}
+
+
+
+.thm-light .carousel-button svg > path {
+    stroke: var(--lightPrimaryIconColor);
+}
+
+/* Contact Pick List CSS */
+.thm-light .MuiDrawer-root.contact_pick_lst .MuiPaper-root {
+    background-color: var(--light_Cntct-pck-lst_bg-clr);
+}
+.thm-light .contact-user-list .contact-item .usr_tg {
+    background-color: var(--light-member_card-icn_bg-clr);
+}
+.thm-light .contact-user-list .contact-item .contact-remove {
+    background-color: var(--light-member_card-icn_bg-clr);
+}
+.thm-light .contact_pick_lst .contact-user-list .contact-item {
+    border-color: var(--light1);
+}
+.thm-light .contact_pick_lst .contact-user-list .contact-item:hover {
+    background-color: var(--light4);
+}
+.thm-light .contact_pick_lst .contact-item.added {
+    border-color: var(--light5);
+    background-color: var(--light4);
+}
+.thm-light .contact_pick_lst .contact-item.added::after {
+    background-color: var(--light5);
+}
+
+/* -------------  Selected User from Group  --------------- */
+.thm-light .member_list .membar_item.added {
+    border-color: var(--light5);
+    background-color: var(--light4);
+}
+.thm-light .member_list .membar_item.added::after {
+    background-color: var(--light5);
+}
+
+
+/* ------------- Faq CSS Design Start -------------- */
+.thm-light .faq_srch_col .MuiInputBase-root input::placeholder {
+    color: var(--light2);
+}
+.thm-light .faq_icn svg path {
+    stroke: var(--light5);
+}
+
+.thm-light .srch_rpt_page .table_filter {
+    background: var(--lightToolbarBG) !important;
+}
+.thm-light .srch_rpt_page .table_filter .MuiFormLabel-root {
+    color: var(--black2);
+}
+
+.thm-light .api-key-action {
+    border:.5px solid var(--lightBoxBorderColor); 
+    border-bottom: 0px;   
+    color:var(--lightTitleColor);
+    background: var(--lightSecondaryColor);
+}
+.thm-light .api-key-action.Mui-selected { 
+    color:var(--lightTitleColor);
+    background: var(--lightPrimaryColor);
+    box-shadow: none;
+    border: none;
+}
+
+.thm-light .react-phone-lib .active {
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+  border-bottom: none;
+}

@@ -1,0 +1,155 @@
+.thm-light .settings-sidebar {
+    background-color: var(--light1);
+}
+.thm-light .hover-icon-text:hover {
+    background-color: var(--lightPrimaryBtn);
+    color: var(--white1);
+}
+.thm-light .settings-inner-options .MuiButton-root {
+    background-color: var(--lightPrimaryBtn);
+    border-color: var(--lightPrimaryBtn);
+}
+.thm-light .settings-inner-options .MuiButton-root:hover {
+    background-color: var(--lightPrimaryBtnHover);
+    border-color: var(--lightPrimaryBtnHover);
+}
+
+/* Toggle Grid/list View Option */
+.thm-light .view-toggle > .active-view {
+    background: var(--light-Togl-vew_opt-slct_bg-clr);
+}
+
+/* Grid view Templates */
+.thm-light .tmplt_name {
+    background-color: var(--light_Grid_tmp-nme_bg-clr);
+}
+.thm-light .evnt_tmplt_itm_wrp .tmplt_snp_view .evnt_dtls {
+    background-color: var(--light_Grid_tmp-snp-dtls_bg-clr);
+}
+.thm-light .templt_act > .tmplt_dlt {
+    background-color: var(--light_Grid_tmp-dlt-bg-clr);
+}
+.thm-light .templt_act > .tmplt_prevw {
+    background-color: var(--light_Grid_tmp-prvew-bg-clr);
+}
+.thm-light .templt_act > .tmplt_edit {
+    background-color: var(--light_Grid_tmp-edt-bg-clr);
+}
+.thm-light .tmplt_box .tmplt_doc_dtls_snp {
+    background-color: var(--light_Grid_dtls_crd-bg-clr);    
+}
+
+/* Add New Template Outline Colors*/
+.thm-light .crt_nw_tmplt,
+.thm-light .tmplt_add_doc .add_tmplt {
+    border-color: var(--light_Grid_Add_new_tmp-brd-clr);
+}
+.thm-light .tmplt_add_doc .add_tmplt > svg > path {
+    fill: var(--light_Grid_Add_new_tmp-brd-clr);
+}
+
+
+
+/* List view Templates */
+.thm-light .list-view-template .add_tmplt_wrp,
+.thm-light .list-view-template .add_tmplt_icon {
+    border-color: var(--light_Grid_Add_new_tmp-brd-clr);
+}
+.thm-light .list-view-template .add_tmplt_icon > svg > path {
+    fill: var(--light_Grid_Add_new_tmp-brd-clr);
+}
+.thm-light .list-view-template .tmplt_lst .opt_item {
+    border-color: var(--light_list_vew-act-opt_bdr-clr);
+}
+.thm-light .list-view-template .tmplt_lst .opt_item > li:hover {
+    background-color: var(--light_list_vew-act-opt_hvr-clr);
+}
+
+.thm-light .crt_evnt_tmplt_frm .metng_opts_items > span {
+    border-color: var(--light1);
+}
+
+.thm-light .crt_evnt_tmplt_frm .metng_opts_items > span:hover, 
+.thm-light .crt_evnt_tmplt_frm .metng_opts_items > span.actv_opt {
+    background-color: var(--light1);
+}
+
+.thm-light .add_group_frm_wpr .view-toggle .active-frm-grp {
+    color: var(--lightCTAColor);
+}
+
+.thm-light .add_group_frm_wpr .view-toggle .icon_circle {
+    background-color: var(--lightCTAColor);
+}
+.thm-light .add_group_frm_wpr .view-toggle .icon_circle > svg > path {
+    fill: var(--white1);
+}
+.thm-light .add_group_frm_wpr .member_list .membar_item.group_admin::after {
+    background-color: var(--light5);
+}
+
+.thm-light .member_list .membar_item {
+    border-color: var(--light-member_crd-brd_clr);
+}
+.thm-light .member_list .membar_item:hover{
+    background-color: var(--white1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.thm-light .member_list .membar_item .membr_remove {
+    background-color: var(--light-member_card-icn_bg-clr);
+}
+
+/* Plans Info Page */
+.thm-light .checkout-steps .plan-step {
+    background-color: var(--light_curnt_pln_stp-stck_bg-clr);
+}
+.thm-light .checkout-steps .plan-step::after {
+    border-left-color: var(--light_curnt_pln_stp-stck_bg-clr);
+}
+
+.thm-light .checkout-steps .subscription-step {
+    background-color: var(--light_subs_mng_stp-stck_bg-clr);
+}
+.thm-light .checkout-steps .subscription-step::after {
+    border-left-color: var(--light_subs_mng_stp-stck_bg-clr);
+}
+
+.thm-light .checkout-steps .payment-step {
+    background-color: var(--light_checkout_stp-stck_bg-clr);
+}
+.thm-light .checkout-steps .payment-step::after {
+    border-left-color: var(--light_checkout_stp-stck_bg-clr);
+}
+
+.thm-light .plan-compare-table-row .plan-details {
+    background-color: var(--light1);
+}
+.thm-light .compare-features-col .MuiAccordionSummary-root.MuiButtonBase-root {
+    background-color: var(--light_cmpre_btn-bg-clr);
+}
+.thm-light .billing-daurations .duration-item.active-item {
+    background-color: var(--light_actv_billing_cycle_tab-bg-clr);
+}
+
+
+/* All Contact List CSS */
+.thm-light .contact-list-wrapper .tbl_srch_optns_col {
+    background: var(--light6);
+}
+
+/* Education Review CSS Design */
+.thm-light .review_col {
+    background-color: var(--light7);
+}
+.thm-light .status-tag {
+    background-color: var(--light5);
+}
+
+/* View Details CSS Design */
+.thm-light .view_details_card .grp_nme .MuiInputBase-root.Mui-disabled input {
+    -webkit-text-fill-color: var(--light5);
+}
+.thm-light .view_details_card .group_crtn_frm .grp_nme .grp_thmb {
+    background-color: var(--light5);
+}
+ 

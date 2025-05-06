@@ -1,0 +1,31 @@
+
+/* Table Filter Toolbar Color CSS */
+.thm-green .availablity-filters, 
+.thm-green .filter-toolbar,
+.thm-green .table_filter,
+.thm-green .tbl-filter-col {
+    background: url('../green-filter-bg.png') no-repeat;
+    background-size: cover;
+    border: 0;
+}
+
+.thm-green .filter-toolbar .MuiButtonBase-root.MuiButton-root {
+    background-color: var(--white1);
+    border-color: var(--black1);
+}
+
+.thm-green .filter-toolbar .MuiFormLabel-colorPrimary, 
+.thm-green .filter-toolbar .MuiAutocomplete-input{
+    color: var(--dark1textcolor2);
+    -webkit-text-fill-color:var(--dark1textcolor2);
+}
+
+.thm-green .filter-toolbar .MuiButton-root:hover {
+    background-color: var(--greenPrimaryBtn);
+    border-color: var(--greenPrimaryBtn);
+}
+
+.thm-green .filter-toolbar .MuiInputBase-input {
+    color: var(--dark1textcolor2); 
+    -webkit-text-fill-color: var(--dark1textcolor2);
+}

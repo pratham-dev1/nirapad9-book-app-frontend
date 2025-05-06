@@ -1,0 +1,22 @@
+
+
+.img-preview,.img-crop {
+  overflow: hidden;
+}
+
+.image-copper-preview-box{
+  padding:0px 10px;
+}
+
+
+
+.image-cropper-container{
+  display: flex;
+  justify-content: space-between;
+  justify-items: start;
+  align-items: start;
+}
+
+.uploaded-image-preview .MuiAvatar-img{
+  object-fit: contain;
+}

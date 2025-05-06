@@ -1,0 +1,140 @@
+/*Color of input fields*/
+.thm-orange .MuiFormControl-root .MuiInputBase-root {
+    border-color: var(--dark1InputBorderColor);
+}
+.thm-orange .MuiFormControl-root .MuiInputBase-root.Mui-focused {
+    border-color: var(--dark1InputHoverBorderColor);
+}
+.thm-orange .MuiInputBase-root.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border-color: var(--dark1InputBorderColor);
+}
+
+
+.thm-orange .MuiFormControl-root .MuiInputBase-root.Mui-error {
+    border-color: var(--errorColor);
+}
+.thm-orange .MuiInputBase-root.MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {
+    border-color: var(--errorColor);
+}
+
+
+
+.thm-orange.MuiFormControlLabel-label {
+    color: var(--dark1PrimaryTextColor);
+}
+.thm-orange .MuiFormLabel-colorPrimary, 
+.thm-orange .MuiInputBase-input{
+    color: var(--dark1PrimaryTextColor); 
+    -webkit-text-fill-color: white;
+}
+.thm-orange .MuiDialog-root textarea {
+    background: transparent;
+    color: #fff;
+}
+
+.thm-orange .form-input {
+    border-color: var(--dark1InputBorderColor);
+}
+
+.thm-orange .form-input:hover,
+.thm-orange .form-input:focus,
+.thm-orange .form-input:active {
+    border-color: var(--dark1InputBorderColor);
+}
+
+/* Input Autofill background Color CSS */
+.thm-orange .MuiInputBase-input:-webkit-autofill, 
+.thm-orange .MuiInputBase-input:-webkit-autofill:hover, 
+.thm-orange .MuiInputBase-input:-webkit-autofill:focus, 
+.thm-orange .MuiInputBase-input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #48403c inset !important;
+    -webkit-text-fill-color: var(--white1) !important;
+    transition: background-color 5000s ease-in-out 0s;
+    caret-color: var(--white1);
+}
+.thm-orange .MuiInputBase-input:-webkit-autofill::first-line {
+    color: var(--white1) !important;
+}
+
+
+/* Orange Theme -- Form Label Color CSS */
+.thm-orange .form-label, 
+.thm-orange .input-label,
+.thm-orange .MuiFormControl-root > label,
+.thm-orange .MuiRadioGroup-root .MuiTypography-root,
+.thm-orange .MuiFormControl-root label.Mui-focused {
+    color: var(--dark1FormLabelColor);
+    -webkit-text-fill-color: var(--dark1FormLabelColor);
+}
+
+
+/* ------------------------------------------ */
+
+
+/* Textarea Box CSS Design */
+.thm-orange .ql-toolbar.ql-snow,
+.thm-orange .ql-container.ql-snow {
+    border-color: var(--dark1InputBorderColor);
+}
+
+.thm-orange .ql-snow .ql-picker {
+    color: var(--dark1PrimaryTextColor);
+}
+.thm-orange .ql-snow .ql-stroke {
+    stroke: var(--dark1PrimaryTextColor);
+}
+
+.thm-orange .ql-snow .ql-formats .ql-picker:hover,
+.thm-orange .ql-snow .ql-formats .ql-picker-label:hover {
+    color: var(--orange1);
+}
+.thm-orange .ql-snow .ql-formats .ql-picker-label:hover .ql-stroke, 
+.thm-orange .ql-snow .ql-formats button:hover .ql-stroke {
+    stroke: var(--orange1);
+}
+
+/* ------------------------------------------ */
+
+
+/* Default Dropdown CSS */
+.thm-orange #root .MuiAutocomplete-root ~ .MuiAutocomplete-popper > div > ul {
+    border-color: var(--dark1_custm_drpdwn_bdr-clr);
+    background-color: var(--dark1_custm_drpdwn_bg-clr);
+}
+
+.thm-orange #root .MuiAutocomplete-root ~ .MuiAutocomplete-popper > div > ul {
+    background-color: var(--dark1_custm_drpdwn_bg-clr);
+    color: var(--white1);
+}
+
+.thm-orange #root .MuiAutocomplete-root ~ .MuiAutocomplete-popper > div > ul .MuiListSubheader-root {
+    background-color: var(--dark1_custm_drpdwn_bg-clr);
+    color: var(--white1);
+}
+.thm-orange .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option:hover,
+.thm-orange .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option[aria-selected="true"] {
+    background-color: var(--dark1_custm_drpdwn_opt-actv-bg-clr);
+}
+
+/* Country Dropdown List CSS */
+.thm-orange .react-tel-input .country-list,
+.thm-orange .react-tel-input .country-list .search {
+    background-color: var(--dark1_custm_drpdwn_bg-clr);
+}
+
+.thm-orange .react-tel-input .country-list .search-box {
+    background-color: var(--dark1_custm_drpdwn_bg-clr);
+    color: var(--white1);
+}
+
+.thm-orange .react-tel-input .country-list .country:hover,
+.thm-orange .react-tel-input .country-list .country.highlight {
+    background-color: var(--dark1_custm_drpdwn_opt-actv-bg-clr);
+}
+
+.thm-orange .react-tel-input .country-list .country .dial-code {
+    color: var(--white1);
+}
+.thm-orange .react-tel-input .selected-flag .arrow {
+    border-top-color: var(--dark1InputBorderColor);
+}

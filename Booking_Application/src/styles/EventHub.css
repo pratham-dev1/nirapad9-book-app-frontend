@@ -1,0 +1,987 @@
+.predefind-events-col {
+    font-size: var(--smallFontSize);
+    padding: 15px 5px 10px 10px;
+    border: 1px solid var(--blue3);
+    border-radius: 8px;
+}
+
+.predefind-events-col .MuiTabPanel-root {
+    padding: 0;
+}
+
+.tbl_opt_act {
+    position: relative;
+    cursor: pointer;
+    display: block;
+    z-index: 11;
+}
+
+.tbl_opt_act:hover > svg path {
+    fill: var(--blue3);
+}
+
+.tbl_opt_act > .tbl_act_drp {
+    position: absolute;
+    width: 160px;
+    border: 1px solid var(--blue3);
+    background-color: var(--white1);
+    border-radius: 10px;
+    padding: 15px 0;
+    bottom: -10px;
+    right: -142px;
+    transition: all 0.2s;
+    display: none;
+    margin: 0;
+    list-style: none;
+}
+
+.tbl_opt_act > .tbl_act_drp > li {
+    padding-left: 35px;
+    text-align: left;
+    font-weight: var(--semiBoldFont);
+}
+
+.tbl_opt_act > .tbl_act_drp > li:hover {
+    background-color: var(--blue2);
+}
+
+.tbl_opt_act:hover > .tbl_act_drp {
+    display: block;
+    bottom: 7px;
+}
+
+.predefind-events-col .add_icon {
+    position: absolute;
+    right: 8px;
+    background-color: var(--blue_AddIcon-bg);
+    border-radius: 50%;
+    padding: 6px 7px 3px;
+    top: 0px;
+    cursor: pointer;
+}
+
+.predefind-events-col .add_icon > svg {
+    width: 14px;
+    height: 14px;
+}
+
+.predefind-events-col .MuiTabs-fixed > .MuiTabs-flexContainer {
+    justify-content: center;
+}
+
+.predefind-events-col .MuiTabs-fixed .simple-tab {
+    margin: 0 6%;
+}
+
+
+.simple-table .col-head > span {
+    background-color: var(--blueBG);
+    padding: 0 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1%;
+    margin-bottom: 5px;
+    font-weight: var(--mediumBoldFont);
+}
+
+.simple-table .col-body > span {
+    text-align: center;
+    word-break: break-all;
+    padding: 6px;
+    margin-right: 1%;
+    font-size: var(--baseFontSize);
+    font-weight: var(--mediumBoldFont);
+}
+
+.book-slot-opt .create-events-options {
+    width: 39%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.book-slot-opt .create-events-options .create-event-box-option {
+    width: 49%;
+    border: 1px solid var(--blue3);
+    border-radius: 7px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.create-event-box-option .create-event-time-options {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-bottom: 5px;
+}
+
+.create-event-box-option .create-event-time-options > li {
+    background-color: var(--blue2);
+    padding: 1px 6px;
+    margin-right: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.create-event-box-option .create-event-time-options > li:hover {
+    background-color: var(--blue4);
+    
+}
+
+.create-event-box-option .create-event-time-options > li > span {
+    padding-left: 2px;
+}
+
+.create-events-options .cstm-crt-evnt-opt {
+    padding: 20px 15px;
+    font-weight: var(--semiBoldFont);
+}
+
+.create-events-options .cstm-crt-evnt-opt > p {
+    cursor: pointer;
+}
+
+.create-events-options .cstm-crt-evnt-opt .add-icon {
+    background-color: var(--blue2);
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px; 
+    margin-right: 5px;
+}
+
+.create-events-options .cstm-crt-evnt-opt .add-icon > svg {
+    width: 12px;
+    height: 12px;
+}
+
+.frequently-events-col {
+    width: 50%;
+}
+
+.frequently-events-col .MuiTabPanel-root {
+    padding: 0;
+}
+
+.frequently-events-box {
+    width: 100%;
+    border: 1px solid var(--blue3);
+    border-radius: 8px;
+    padding: 20px;
+    min-height: 250px;
+}
+
+.frequently-events-col .MuiTabs-scroller > .MuiTabs-flexContainer {
+    justify-content: center;
+}
+
+.MuiTabs-root .simple-tab {
+    padding: 3px 5px;
+    margin: 0 10px;
+    min-height: 1px;
+    font-weight: var(--regularFont);
+}
+
+.MuiTabs-root .simple-tab.Mui-selected {
+    font-weight: var(--semiBoldFont);
+    color: var(--black1);
+    border-bottom: 2px solid var(--blue2);
+}
+
+.upcoming-events-list {
+    padding-bottom: 5px;
+}
+
+.upcoming-events-col {
+    width: 50%;
+    padding-left: 20px;
+    border-left: 1px solid var(--grey5);
+}
+.upcoming-events-col > h4 {
+    margin: 0 0 4px;
+}
+
+.upcoming-event {
+    width: 100%;
+    background-color: var(--blueBG);
+    padding: 15px 15px 30px;
+    position: relative;
+}
+
+.upcoming-event .event-time > span {
+    background-color: var(--blue2);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upcoming-event .event-join-btn {
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    bottom: 14px;
+}
+
+.upcoming-events-list .carousel {
+    padding-bottom: 30px;
+}
+
+.upcoming-events-list .carousel-button {
+    top: auto;
+    bottom: -5px;
+    padding: 0;
+    background: transparent;
+}
+
+.upcoming-events-list .carousel-button:disabled {
+    opacity: 0;
+} 
+
+.upcoming-events-list .carousel-button svg {
+    width: 24px;
+    height: 18px;
+}
+
+.adv_ftr_gnrl_usr {
+    display: none;
+}
+
+
+
+/*Create New Events CSS Start */
+.adv_crt_evnt_col .evnt_typ .MuiInputBase-root {
+    padding: 0;
+    border: 0;
+}
+
+.adv_crt_evnt_col .evnt_typ .MuiInputBase-root .MuiAutocomplete-input {
+    width: 110px;
+    padding: 0;
+    font-size: var(--baseFontSize);
+}
+
+.adv_crt_evnt_col .evnt_duratn .MuiInputBase-root {
+    padding: 0;
+    border: 0;
+}
+
+.adv_crt_evnt_col .evnt_duratn .MuiAutocomplete-root {
+    background-color: var(--blue_Dropdown-bg);
+    border-radius: 50px;
+}
+
+.adv_crt_evnt_col .evnt_duratn .MuiAutocomplete-root  .MuiInputBase-root {
+    padding-right: 35px;
+}
+
+.adv_crt_evnt_col .evnt_duratn .MuiInputBase-root .MuiAutocomplete-input {
+    width: 51px;
+}
+
+.adv_crt_evnt_col .evnt_duratn .MuiAutocomplete-endAdornment .MuiAutocomplete-clearIndicator {
+    display: none;
+}
+
+.adv_crt_evnt_col .evnt_duratn > .MuiTextField-root .MuiInputBase-root {
+    max-width: 99px;
+    background-color: var(--blue_Dropdown-bg);
+    border-radius: 50px;
+}
+
+.adv_crt_evnt_col .slct_evnt_tmp {
+    position: relative;
+    width: 27%;
+}
+.adv_crt_evnt_col .slct_evnt_tmp > .input-label {
+    position: absolute;
+    width: 100%;
+    background-color: var(--white1);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--blue1);
+    border-radius: 5px;
+    padding: 10px;
+    bottom: -10px;  
+    pointer-events: none;
+    cursor: pointer;
+}
+.adv_crt_evnt_col .slct_evnt_tmp > .input-label .arw_icn {
+    position: absolute;
+    right: 10px;
+}
+
+.adv_crt_evnt_col .slct_evnt_tmp > .input-label svg,
+.adv_crt_evnt_col .slct_evnt_tmp > .input-label span,
+.adv_crt_evnt_col .slct_evnt_tmp > .MuiAutocomplete-root,
+.adv_crt_evnt_col .slct_evnt_tmp > .MuiAutocomplete-root .MuiAutocomplete-input {
+    cursor: pointer;
+}
+
+.adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item {
+    margin-right: 15px;
+    border: 1px solid var(--blue2);
+    border-radius: 6px;
+    padding: 8px 6px 4px;
+    text-align: center;
+    min-width: 65px;
+    cursor: pointer;
+}
+
+.adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item:hover,
+.adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item.active_item {
+    background-color: var(--blue2);
+}
+
+
+.adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item p {
+    font-size: 10px;
+    font-weight: var(--semiBoldFont);
+    margin: 0 0 8px;
+}
+
+.adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item > svg {
+    max-width: 16px;
+}
+
+.adv_crt_evnt_col .MuiFormControl-root {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+
+
+/* ---------------- Contact Item member CSS ----------------------- */
+.adv_crt_evnt_col .contact-user-list {
+    background-color: var(--grey6);
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.adv_crt_evnt_col .contact-user-list .contact-list-col {
+    max-height: 667px;
+    overflow: auto;
+    min-height: 50px;
+}
+
+.contact-user-list .contact-item {
+    border: 1px solid var(--blue_Cstmr_mndtry-Bdr-clr);
+    border-radius: 10px;
+    position: relative;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.contact-user-list .contact-item.optnl_usr {
+    border: 1px solid var(--blue3);
+}
+
+.contact-user-list .user-avlty {
+    font-size: 12px;
+    color: var(--grey7);
+    position: relative;
+    font-weight: var(--semiBoldFont);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.contact-user-list .user-avlty .Mndty_usr {
+    padding-left: 16px;
+    position: relative;
+}
+
+.contact-user-list .user-avlty .Mndty_usr::before {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 12px;
+    left: 0;
+    top: 2px;
+    background-color: var(--mndtry_Usr-hghlgt-color);
+}
+
+.contact-user-list .user-avlty .opt_usr {
+    padding-left: 16px;
+    position: relative;
+}
+
+.contact-user-list .user-avlty .opt_usr::before {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 12px;
+    left: 0;
+    top: 2px;
+    background-color: var(--optnl_Usr-hghlgt-color);
+}
+
+.contact-user-list .contact-item:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: var(--white1);
+}
+
+.contact-user-list .contact-item .usr_img {
+    margin-right: 5px;
+    line-height: 1;
+}
+
+.contact-user-list .contact-item .usr_img > img {
+    border-radius: 50px;
+}
+
+.contact-user-list .contact-item .usr_img.optnl_usr > img {
+    border-color: var(--optnl_Usr-hghlgt-color);
+}
+
+.contact-user-list .usr_nme {
+    color: var(--grey7);
+    font-size: 12px;
+    font-weight: var(--semiBoldFont);
+    line-height: 1.3;
+}
+
+.contact-user-list .usr_eml {
+    color: var(--grey7);
+    font-size: 10px;
+    font-weight: var(--semiBoldFont);
+    line-height: 1;
+    text-decoration: underline;
+}
+
+.contact-user-list .contact-item .usr_tg {
+    background-color: var(--blue2);
+    font-size: 9px;
+    margin-right: 5px;
+    padding: 1px 5px;
+    border-radius: 50px;
+    color: var(--grey7);
+}
+
+.contact-user-list .contact-item .contact-remove {
+    position: absolute;
+    right: 14px;
+    top: 18px;
+    padding: 5px 8px 3px;
+    border-radius: 50px;
+    background-color: var(--blue2);
+    cursor: pointer;
+}
+
+/* ---------------- Contact Item member CSS End ----------------------- */
+
+
+/* ---------------- Contact Pick List Dialog CSS ------------------ */
+
+
+/* ---------------- Contact Pick List Dialog CSS End ------------------ */
+
+
+/* Upgrade Col CSS Design */
+.upgrade_col {
+    position: relative;
+    cursor: pointer;
+}
+
+.upgrade_col::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-color: var(--bluePro_Box-Bg);
+    top: 0;
+    border-radius: 15px;
+    z-index: 9;
+}
+
+.upgrade-icon {
+    width: 20px;
+    position: absolute;
+    right: 8px;
+    top: 4px;
+    z-index: 10;
+    display: none;
+}
+
+.create-event-box-option.upgrade_col::before {
+    border-radius: 15px;
+}
+
+.upgrade_col .upgrade-icon {
+    display: block;
+}
+
+
+
+/* Event Hub Design for General User */
+.gnrl_usr .evnt-hub-sec {
+    width: 100%;
+}
+
+.gnrl_usr .rght_adv_col {
+    display: none;
+}
+
+.book-slot-opt.gnrl_usr .create-events-options {
+    width: 30%;
+}
+
+.book-slot-opt.gnrl_usr .predefind-events-col {
+    width: 69%;
+}
+
+.create-events-options .cstm-crt-evnt-opt {
+    padding: 30px 15px 20px;
+    border: 1px dashed var(--blue3);
+    border-radius: 7px;
+    position: relative;
+}
+
+.create-events-options .cstm-crt-evnt-opt > p {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.gnrl_usr .frequently-events-box {
+    width: 79%;
+}
+
+.gnrl_usr .adv_ftr_gnrl_usr {
+    width: 20%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 1px solid var(--blue3);
+    padding: 40px 20px 30px;
+    min-height: 250px;
+}
+
+.gnrl_usr .adv_ftr_gnrl_usr .MuiButtonBase-root {
+    margin-right: 0;
+}
+
+.gnrl_usr .predefind-events-col .evnt_tme  {
+    width: 9%;
+}
+
+.gnrl_usr .predefind-events-col .evnt_typ {
+    width: 12%;
+}
+
+.gnrl_usr .predefind-events-col .evnt_nme {
+    width: 35%;
+}
+
+.gnrl_usr .predefind-events-col .evnt_tg {
+    width: 24%;
+}
+
+.gnrl_usr .predefind-events-col .prdfnd_evnt_tbl_data .evnt_tme {
+    width: 10%;
+}
+
+.gnrl_usr .predefind-events-col .prdfnd_evnt_tbl_data .evnt_tg {
+    width: 35%;
+}
+
+
+/* --------------------- Advanced Events Form CSS Design ----------------- */
+.evnt_buffr_form .member_items{
+    padding: 0;
+    list-style: none;
+}
+.evnt_buffr_form .MuiStack-root {
+    padding: 0;
+}
+.evnt_buffr_form .MuiStack-root > div {
+    width: 100%;
+}
+.event_types_opt {   /* Event type options */
+    padding: 15px 18px 16px;
+    border: 1px solid var(--blue3);
+    border-radius: 10px;
+}
+.event_types_opt .evnt_opts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event_types_opt .MuiFormControlLabel-root {
+    margin: 0 0 16px;
+}
+.event_types_opt .MuiFormControlLabel-root .MuiRadio-root {
+    padding: 0 3px 0 0;
+}
+.event_types_opt .MuiFormControlLabel-root .MuiRadio-root svg {
+    width: 16px;
+    height: 16px;
+}
+.event_types_opt .MuiFormControlLabel-root .MuiFormControlLabel-label {
+    font-size: 14px;
+    color: var(--blue3);
+}
+.event_types_opt .evnt_opts .evnt_opt{
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--blue3);
+    padding: 1px 4px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.event_types_opt .evnt_opts .evnt_opt:hover {
+    background-color: var(--blue2);
+}
+.event_types_opt .evnt_opts .evnt_opt svg {
+    width: 15px;
+    height: 15px;   
+}
+.membar_item .indx_nmb {
+    position: absolute;
+    left: -7px;
+    background: var(--blue1);
+    width: 19px;
+    height: 17px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    top: -4px;
+    display: none;
+}
+
+.membar_item[draggable="false"] .indx_nmb {
+    display: block;
+}
+
+/* Event Drafts Option CSS */
+.draft-opt {
+    position: relative;
+}
+
+.draft-opt .draft-icon {
+    display: inline-block;
+    padding: 8px 25px 5px;
+    border-radius: 22px;
+    border: 1px solid var(--blue3);
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.draft-opt .draft-icon.drft_txt {
+    display: flex;
+    color: var(--blue3);
+    font-weight: var(--semiBoldFont);
+    padding: 10px 25px;
+    pointer-events: none;
+}
+
+.adv_crt_evnt_col .draft-opt > .drft_txt svg,
+.adv_crt_evnt_col .draft-opt > .drft_txt span,
+.adv_crt_evnt_col .draft-opt > .MuiAutocomplete-root,
+.adv_crt_evnt_col .draft-opt > .MuiAutocomplete-root .MuiAutocomplete-input {
+    cursor: pointer;
+}
+
+.draft-opt .draft-icon > svg {
+    cursor: pointer;
+    pointer-events: none;
+}
+.draft-opt .MuiAutocomplete-root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 45px;
+    cursor: pointer;
+}
+.draft-opt .MuiAutocomplete-root .MuiAutocomplete-endAdornment {
+    right: 2px;
+    top: 20px;
+}
+.draft-opt .MuiAutocomplete-root .MuiInputBase-root {
+    border: 0;
+    width: 70px;
+    padding: 0;
+    opacity: 0;
+}
+body .draft-opt .base-Popper-root,
+body .draft-opt .base-Popper-root > div,
+body .draft-opt .base-Popper-root > ul {
+    width: 140px !important;
+    max-width: 140px !important;
+}
+.draft-opt.drft_tmp_opt .MuiAutocomplete-root .MuiInputBase-root,
+.draft-opt.drft_tmp_opt .MuiAutocomplete-root {
+    width: 150px;
+}
+
+.card-box.adv_evnt_frm_crd_box {
+    padding-left: 20px;
+}
+.evnt_buffr_form .member_items {
+    padding: 0 12px 0 17px;
+}
+.group_crtn_frm .group_crtn_frm_wrpr {
+    width: calc(100% - 300px);
+}
+.group_crtn_frm .draft-opt .draft-icon {
+    padding: 10px 10px 10px 20px;
+}
+.adv_crt_evnt_col .group_crtn_frm .slct_evnt_tmp {
+    width: 24%;
+}
+.adv_evnt_frm_crd_box .group_crtn_frm .member_list .membr_remove {
+    text-align: center;
+    width: 26px;
+    height: 26px;
+}
+.adv_evnt_frm_crd_box .group_crtn_frm .member_list .membr_remove > svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* ------------ Advanced Events Form CSS Design End   ---------------- */
+
+
+/* ----------- Contact Pick List CSS ------------ */
+.contact_pick_lst .contact-item-list {
+    max-height: 63vh;
+    overflow: auto;
+}
+.MuiDrawer-root.contact_pick_lst.drwr_ovrlp {
+    height: auto;
+    top: auto;
+    bottom: 0;
+    min-width: 400px;
+    min-height: 10px;
+    left: auto;
+    right: 0;
+    position: fixed;
+    z-index: 9;
+}
+.MuiDrawer-root.contact_pick_lst.drwr_ovrlp > .MuiPaper-root {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    max-height: 87vh;
+}
+.MuiDrawer-root.contact_pick_lst.drwr_ovrlp > .MuiPaper-root .contact-user-list {
+    background-color: transparent;
+}
+
+
+/* Small Desktop Device CSS */
+@media (max-width: 1400px) {
+    .predefind-events-col .MuiTabs-root {
+        margin-bottom: 10px;
+    }
+    .predefind-events-col .MuiTabs-fixed > .MuiTabs-flexContainer {
+        padding-bottom: 10px;
+    }
+
+    .frequently-events-col .MuiTabs-root {
+        margin-bottom: 10px;
+    }
+    .frequently-events-col .MuiTabs-fixed > .MuiTabs-flexContainer {
+        padding-bottom: 10px;
+    }
+
+    .simple-table .col-body {
+        font-size: 11px;
+    }
+
+    .frequently-events-box {
+        padding: 20px 10px;
+    }
+
+    .upcoming-events-col {
+        padding-left: 12px;
+    }
+
+    .upcoming-events-col .upcoming-events-list .carousel-item {
+        padding: 3px;
+    }
+
+    .simple-table .col-body > span,
+    .simple-table .col-head > span {
+        font-size: 10px;
+    }
+    .MuiTabs-root .simple-tab {
+        font-size: 10px;
+    }
+
+
+    /* ---- Create Event Form CSS for Small Screen ---- */
+    .adv_crt_evnt_col .evnt_typ {
+        margin-right: 0;
+    }
+    .adv_crt_evnt_col .evnt_typ .MuiInputBase-root .MuiAutocomplete-input {
+        width: 94px;
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item {
+        min-width: 55px;
+        padding: 6px 0px 3px;
+        margin-right: 6px;
+    }
+    .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item p {
+        font-size: 8px;
+        margin: 0 0 5px;
+    }
+    .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item > svg {
+        max-width: 13px;
+    }
+    .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item .drp_icn svg {
+        max-width: 7px;
+    }
+    .adv_crt_evnt_col .slct_evnt_tmp > .input-label {
+        padding: 5px;
+        font-size: 9px;
+    }
+    .adv_crt_evnt_col .slct_evnt_tmp > .input-label > svg {
+        width: 35px;
+        height: 40px;
+    }
+    .adv_crt_evnt_col .slct_evnt_tmp > .input-label .arw_icn svg {
+        width: 7px;
+    }
+    .draft-opt .draft-icon.drft_txt {
+        padding: 10px 15px;
+        font-size: 10px;
+    }
+    .draft-opt .draft-icon.drft_txt svg {
+        width: 12px;
+        height: 16px;
+    }
+    .draft-opt .draft-icon.drft_txt .drp_icn {
+        position: absolute;
+        top: 13px;
+        right: 15px;
+    }
+    .draft-opt .draft-icon.drft_txt .drp_icn svg {
+        width: 8px;
+        height: 9px;
+    }
+    .contact-user-list .user-avlty {
+        font-size: 9px;
+    }
+    .contact-user-list .user-avlty .Mndty_usr,
+    .contact-user-list .user-avlty .opt_usr {
+        padding-top: 1px;
+        padding-left: 12px;
+    }
+    .contact-user-list .user-avlty .Mndty_usr::before,
+    .contact-user-list .user-avlty .opt_usr::before {
+        width: 7px;
+        height: 7px;
+        top: 4px;
+    }
+    
+    .upcoming-events-col > h4 {
+        margin: 0 0 6px;
+    }
+    .upcoming-event {
+        font-size: 10px;
+        padding: 7px;
+    }
+    .upcoming-event .event-time > span {
+        padding: 3px;
+    }
+
+    /* Event Hub Dashboard CSS for Small Screen */
+    .book-slot-opt .create-events-options .create-event-box-option > h4 {
+        font-size: 10px;
+        margin: 3px 0 10px;
+    }
+    .create-event-box-option .create-event-time-options {
+        margin-bottom: 0;
+    }
+    .create-events-options .cstm-crt-evnt-opt {
+        padding: 18px 15px 9px;
+    }
+    
+    .create-events-options .cstm-crt-evnt-opt .add-icon {
+        width: 22px;
+        height: 22px;
+    }
+    .create-events-options .cstm-crt-evnt-opt > p {
+        font-size: 10px;
+    }
+    .create-event-box-option .create-event-time-options > li svg {
+        width: 14px;
+        height: 16px;
+    }
+    .create-event-box-option .create-event-time-options > li {
+        font-size: 10px;
+    }
+
+    /* COntact List CSS */
+    .contact-user-list .contact-item {
+        padding: 6px 12px;
+        margin-bottom: 10px;
+    }
+    .contact-user-list .contact-item .usr_img > img {
+        max-width: 20px;
+    }
+    .contact-user-list .usr_nme {
+        font-size: 9px;
+        margin-bottom: 2px;
+    }
+    .contact-user-list .usr_eml {
+        font-size: 7px;
+        margin-bottom: 2px;
+    }
+    .contact-user-list .contact-item .usr_tg {
+        font-size: 6px;
+    }
+    .contact-user-list .contact-item .contact-remove {
+        right: 8px;
+        top: 13px;
+        padding: 2px 8px 3px;
+    }
+    .contact-user-list .contact-item .contact-remove svg {
+        width: 8px;
+        height: 8px;
+    }
+
+    /* -------- Advanced Events Form CSS Design -------- */
+    .event_types_opt {
+        padding: 15px 9px 14px;
+    }
+    .event_types_opt .MuiFormControlLabel-root {
+        margin: 0 0 9px;
+    }
+    .event_types_opt .MuiFormControlLabel-root .MuiFormControlLabel-label {
+        font-size: 11px;
+    }
+    .event_types_opt .evnt_opts .evnt_opt {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .book-slot-opt.gnrl_usr .predefind-events-col {width: 100%;margin-bottom: 10px;padding: 8px 5px 10px;}
+    .predefind-events-col .MuiTabs-fixed > .MuiTabs-flexContainer {padding: 8px 0 3px;}
+    .predefind-events-col .add_icon {right: 0;padding: 3px 4px 0px;}
+    .book-slot-opt.gnrl_usr .create-events-options {width: 100%;}
+    .gnrl_usr .frequently-events-box {width: 100%;margin-bottom: 20px;}
+    .frequently-events-col {width: 100%;margin-bottom: 30px;}
+    .upcoming-events-col {padding-left: 0;width: 100%;padding-top: 25px;border-left: 0;border-top: 1px solid var(--grey5);}
+    .gnrl_usr .adv_ftr_gnrl_usr {width: 100%;}
+}

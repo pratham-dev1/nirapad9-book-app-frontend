@@ -1,0 +1,165 @@
+/* Header CSS*/
+.thm-blue .main-navbar {background-color: var(--blue1);}
+.MuiSvgIcon-root {fill: var(--blue1);}
+
+.primary_color {color: var(--blue3);}
+
+/*Color of input fields*/
+.MuiFormControl-root .MuiInputBase-root {border-color: var(--inputBorderColor);}
+.MuiFormControl-root .MuiInputBase-root.Mui-focused {border-color: var(--inputHoverBorderColor);}
+.MuiInputBase-root.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {border-color: var(--inputBorderColor);}
+
+.MuiFormControl-root .MuiInputBase-root.Mui-error {border-color: var(--errorColor);}
+.MuiInputBase-root.MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {border-color: var(--errorColor);}
+
+
+
+/* Button Color CSS*/
+.MuiButton-root.Mui-disabled {background-color: var(--blueCTA);color: var(--white1);}
+
+
+
+/* Tab Color CSS*/
+.dashboard-tabs {
+    border-color: var(--blueTabColor);
+    background: linear-gradient(180deg, var(--blueTabActiveGradient1) 0%, var(--blueTabActiveGradient2) 100%);
+    color: var(--blueTabTextColor);
+}
+
+.dashboard-tabs.Mui-selected {
+    box-shadow: 10px 4px 4px 0px rgba(108, 197, 248, 0.25) inset, 10px 16px 9px 0px rgba(108, 197, 248, 0.25) inset, 0px 4px 4px 0px #6CC5F8 inset;
+    color: var(--blueTabTextColor);
+}
+.tab-panel-content {
+    border-color: var(--blueTabBoxBorderColor);
+}
+
+
+/* Filter Toolbar Color CSS*/
+.filter-toolbar .MuiButton-root {color: var(--black1);}
+.filter-toolbar .MuiButton-root.delete-btn {color: var(--white1);}
+.filter-toolbar .delete-btn {color: var(--white1);}
+.filter-toolbar .MuiButton-root:hover {color: var(--white1);}
+.filter-toolbar .MuiButton-root:hover .MuiSvgIcon-root {fill: var(--white1);}
+
+
+
+
+.book_slot_table .MuiDataGrid-main .MuiDataGrid-columnHeadersInner > div .MuiDataGrid-columnHeader:first-child,
+.book_slot_table .MuiDataGrid-main .MuiDataGrid-columnHeadersInner > div .MuiDataGrid-columnHeader:nth-child(2){background-color: var(--blueBG);}
+
+.MuiDataGrid-virtualScroller .MuiDataGrid-row:hover {background-color: var(--BlueTableHoverColor);}
+.MuiDataGrid-virtualScroller .MuiDataGrid-row.Mui-selected {background-color: var(--BlueTableHoverColor);}
+.MuiDataGrid-main .MuiDataGrid-row {border-bottom: 1px solid var(--grey8);}
+.MuiDataGrid-main .MuiDataGrid-row .MuiDataGrid-cell {border-bottom: 0;}
+
+.MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row:hover .MuiDataGrid-cell:first-child,
+.MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row.Mui-selected .MuiDataGrid-cell:first-child,
+.MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:first-child:hover,
+.MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row:hover .MuiDataGrid-cell:nth-child(2),
+.MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:nth-child(2):hover,
+.MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row.Mui-selected .MuiDataGrid-cell:nth-child(2) {
+    background-color: var(--BlueTableHoverColor);
+}
+
+#notification-panel .MuiList-root .MuiMenuItem-root a {color: var(--linkColor);}
+
+/* Contact Pick List CSS */
+.contact_pick_lst .contact-user-list .contact-item {
+    border-color: var(--blue2);
+}
+.contact_pick_lst .contact-user-list .contact-item:hover {
+    background-color: var(--blue7);
+}
+
+.contact_pick_lst .contact-item .contact-remove svg {
+    width: 14px;
+    height: 14px;
+}
+.contact_pick_lst .contact-item.added .contact-remove {
+    display: none;
+}
+.contact_pick_lst .contact-item.added {
+    border-color: var(--blue3);
+    position: relative;
+    background-color: var(--blue7);
+}
+.contact_pick_lst .contact-item.added::after {
+    position: absolute;
+    content: 'Added';
+    padding: 2px 7px;
+    background-color: var(--blue1);
+    right: 10px;
+    top: 10px;
+    color: var(--white1);
+    font-size: 11px;
+    border-radius: 10px;
+}
+
+.contact_pick_lst .contact-item.member-item.added::after {
+    content: 'Selected';
+}
+.add_group_frm_wpr .member_list .membar_item.group_admin {
+    position: relative;
+}
+
+.add_group_frm_wpr .member_list .membar_item.group_admin .membr_remove {
+    display: none;
+}
+
+.add_group_frm_wpr .member_list .membar_item.group_admin::after {
+    position: absolute;
+    content: 'You';
+    padding: 2px 7px;
+    background-color: var(--blue1);
+    right: 10px;
+    top: 10px;
+    color: var(--white1);
+    font-size: 11px;
+    border-radius: 10px;
+}
+
+.member_list .membar_item {
+    position: relative;
+}
+.member_list .membar_item.added {
+    border-color: var(--blue3);
+    background-color: var(--blue7);
+}
+.member_list .membar_item.added .membr_remove {
+    display: none;
+}
+.member_list .membar_item.added::after {
+    position: absolute;
+    content: 'Added';
+    padding: 2px 7px;
+    background-color: var(--blue1);
+    right: 10px;
+    top: 10px;
+    color: var(--white1);
+    font-size: 11px;
+    border-radius: 10px;
+}
+
+.temp_preview_content a {
+    color: var(--blue3);
+}
+
+.thm-blue .api-key-action {
+    border-color: var(--blueTabColor);
+    background: linear-gradient(180deg, var(--blueTabActiveGradient1) 0%, var(--blueTabActiveGradient2) 100%);
+    color: var(--blueTabTextColor);
+}
+
+.thm-blue .api-key-action.Mui-selected {
+    box-shadow: 10px 4px 4px 0px rgba(108, 197, 248, 0.25) inset, 10px 16px 9px 0px rgba(108, 197, 248, 0.25) inset, 0px 4px 4px 0px #6CC5F8 inset;
+    color: var(--blueTabTextColor);
+    background: linear-gradient(to bottom, #ffffff, transparent);
+}
+
+.thm-blue .react-phone-lib .active {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    border-bottom: none;
+ }

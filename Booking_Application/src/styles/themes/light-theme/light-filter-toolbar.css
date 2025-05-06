@@ -1,0 +1,16 @@
+.thm-light .filter-toolbar {
+    background: var(--lightToolbarBG) !important;
+}
+.thm-light .filter-toolbar .MuiButtonBase-root.MuiButton-root {
+    background-color: var(--white1);
+    border-color: var(--black1);
+}   
+.thm-light .availablity-filters {
+    background: var(--lightToolbarBG);
+}
+.thm-light .tbl-filter-col {
+    background-image: linear-gradient(var(--light1), #ffffff);
+}
+.thm-light .filter-toolbar .MuiButton-root:hover {
+    background-color: var(--lightCTAColor);
+}

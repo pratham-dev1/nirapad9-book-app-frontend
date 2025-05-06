@@ -1,0 +1,185 @@
+
+/* Modal Popup Color CSS*/
+.thm-green .MuiDialog-container .popup-header,
+.thm-green .MuiDialog-container .MuiDialogTitle-root {
+    background-color: var(--dark2PopupHeaderBG);
+    color: var(--white1);
+}
+
+.thm-green .MuiDialog-container .popup-header h2,
+.thm-green .MuiDialog-container .popup-header h1,
+.thm-green .MuiDialog-container .popup-header p,
+.thm-green .MuiDialog-container .MuiDialogTitle-root h2,
+.thm-green .MuiDialog-container .MuiDialogTitle-root h1,
+.thm-green .MuiDialog-container .MuiDialogTitle-root p {
+    color: var(--white1); 
+}
+
+.thm-green .MuiDialog-container .popup-header .MuiSvgIcon-root,
+.thm-green .MuiDialog-container .MuiDialogTitle-root .MuiSvgIcon-root {
+    fill: var(--white1);
+}
+
+.thm-green .MuiDialog-root textarea {
+    border-color: var(--greenInputBorder);
+}
+
+.thm-green .MuiDialog-root textarea:focus {
+    outline: none;
+    border-color: var(--greenInputHoverBorder);
+}
+
+.thm-green .edit-event-popup-inner .MuiFormControl-root .MuiInputBase-root {
+    background: transparent;
+    border: 1px solid var(--greenInputBorder);
+}
+
+.thm-green .MuiDialog-paper, 
+.thm-green .right-slide-popup .MuiPaper-elevation .popup-inner {
+    background-color: var(--dark2PopupBG);
+    color: var(--dark2PrimaryTextColor);
+}
+
+.thm-green .edit-event-popup .MuiPaper-elevation {
+    background-color: var(--dark2PopupBG);
+    color: var(--dark2PrimaryTextColor);
+}
+
+.thm-green .edit-event-popup .MuiPaper-elevation .MuiFormLabel-root {
+    color: var(--dark2PrimaryTextColor);
+}
+
+.thm-green .open-dialog-link {
+    color: var(--greenPrimaryBtn);
+}
+
+
+.thm-green .MuiDialog-root input:-webkit-autofill, 
+.thm-green .MuiDialog-root input:-webkit-autofill:hover, 
+.thm-green .MuiDialog-root input:-webkit-autofill:focus, 
+.thm-green .MuiDialog-root input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px #3a3a3c inset !important;
+    color: var(--dark1PrimaryTextColor);
+}
+
+.thm-green .MuiPaper-root.MuiDrawer-paper {
+    color: var(--dark2PrimaryTextColor);
+}
+.thm-green .cls_icn svg path {
+    stroke: var(--white1);
+}
+
+
+/* Right Slide Modal Popup */
+.thm-green .right-slide-popup .history-filter-panel > .MuiStack-root > .MuiFormControl-root {
+    background: transparent;
+}
+.thm-green .right-slide-popup .history-filter-panel .MuiAutocomplete-root .MuiInputBase-root {
+    background: transparent;
+    border: 1px solid var(--white1);
+}
+.thm-green .right-slide-popup .history-filter-panel > .MuiStack-root .MuiInputBase-root {
+    background: transparent;
+}
+.thm-green .right-slide-popup .MuiPaper-elevation {
+    background: transparent;
+}
+.thm-green .right-slide-popup .MuiPaper-elevation  .popup-inner {
+    border: 1px solid var(--dark1PopupBorder);
+}
+.thm-green .right-slide-popup .history-filter-panel .MuiInputLabel-root.Mui-focused {
+    color: var(--white1);
+}
+.thm-green .right-slide-popup .MuiSvgIcon-root {
+    fill: #80b4b0;
+}
+
+.thm-green .update-number-dialog .add-new-phone-number .MuiButtonBase-root {
+    background-color: var(--greenPrimaryBtn);
+    border-color: var(--greenPrimaryBtn);
+}
+
+.thm-green .update-number-dialog .add-new-phone-number .MuiButtonBase-root:hover {
+    background-color: var(--greenPrimaryBtnHover);
+    border-color: var(--greenPrimaryBtnHover);
+}
+.thm-green .edit-event-popup-inner .form-act .MuiButton-root {
+    background-color: var(--greenPrimaryBtn);
+    border-color: var(--greenPrimaryBtn);
+}
+.thm-green .edit-event-popup-inner .form-act .MuiButton-root:hover {
+    background-color: var(--greenPrimaryBtnHover);
+    border-color: var(--greenPrimaryBtnHover);
+}
+
+.thm-green .MuiDialog-root .MuiPaper-elevation {
+    background-color: var(--dark2PopupBG);
+    color: var(--dark1PrimaryTextColor);
+}
+
+.thm-green .MuiDialog-root .MuiPaper-elevation .MuiDialogContent-root {
+    color: var(--dark2PrimaryTextColor);
+}
+
+.thm-green .MuiDialog-root .MuiPaper-elevation .MuiDialogContentText-root {
+    color: var(--dark2PrimaryTextColor);
+}
+
+.thm-green .add-about-popup .epr-main.EmojiPickerReact {
+    background-color: #222226;
+    border: 0;
+}
+
+.thm-green .epr-emoji-category .epr-emoji-category-label {
+    background-color: transparent;
+    font-weight: 300;
+}
+
+.thm-green .confirm-popup .MuiDialog-paper .MuiDialogContent-root p {
+    color: var(--dark2PrimaryTextColor);
+}
+
+.thm-green .MuiDialog-root textarea {
+    background: transparent;
+    color: #fff;
+}
+
+.thm-green .MuiDialog-paper, .thm-green .right-slide-popup .MuiPaper-elevation .popup-inner {
+    background-color: var(--dark2PopupBG);
+    color: var(--dark2PrimaryTextColor);
+}
+
+.thm-green .edit-event-popup .MuiPaper-elevation {
+    background-color: var(--dark2PopupBG);
+    color: var(--dark2PrimaryTextColor);
+}
+
+.thm-green .edit-event-popup .MuiPaper-elevation .MuiFormLabel-root {
+    color: var(--dark2PrimaryTextColor);
+    font-weight: 300;
+}
+
+.thm-green .userId-dialog .details-view {
+    background-color: #2a2a2b;
+}
+
+
+.thm-green .userId-dialog .user-details-view .verify-link {
+    color: var(--greenIconColor);
+}
+
+.thm-green .update-number-dialog .phone-list .MuiFormControl-root .MuiInputBase-input {
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+}
+
+.thm-green .update-number-dialog .phone-list .MuiFormControl-root.primary-number .MuiFormLabel-root {
+    color: var(--dark2linkColor);
+    -webkit-text-fill-color: var(--dark2linkColor);
+}
+
+
+/* Upgrade Plan Offer Popup */
+.thm-green .MuiDialog-root.upgrd_ftur_pup .MuiPaper-elevation {
+    background-color: var(--white1);
+}

@@ -1,0 +1,34 @@
+/* Header CSS*/
+.thm-light {
+    background-color: var(--lightBG);
+}
+.thm-light .main-navbar {
+    background-color: var(--lightHeaderBG);
+    color:var(--black1);
+}
+.thm-light .main-navbar .nav-links-items a {
+    color: var(--black1);
+}
+.thm-light .main-navbar .nav-links-items a.active {
+    border-color: var(--black1);
+}
+.thm-light .main-navbar .user-icon .MuiAvatar-circular {
+    background: var(--lightSecondaryColor);
+    border-color: var(--black1);
+}
+.thm-light .main-navbar .user-icon .MuiAvatar-circular > svg {
+    fill: var(--lightPrimaryColor); 
+}
+.thm-light .logout_btn::before {
+    border-color: var(--black1);
+}
+.thm-light .MuiSvgIcon-root {
+    fill: var(--lightTitleColor);
+}
+.thm-light .light-theme-dark-icon {
+    filter: invert(1);
+}
+
+.thm-light .hdr-search > .srch_icn svg path {
+    stroke: var(--light2);
+}

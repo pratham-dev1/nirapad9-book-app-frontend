@@ -1,0 +1,208 @@
+/* Table Design CSS*/
+.MuiDataGrid-main .MuiDataGrid-cell:focus-within,
+.MuiDataGrid-main .MuiDataGrid-columnHeader:focus-within {outline: none;}
+.sec-title {margin:0;}
+.Toastify .Toastify__toast-container {z-index: 999999;}
+.MuiDataGrid-columnHeaderTitleContainer {
+    color: var(--light_Tbl-hdr_txt-clr);
+}
+
+.MuiDataGrid-main .MuiDataGrid-columnHeader .MuiDataGrid-columnSeparator {
+    z-index: 9;
+    right: -4px;
+}
+
+.MuiDataGrid-main .MuiDataGrid-virtualScrollerContent {
+    max-width: 100% !important;
+}
+
+.MuiDataGrid-main .MuiDataGrid-cell {
+    padding: 10px;
+}
+.tab-panel-content .MuiDataGrid-root {
+    border: 0;
+}
+.tab-panel-content .MuiDataGrid-main .MuiDataGrid-cell a {
+    overflow: hidden;
+    color:#000; 
+    font-weight: 600;
+}
+.MuiDataGrid-columnHeader[data-field="action"] button[title="Sort"] {
+    display: none;
+}
+
+/* Column Header Fixed*/
+.MuiDataGrid-main .MuiDataGrid-columnHeadersInner > div .MuiDataGrid-columnHeader:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 11;
+    background-color: var(--white1);
+}
+
+.MuiDataGrid-main .MuiDataGrid-columnHeadersInner > div .MuiDataGrid-columnHeader:nth-child(2) {
+    position: sticky;
+    left: 50px;
+    z-index: 11;
+    background-color: var(--white1);
+}
+
+.MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 11;
+    background-color: var(--white1);
+} 
+
+
+.MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:nth-child(2) {
+    position: sticky;
+    left: 50px;
+    z-index:11;
+    background-color: var(--white1);
+}
+
+.no-tbl_data_msg {
+    padding: 60px 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+}
+
+.no-tbl_data_msg .trgt_link {
+    background-color: var(--blue2);
+    padding: 4px 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+.history-table-wrapper .MuiDataGrid-footerContainer {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.MuiDataGrid-main .MuiDataGrid-row.makeStyles-rowWithLineThrough-1,
+.MuiDataGrid-main .MuiDataGrid-row.makeStyles-rowWithLineThrough-9,
+.MuiDataGrid-main .MuiDataGrid-row.jss2 {
+    opacity: 0.4;
+    text-decoration: none;
+}
+.history-table-wrapper .MuiDataGrid-main .MuiDataGrid-row .MuiDataGrid-cell {
+    color: var(--light_Tbl-data_txt-clr);
+}
+.MuiDataGrid-main .MuiDataGrid-row .MuiDataGrid-cell[data-field='title'] {
+    font-weight: 600;
+    color: var(--black4);
+}
+.history-table-wrapper .MuiDataGrid-main .MuiDataGrid-overlayWrapperInner {
+    height: 590px !important;
+}
+
+
+.evnt_history_tbl .MuiDataGrid-columnHeadersInner .MuiDataGrid-columnHeader:nth-child(2),
+.evnt_history_tbl .MuiDataGrid-row .MuiDataGrid-cell:nth-child(2) {
+    width: 100px !important;
+    min-width: 10px !important;
+}
+
+.evnt_history_tbl .MuiDataGrid-columnHeadersInner .MuiDataGrid-columnHeader:nth-child(6),
+.evnt_history_tbl .MuiDataGrid-row .MuiDataGrid-cell:nth-child(6),
+.evnt_history_tbl .MuiDataGrid-columnHeadersInner .MuiDataGrid-columnHeader:nth-child(7),
+.evnt_history_tbl .MuiDataGrid-row .MuiDataGrid-cell:nth-child(7),
+.evnt_history_tbl .MuiDataGrid-columnHeadersInner .MuiDataGrid-columnHeader:nth-child(8),
+.evnt_history_tbl .MuiDataGrid-row .MuiDataGrid-cell:nth-child(8),
+.evnt_history_tbl .MuiDataGrid-columnHeadersInner .MuiDataGrid-columnHeader:nth-child(9),
+.evnt_history_tbl .MuiDataGrid-row .MuiDataGrid-cell:nth-child(9) {
+    width: 130px !important;
+    min-width: 10px !important;
+}
+
+.history-table-wrapper .MuiDataGrid-main{
+    overflow: auto;
+}
+.history-table-wrapper .MuiDataGrid-columnHeaders {
+    overflow: initial;
+    border:0;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    border-bottom:1px solid #e0e0e0;
+}
+.history-table-wrapper .MuiDataGrid-columnHeader {
+    border-bottom:1px solid #e0e0e0;
+}
+.history-table-wrapper .MuiDataGrid-columnHeadersInner {
+    transform: none !important;
+    background-color: var(--white1);
+}
+.history-table-wrapper .MuiDataGrid-main .MuiDataGrid-virtualScroller {
+    overflow: visible;
+    height: auto;
+}
+
+.user-table-wrapper .MuiDataGrid-main{
+    overflow: auto;
+}
+.user-table-wrapper .MuiDataGrid-columnHeaders {
+    overflow: initial;
+    border:0;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    background-color: var(--white1);
+    border-bottom:1px solid #e0e0e0;
+}
+.user-table-wrapper .MuiDataGrid-columnHeader {
+    border-bottom:1px solid #e0e0e0;
+}
+.user-table-wrapper .MuiDataGrid-columnHeadersInner {
+    transform: none !important;
+}
+.user-table-wrapper .MuiDataGrid-main .MuiDataGrid-virtualScroller {
+    overflow: visible;
+    height: auto;
+}
+
+/* Apply background color to the checkbox cell on row hover */
+.MuiDataGrid-row:hover .MuiDataGrid-cellCheckbox {
+    background-color: var(--blueBG);
+}
+  
+/* Apply background color to the 'action' cell on hover */
+.MuiDataGrid-cell[data-field="action"]:hover {
+    background-color: var(--blueBG);
+}
+
+/* Apply background color to the checkbox cell on row hover */
+.MuiDataGrid-row:hover .MuiDataGrid-cellCheckbox {
+    background-color: var(--blueBG);
+}
+  
+/* Apply background color to the 'action' cell on hover */
+.MuiDataGrid-cell[data-field="action"]:hover {
+    background-color: var(--blueBG);
+}
+
+.user-table-wrapper .MuiDataGrid-main .MuiDataGrid-cell[data-field="action"] .MuiSvgIcon-root {
+    cursor: pointer;
+}
+
+
+@media (max-width: 1400px) {
+    .MuiDataGrid-main {font-size: 12px;}
+}
+
+@media (max-width: 768px) {
+    .tbl_opt_act:hover > .tbl_act_drp {
+        bottom: -33px;
+        right: 0;
+        width: 110px;
+        padding: 7px 0;
+    }
+    .tbl_opt_act > .tbl_act_drp > li {
+        padding-left: 15px;
+    }
+}

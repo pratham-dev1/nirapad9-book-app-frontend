@@ -1,0 +1,126 @@
+/* Custom Orange Theme Variables */
+
+:root {
+  --orange1: #E06600;
+  --orange2: #f7cb9e;
+  --orange3: #9b5a15;
+  --orange4: #edc7a0;
+  --orange5: #ff9d6c;
+  --orange6: #592f1a;
+  --orange7: #61534c;
+  --orange8: #433833;
+  --orange9: #5f4326;
+  --orange10: #ffefe0;
+  --orange11: #4b3f2d;
+  --dark1_grdnt-bg-clr-2: linear-gradient(#43392b, #785f41);
+
+  --dark1PrimaryTextColor: #EFF7F6;
+  --dark1textcolor2: #333;
+  --dark1linkColor : #ffa361;
+  --dark1ErrorTextColor: #ff0202; 
+
+  --dark_Tbl-hdr_txt-clr: #7a7a7a;
+  --dark_Tbl-data_txt-clr: #d5d5d5;
+
+  --dark1HeaderBG1: #2B2B2B;
+  --dark1Bodybg1: #080808;
+  --dark1Bodybg2: #543A1F;
+  --dark1MenuTextColor: #E1D8C8;
+  --dark1PopupHeaderBG: #2B2B2B;
+  --dark1PopupContentBG: #48403c;
+
+  --dark1_card-box-bdr-clr: #745a43;
+  --dark1_Pro_Box--hvr-Bg: rgba(66,55,50,0.93);
+
+  --dark1TabBG: #F4F1E9;
+  --dark1TabBorder: #7f796f;
+  --dark1TabActiveBG: #FFA361;
+  --dark1TabBoxBG: #48403c;
+  --dark1TabBoxBorderColor: #7F796F;
+
+  --orangePrimaryBtn: #F9943B;
+  --dark1CTAColor: #F9943B;
+  --dark1CTAColorHover: #98653C;
+  --dark1SecondaryColorBtn: #F9943B;
+  --dark1SecondaryHoverColorBtn: #40382F;
+
+  --dark1UserIcon:#B3A593;
+  --dark1InputboxOutline:#5f5957;
+  --dark1InputBox: #655C52;
+  --dark1InputBorderColor: #E1D8C8;
+  --dark1InputHoverBorderColor: #AC8B74;
+  --dark1FormLabelColor: #E1D8C8;
+
+  --dark1PopupBorder: #585552;
+
+  --dark1CalendarHoverDate: #40382F;
+  --dark1CalendarSelectDate: #2B2B2B;
+  --dark1_clndr-mnth-vew_bg-clr: #2f261c;
+  --dark1_Off_clndr_rng-bg-clr: #423d3b;
+  --dark1_Clndr-agnda-tabl-hdr_bg-clr: #2e201c;
+  
+  --dark1NavItems:#EFF7F6;
+  --dark1ToolbarBG1: #AC8E68;
+  --dark1ToolbarBG2: #7F6545;
+
+  --dark1PopupBG: #48403c;
+  --dark1PopupBG2: #303031;
+
+  --dark1SidebarBG: #3c3936;
+  --dark1BGHover: #362d20;
+  --dark1TableBG: #38302d;
+
+  --dark1MergeCalendarHeaderBG: #2d2725;
+  --dark1MergeCalendarBG: #1e1e1e;
+  --dark1CalendarTodayDateBG: #292929;
+  --dark1PrimaryIcon_clr: #ffa361;
+
+  --dark1Event-box_Border-color: #7b7062;
+  --dark1Event-box_bg-clr: #3f3835;
+  --dark1_Simple-tbl-head_bg-color: #5e5753;
+  --dark1_evnt-tme_opt-bg-clr: #81531a;
+
+  --dark1-Upcomng_evnt_card-bg-clr: #5e5753;
+  --dark1-Upcomng_evnt_card_tme-bg-clr: #48403c;
+
+  --dark1-Simple_tab_actv_Borer-color: #736250;
+
+  --dark1_custm_slct_usr_inpt-bdr-clr: #e1d8c8;
+  --dark1_custm_slct_usr_inpt-bg-clr: #69401b;
+  --dark1_custm_drp-icon-clr: #624f41;
+
+  --dark1_custm_drpdwn_bdr-clr: #644b40;
+  --dark1_custm_drpdwn_bg-clr: #422f26;
+  --dark1_custm_drpdwn_opt-actv-bg-clr: #6a3113;
+
+  --dark1_cntct_usr_lst-col-bg-clr: #352f2c;
+  --dark1_cntct_usr_crd-hvr-bg-clr: #24201e;
+  --dark1_cntct_usr_tag-bg-clr: #47443b;
+
+  --dark1_switch_view-bg-clr: #413527;
+  --dark_actv_vew-opt-bg-clr: linear-gradient(#f9943b, rgb(83 60 35));
+  --dark1_grid_box-bdr-clr: #5e4a34;
+  --dark1_grid_add_box-bdr-clr: #8e6c47;
+  --dark1_grid_box-bg-clr: #292118;
+  --dark1_grid_box-title-bg-clr: #1c160f;
+  --dark1_grid_box_snp-bg-clr: #2e271e;
+  --dark1_grid_box-act-dlt-bg-clr: #392b1b;
+  --dark1_grid_box-act-vew-bg-clr: #443422;
+  --dark1_grid_box-act-edt-bg-clr: #513f2a;
+  --dark1_Grid_dtls_crd-bg-clr: #392f24;
+
+  --dark1_list_add-box-bg-clr: #292118;
+  --dark1_list_add_box-bdr-clr: #8e6c47;
+
+  --dark1_list_box-bg-clr: #292118;
+  --dark1_list_box-bg-hvr-clr: #1e1811;
+  --dark1_list_box-bdr-clr: #513a22;
+
+  --dark1_rcurng_bx-bg-clr: #38322e;
+  --dark1_cntct_pck_lst-bg-clr: #352f2c;
+
+  --dark1_curnt_pln_stp-stck_bg-clr: #ca7823;
+  --dark1_compareFeatureCTA-BG-Color: #504840;
+  --dark1_PlanDetails-Box-BG-Color: #4b3e31;
+
+}

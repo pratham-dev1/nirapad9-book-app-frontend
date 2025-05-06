@@ -1,0 +1,257 @@
+
+/* ------------------ Community Page CSS Design  ------------------- */
+.cmunty_post_items {
+    position: relative;
+}
+.cmunty_post_items .pst_filter {
+    position: absolute;
+    right: 11px;
+    top: -14px;
+    padding: 9px 19px 3px;
+    border: 1px solid var(--blue1);
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+.cmunty_post_items .pst_filter svg {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.cmunty_post_items .MuiTabPanel-root {
+    padding: 0 10px;
+}
+.post-item {
+    border: 1px solid var(--grey8);
+    padding: 10px;
+    background-color: var(--white1);
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.cmunty_post_items .post-item .usr_icon {
+    border: 1px solid var(--blue_cmunty_usrPrfle-bg-clr-1);
+    padding: 4px;
+    border-radius: 50px;
+    background-color: var(--white1);
+    display: inline-block;
+}
+.cmunty_post_items .post-item .usr_icon > span {
+    background-color: var(--blue_cmunty_usrPrfle-bg-clr-1);
+    border-radius: 50px;
+    font-weight: 900;
+    color: var(--white1);
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.35;
+    font-size: 20px;
+}
+.cmunty_post_items .post-item .pst_content > .pst_title {
+    margin: 10px 0 2px;
+}
+.cmunty_post_items .post-item .pst_content > .pst_txt {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    width: calc(100% - 100px);
+}
+.cmunty_post_items .post-item .pst_stus {
+    background-color: var(--grey2);
+    color: var(--grey7);
+    font-weight: 600;
+    padding: 3px 12px 5px;
+    border-radius: 13px;
+}
+.cmunty_post_items .post-item .pst_cnct_item {
+    position: relative;
+}
+.cmunty_post_items .post-item .vote_pst {
+    position: absolute;
+    right:6px;
+    top: -29px;
+    width: 52px;
+    height: 48px;
+    background-color: var(--blue3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white1);
+    flex-flow: column wrap;
+    border-radius: 10px;
+}
+
+.all_sugstn_title .back-to {
+    font-weight: 900;
+    color: var(--blue3);
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.all_sugstn_title .back-to svg {
+    width: 7px;
+    height: 11px;
+    margin-right: 3px;
+    top: 1px;
+    position: relative;
+}
+.all_sugstn_title .back-to svg path {
+    stroke: var(--blue3);
+}
+.all_sugstn_title h3 {
+    text-align: center;
+    margin: 0 0 23px;
+    font-size: 20px;
+}
+.pst_filter_popup .MuiDrawer-paper {
+    width: 350px;
+    max-height: 80vh;
+    bottom: 0;
+    top: auto;
+}
+.pst_filter_popup .cls_icn {
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    border: 1px solid var(--blue3);
+    border-radius: 50px;
+    padding: 0 5px;
+}
+.pst_filter_popup .cls_icn svg {
+    width: 10px;
+    height: 10px;
+}
+.pst_filter_popup .cls_icn svg path {
+    stroke: var(--blue3);
+}
+.pst_filter_popup  .MuiBackdrop-root {
+    background: transparent;
+    pointer-events: none;
+}
+.pst_filter_popup .flt_tit {
+    padding: 8px 15px;
+    border-bottom: 1px solid var(--blue2);
+}
+.pst_filter_popup .filter_items .MuiAccordion-root {
+    box-shadow: none;
+}
+.pst_filter_popup .filter_items .MuiAccordionSummary-root {
+    background-color: var(--blue7);
+    font-weight: 600;
+    padding: 10px 30px;
+}
+.pst_filter_popup .filter_items .filter_options_list {
+    list-style: none;
+    padding-left: 15px;
+}
+.pst_filter_popup .filter_items .filter_options_list .MuiCheckbox-root {
+    padding: 0;
+}
+.pst_filter_popup .filter_items .filter_options_list > li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.pst_filter_popup .filter_items .filter_options_list > li > span {
+    margin-left: 10px;
+    padding-top: 3px;
+    font-weight: 600;
+}
+
+/* -------- Post Thread Page CSS Design --------*/
+.back-to.prmy_bck_txt {
+    font-weight: 900;
+    color: var(--blue3);
+}
+.back-to.prmy_bck_txt svg {
+    width: 7px;
+    height: 11px;
+    margin-right: 3px;
+    top: 1px;
+    position: relative;
+}
+.back-to.prmy_bck_txt svg path {
+    stroke: var(--blue3);
+}
+.post-thread-col {
+    background-color: var(--white1);
+}
+.post-thread-col .pst_tit_col {
+    border: 1px solid var(--grey8);
+    padding: 15px 35px 25px;
+}
+.post-thread-col .pst_stus {
+    background-color: var(--grey2);
+    color: var(--grey7);
+    font-weight: 600;
+    padding: 3px 12px 5px;
+    border-radius: 13px;
+}
+.post-thread-col  .pst_vte {
+    background-color: var(--blue3);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    display: inline-block;
+    color: var(--white1);
+    padding: 6px 12px;
+}
+
+.post-thread-col .post-item {
+    border: 1px solid var(--grey8);
+    padding: 30px;
+    background-color: var(--white1);
+    margin-bottom: 25px;
+    cursor: pointer;
+    margin: 0;
+}
+.post-thread-col .pst_descrp_col .post-item {
+    border-top: 0;
+    padding-bottom: 70px;
+}
+
+.post-thread-col .post-item .usr_icon {
+    border: 1px solid var(--blue_cmunty_usrPrfle-bg-clr-1);
+    padding: 4px;
+    border-radius: 50px;
+    background-color: var(--white1);
+    display: inline-block;
+}
+.post-thread-col .post-item .usr_icon > span {
+    background-color: var(--blue_cmunty_usrPrfle-bg-clr-1);
+    border-radius: 50px;
+    font-weight: 900;
+    color: var(--white1);
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.35;
+    font-size: 20px;
+}
+.post-thread-col .post-item .pst_content > .pst_title {
+    margin: 10px 0 2px;
+}
+.post-thread-col .post-item .pst_content > .pst_txt {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    width: 100%;
+    padding-left: 46px;
+}
+.post-thread-col .pst_rply_items_col {
+    border: 1px solid var(--grey8);
+    border-top: 0;
+    padding: 40px 50px;
+}
+.pst_reply_form {
+    padding: 40px 50px;
+    margin-top: 20px;
+    border: 1px solid var(--grey8);
+    background-color: var(--white1);
+}
+.pst_reply_form textarea {
+    border: 1px solid var(--grey8);
+}

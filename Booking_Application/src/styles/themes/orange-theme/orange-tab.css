@@ -1,0 +1,19 @@
+
+/* Tab Color Content CSS*/
+.thm-orange .dashboard-tabs {
+    background: var(--dark1TabBG);
+    border:1px solid var(--dark1TabBorder); 
+    color: var(--dark1HeaderBG1);
+}
+.thm-orange .dashboard-tabs.Mui-selected {
+    color: #000;background: var(--dark1TabActiveBG);
+    box-shadow: none;border:0;
+    color: var(--dark1HeaderBG1);
+}
+.thm-orange .tab-panel-content {
+    background: var(--dark1TabBoxBG);
+    border:0.5px solid var(--dark1TabBoxBorderColor);
+}
+.thm-orange #simple-tabpanel-2 {
+    background-color: var(--dark1TabBoxBG);
+}

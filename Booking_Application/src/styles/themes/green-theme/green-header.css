@@ -1,0 +1,77 @@
+/* Header CSS*/
+.thm-green {
+    background-color: var(--dark2Bodybg1);
+    color: var(--dark2PrimaryTextColor);
+}
+.thm-green .main-navbar {
+    background-color: var(--dark2HeaderBG1);
+}
+
+.thm-green .logout_btn::before {
+    border-color: var(--green1);
+}
+
+.thm-green .MuiMultiSectionDigitalClock-root .MuiMenuItem-root.Mui-selected {
+    background-color: var(--greenPrimaryBtn);
+}
+
+.thm-green #notification-panel .MuiPaper-root {
+    background: var(--dark2PopupBG);
+    color: var(--dark2PrimaryTextColor);
+}
+
+.thm-green #notification-panel .MuiList-root .MuiMenuItem-root .notification-txt {
+    color: var(--dark2PrimaryTextColor);
+    font-weight: 100;
+    opacity: 0.7;
+}
+.thm-green #notification-panel .MuiList-root .MuiMenuItem-root .ntfc_tme {
+    color: var(--dark2PrimaryTextColor);
+}
+
+.thm-green #notification-panel .MuiList-root .MuiMenuItem-root a {
+    color: var(--dark2linkColor);
+}
+
+
+
+/* Notification CSS */
+.thm-green #notification-panel .notification-list,
+.thm-green .all_ntfct_lnk {
+    border-color: var(--green5);
+}
+.thm-green #notification-panel .notification-list > li:hover {
+    background-color: var(--green3);
+}
+.thm-green #notification-panel .MuiList-root .MuiMenuItem-root .ntf_icn {
+    border-color: var(--greenPrimaryBtn);
+}
+.thm-green #notification-panel .ntf_icn svg path {
+    stroke: var(--greenPrimaryBtn);
+}
+.thm-green #notification-panel .MuiList-root .MuiMenuItem-root a {
+    color: var(--greenPrimaryBtn);
+}
+
+
+.thm-green .all-notification-list .notification-item {
+    background-color: var(--dark2_list_box-bg-clr);
+    border: 0;
+}
+.thm-green .all-notification-list .notification-item:hover {
+    background-color: var(--green3);
+    border: 0;
+}
+.thm-green .all-notification-list .notification-item .notification-icon{
+    border-color: var(--greenPrimaryBtn);
+}
+.thm-green .all-notification-list .notification-item .notification-icon svg path {
+    stroke: var(--greenPrimaryBtn);
+}
+
+.thm-green .hdr-search > .srch_icn svg path {
+    stroke: var(--green1);
+}
+.thm-green .hdr-search > .MuiAutocomplete-root .MuiInputBase-input {
+    -webkit-text-fill-color: var(--black1) !important;
+}

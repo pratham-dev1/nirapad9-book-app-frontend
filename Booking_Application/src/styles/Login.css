@@ -1,0 +1,582 @@
+/*Login Page Container CSS*/
+.login-wrapper {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-family: var(--primaryFont);
+    overflow: hidden;
+    max-width: 1300px;
+    margin: auto;
+    justify-content: center;
+}
+
+
+.login-info-col {
+    width: 55%;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.login-info-col video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;left:0;
+    object-fit: cover;
+}
+
+
+/* Form Col CSS*/
+.login-form-col {
+    width: 44%;
+    background-color: var(--white1);
+    padding: 50px 70px;
+    box-shadow: 26px 4px 104.6px -6px rgba(91, 87, 87, 0.25);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.login-form-col form .MuiInputLabel-root {
+    position: relative;
+    max-width: 100%;
+    transform: initial;
+    line-height: 1.6;
+    color: var(--black1);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.login-form-col form .MuiInputBase-input {
+    height: 24px;
+}
+
+
+.login-form-col form .sign-btn {
+    text-transform: capitalize;
+    padding: 10px;
+    color: var(--black1);
+}
+
+.login-form-col form .sign-btn:hover {
+    color: var(--black1);
+}
+
+
+.login-form-col form  .password-link {
+    margin-bottom: 25px;
+    text-align: right;
+}
+
+.login-form-col form  .password-link small {
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.signup-link {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.signup-link span {
+    color: var(--grey3);
+    margin-right: 6px;
+}
+
+.signup-link small {
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--black1);
+}
+
+/* OR Line CSS Design */
+.or-col {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.or-col .div-line {
+    background: var(--grey3);
+    position: absolute;
+    left:0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    content: '';
+    top:10px;
+    z-index: 0;
+}
+
+.or-col .or-text {
+    z-index: 2;
+    position: relative;
+    background-color: var(--white1);
+    color: var(--grey3);
+    padding: 0 7px;
+    font-weight: 600;
+}
+
+body .social-login-btns .MuiButtonBase-root.MuiButton-root {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 10px;
+    background: var(--white1);
+    color: var(--blue3);
+    border-color: var(--blue3);
+}
+
+body .social-login-btns .MuiButtonBase-root.MuiButton-root:hover {
+    background: var(--black1);
+    color: var(--white1);
+    border-color: var(--black1);
+}
+
+.social-login-btns .MuiButton-root img {
+    margin-right: 12px;
+}
+
+
+/* Sign Up Page Design CSS*/
+.signup-wrapper {
+    padding: 40px;
+    font-family: var(--primaryFont);
+    min-height: 100vh;
+}
+
+.sign-form-col {
+    width: 96%; 
+    max-width: 810px;
+    background-color: var(--white1);
+    box-shadow: 26px 4px 104.6px -6px rgba(91, 87, 87, 0.25);
+    padding: 50px 70px;
+    margin: auto;
+}
+
+body .social-login-btns .MuiButton-root:hover {
+    color: var(--white1);
+}
+
+.sign-form-col form .MuiInputLabel-root {
+    position: relative;
+    max-width: 100%;
+    transform: initial;
+    line-height: 1.6;
+    color: var(--black1);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.sign-form-col form .MuiInputBase-input {
+    height: 24px;
+}
+
+
+.sign-form-col form .MuiInputBase-root fieldset legend{
+    display: none;
+}
+
+.sign-form-col form .sign-btn {
+    text-transform: capitalize;
+    color: var(--black1);
+    border-radius: 50px;
+    padding: 10px;
+    margin:40px 0 25px;
+    color: var(--white1);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sign-form-col form .MuiFormControl-root {
+    text-align: left;
+}
+
+.signup-agree-text span {
+    font-weight: 700;
+}
+
+.sign-form-col .usr_typ_opt {
+    border: 1px solid var(--blue3);
+    border-radius: 4px;
+    padding: 10px;
+}
+.sign-form-col .usr_typ_opt img {
+    max-width: 55px;
+}
+
+.sign-form-col .view-toggle {
+    background: transparent;
+    border: 1px solid var(--blue3);
+}
+.sign-form-col .paid_plns_opts {
+    font-size: 15px;
+}
+.sign-form-col .paid_plns_opts .MuiFormControlLabel-root {
+    margin: 0;
+}
+
+
+/* Forgot Password Page Design CSS*/
+.forgot-password-wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot-password-wrapper .form-col {
+    background-color: var(--white1);
+    padding: 60px 90px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+
+.forgot-password-wrapper .form-col > p {
+    color: #8f8e8e;
+    font-size: 14px;
+}
+
+.forgot-password-wrapper .form-inner {
+    width: 460px;
+}
+
+.forgot-password-wrapper .form-inner .MuiButtonBase-root {
+    padding: 12px;
+}
+
+.forgot-password-wrapper .form-inner .back-btn {
+    background-color: var(--white1);
+    color: var(--black1);
+    border:1px solid var(--black1);
+    padding: 10px;
+    box-shadow: none;
+}
+
+.forgot-password-wrapper .form-inner .back-btn:hover {
+    color: #fff;
+    background-color: #333;
+}
+
+.forgot-password-wrapper .form-inner .MuiFormControl-root {
+    margin-bottom: 30px;
+}
+
+body .social-login-btns .MuiButton-root:hover {
+    background-color: #2a2c2d;
+}
+
+
+/* ------------------ Sign Up CSS Design for Theme Colors -------------------- */
+.thm-orange .signup-wrapper .MuiFormLabel-colorPrimary, 
+.thm-orange .signup-wrapper .MuiInputBase-input,
+.thm-orange .signup-wrapper h2,
+.thm-orange .signup-wrapper .usr_typ_opt span,
+.thm-orange .sign-form-col .view-toggle,
+.thm-green .signup-wrapper .MuiFormLabel-colorPrimary, 
+.thm-green .signup-wrapper .MuiInputBase-input,
+.thm-green .signup-wrapper h2,
+.thm-green .signup-wrapper .usr_typ_opt span,
+.thm-green .sign-form-col .view-toggle {
+    -webkit-text-fill-color: var(--black1);
+}
+
+.thm-orange .sign-form-col .view-toggle .active-view,
+.thm-green .sign-form-col .view-toggle .active-view {
+    color: var(--white1);
+    -webkit-text-fill-color: var(--white1);
+}
+
+.thm-orange .signup-wrapper .MuiRadioGroup-root .MuiTypography-root {
+    color: var(--orange3);
+    -webkit-text-fill-color: var(--orange3);
+}
+.thm-orange .signup-wrapper .MuiRadioGroup-root .MuiSvgIcon-root {
+    fill: var(--orange3);
+}
+.thm-light .sign-form-col .view-toggle,
+.thm-light .sign-form-col .usr_typ_opt {
+    border-color: var(--lightCTAColor);
+}
+.thm-light .signup-wrapper .MuiRadioGroup-root .MuiSvgIcon-root {
+    fill: var(--lightFormLabelColor);
+}
+
+.thm-orange .sign-form-col .view-toggle,
+.thm-orange .sign-form-col .usr_typ_opt {
+    border-color: var(--orange3);
+}
+
+.thm-green .signup-wrapper .MuiRadioGroup-root .MuiTypography-root {
+    color: var(--black1);
+}
+.thm-orange .signup-wrapper .MuiInputBase-input,
+.thm-green .signup-wrapper .MuiInputBase-input {
+    -webkit-text-fill-color: var(--black1);
+    color: var(--black1);
+}
+
+.thm-orange .signup-wrapper .MuiRadioGroup-root .MuiTypography-root, 
+.thm-orange .signup-wrapper .MuiFormControl-root label.Mui-focused {
+    -webkit-text-fill-color: var(--black1);
+    color: var(--black1);
+}
+.thm-orange .sign-form-col .paid_plns_opts,
+.thm-green .sign-form-col .paid_plns_opts {
+    color: var(--black1);
+}
+
+
+/* ------------------- Login Page CSS Design for Dark Themes --------------------- */
+.thm-orange .login-wrapper .password-link,
+.thm-green .login-wrapper .password-link {
+    color: var(--black1);
+}
+
+.thm-orange .login-wrapper .MuiInputBase-input,
+.thm-green .login-wrapper .MuiInputBase-input {
+    -webkit-text-fill-color: var(--black1);
+    color: var(--black1);
+}
+
+.thm-orange .forgot-password-wrapper,
+.thm-orange .forgot-password-wrapper .MuiFormLabel-root,
+.thm-green .forgot-password-wrapper,
+.thm-green .forgot-password-wrapper .MuiFormLabel-root {
+    color: var(--black1);
+    -webkit-text-fill-color: var(--black1);
+}
+
+.thm-orange .forgot-password-wrapper .MuiInputBase-input,
+.thm-green .forgot-password-wrapper .MuiInputBase-input {
+    -webkit-text-fill-color: var(--black1);
+    color: var(--black1);
+}
+
+.thm-orange .login-wrapper .MuiRadioGroup-root .MuiTypography-root, 
+.thm-orange .login-wrapper .MuiFormControl-root label.Mui-focused,
+.thm-green .login-wrapper .MuiRadioGroup-root .MuiTypography-root, 
+.thm-green .login-wrapper .MuiFormControl-root label.Mui-focused {
+    -webkit-text-fill-color: var(--black1);
+    color: var(--black1);
+}
+
+.thm-orange .forgot-password-wrapper .MuiRadioGroup-root .MuiTypography-root, 
+.thm-orange .forgot-password-wrapper .MuiFormControl-root label.Mui-focused {
+    -webkit-text-fill-color: var(--black1);
+    color: var(--black1);
+}
+
+/* ------------ LogIn Input Autofill CSS for Light Theme  -------------*/
+.login-wrapper .MuiInputBase-input:-webkit-autofill, 
+.login-wrapper .MuiInputBase-input:-webkit-autofill:hover, 
+.login-wrapper .MuiInputBase-input:-webkit-autofill:focus, 
+.login-wrapper .MuiInputBase-input:-webkit-autofill:active,
+.thm-light .login-wrapper .MuiInputBase-input:-webkit-autofill, 
+.thm-light .login-wrapper .MuiInputBase-input:-webkit-autofill:hover, 
+.thm-light .login-wrapper .MuiInputBase-input:-webkit-autofill:focus, 
+.thm-light .login-wrapper .MuiInputBase-input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #fff inset !important;
+    -webkit-text-fill-color: var(--black1) !important;
+    caret-color: var(--black1);
+}
+.login-wrapper .MuiInputBase-input:-webkit-autofill::first-line,
+.thm-light .login-wrapper .MuiInputBase-input:-webkit-autofill::first-line {
+    color: var(--black1) !important;
+}
+
+
+/* ------------ LogIn Input Autofill CSS for Dark Theme  -------------*/
+.thm-orange .login-wrapper .MuiInputBase-input:-webkit-autofill, 
+.thm-orange .login-wrapper .MuiInputBase-input:-webkit-autofill:hover, 
+.thm-orange .login-wrapper .MuiInputBase-input:-webkit-autofill:focus, 
+.thm-orange .login-wrapper .MuiInputBase-input:-webkit-autofill:active,
+.thm-green .login-wrapper .MuiInputBase-input:-webkit-autofill, 
+.thm-green .login-wrapper .MuiInputBase-input:-webkit-autofill:hover, 
+.thm-green .login-wrapper .MuiInputBase-input:-webkit-autofill:focus, 
+.thm-green .login-wrapper .MuiInputBase-input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #fff inset !important;
+    -webkit-text-fill-color: var(--black1) !important;
+    caret-color: var(--black1);
+}
+.thm-orange .login-wrapper .MuiInputBase-input:-webkit-autofill::first-line,
+.thm-green .login-wrapper .MuiInputBase-input:-webkit-autofill::first-line {
+    color: var(--black1) !important;
+}
+
+
+
+
+/* ------------ SignUp Input Autofill CSS for Light Theme  -------------*/
+.signup-wrapper .MuiInputBase-input:-webkit-autofill, 
+.signup-wrapper .MuiInputBase-input:-webkit-autofill:hover, 
+.signup-wrapper .MuiInputBase-input:-webkit-autofill:focus, 
+.signup-wrapper .MuiInputBase-input:-webkit-autofill:active,
+.thm-light .signup-wrapper .MuiInputBase-input:-webkit-autofill, 
+.thm-light .signup-wrapper .MuiInputBase-input:-webkit-autofill:hover, 
+.thm-light .signup-wrapper .MuiInputBase-input:-webkit-autofill:focus, 
+.thm-light .signup-wrapper .MuiInputBase-input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #fff inset !important;
+    -webkit-text-fill-color: var(--black1) !important;
+    caret-color: var(--black1);
+}
+.signup-wrapper .MuiInputBase-input:-webkit-autofill::first-line,
+.thm-light .signup-wrapper .MuiInputBase-input:-webkit-autofill::first-line {
+    color: var(--black1) !important;
+}
+
+
+/* ------------ SignUp Input Autofill CSS for Dark Theme  -------------*/
+.thm-orange .signup-wrapper .MuiInputBase-input:-webkit-autofill, 
+.thm-orange .signup-wrapper .MuiInputBase-input:-webkit-autofill:hover, 
+.thm-orange .signup-wrapper .MuiInputBase-input:-webkit-autofill:focus, 
+.thm-orange .signup-wrapper .MuiInputBase-input:-webkit-autofill:active,
+.thm-green .signup-wrapper .MuiInputBase-input:-webkit-autofill, 
+.thm-green .signup-wrapper .MuiInputBase-input:-webkit-autofill:hover, 
+.thm-green .signup-wrapper .MuiInputBase-input:-webkit-autofill:focus, 
+.thm-green .signup-wrapper .MuiInputBase-input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #fff inset !important;
+    -webkit-text-fill-color: var(--black1) !important;
+    caret-color: var(--black1);
+}
+.thm-orange .signup-wrapper .MuiInputBase-input:-webkit-autofill::first-line,
+.thm-green .signup-wrapper .MuiInputBase-input:-webkit-autofill::first-line {
+    color: var(--black1) !important;
+}
+
+
+
+/* ------------ Forgot Password Input Autofill CSS for Light Theme  -------------*/
+.forgot-password-wrapper .MuiInputBase-input:-webkit-autofill, 
+.forgot-password-wrapper .MuiInputBase-input:-webkit-autofill:hover, 
+.forgot-password-wrapper .MuiInputBase-input:-webkit-autofill:focus, 
+.forgot-password-wrapper .MuiInputBase-input:-webkit-autofill:active,
+.thm-light .forgot-password-wrapper .MuiInputBase-input:-webkit-autofill, 
+.thm-light .forgot-password-wrapper .MuiInputBase-input:-webkit-autofill:hover, 
+.thm-light .forgot-password-wrapper .MuiInputBase-input:-webkit-autofill:focus, 
+.thm-light .forgot-password-wrapper .MuiInputBase-input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #fff inset !important;
+    -webkit-text-fill-color: var(--black1) !important;
+    caret-color: var(--black1);
+}
+.forgot-password-wrapper .MuiInputBase-input:-webkit-autofill::first-line,
+.thm-light .forgot-password-wrapper .MuiInputBase-input:-webkit-autofill::first-line {
+    color: var(--black1) !important;
+}
+
+
+/* ------------ Forgot Password Input Autofill CSS for Dark Theme  -------------*/
+.thm-orange .forgot-password-wrapper .MuiInputBase-input:-webkit-autofill, 
+.thm-orange .forgot-password-wrapper .MuiInputBase-input:-webkit-autofill:hover, 
+.thm-orange .forgot-password-wrapper .MuiInputBase-input:-webkit-autofill:focus, 
+.thm-orange .forgot-password-wrapper .MuiInputBase-input:-webkit-autofill:active,
+.thm-green .forgot-password-wrapper .MuiInputBase-input:-webkit-autofill, 
+.thm-green .forgot-password-wrapper .MuiInputBase-input:-webkit-autofill:hover, 
+.thm-green .forgot-password-wrapper .MuiInputBase-input:-webkit-autofill:focus, 
+.thm-green .forgot-password-wrapper .MuiInputBase-input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #fff inset !important;
+    -webkit-text-fill-color: var(--black1) !important;
+    caret-color: var(--black1);
+}
+.thm-orange .forgot-password-wrapper .MuiInputBase-input:-webkit-autofill::first-line,
+.thm-green .forgot-password-wrapper .MuiInputBase-input:-webkit-autofill::first-line {
+    color: var(--black1) !important;
+}
+
+
+
+@media (max-width: 1920px) {
+    .login-wrapper {max-width: 1420px;}
+}
+
+@media (max-width: 1720px) {
+    .login-wrapper {max-width: 1250px;}
+}
+
+@media (max-width: 1620px) {
+    .login-wrapper {max-width: 1120px;}
+}
+
+@media (min-width: 2000px) {
+    .login-wrapper {max-width: 1520px;}
+    .login-form-col {padding: 50px 170px;}
+}
+
+@media (min-width: 2200px) {
+    .login-wrapper {max-width: 1720px;}
+    .sign-form-col form .MuiInputBase-input {height: 38px;font-size: 20px;}
+    .sign-form-col form .MuiInputLabel-root {font-size: 18px;}
+    .sign-form-col form .MuiFormControl-root {margin-bottom: 25px;}
+    .sign-form-col .signup-link {font-size: 20px;margin:10px 0 40px;}
+    .sign-form-col .signup-link small {font-size: 20px;}
+    .sign-form-col form .sign-btn {font-size: 20px;padding: 14px;}
+    body .social-login-btns .MuiButton-root {font-size: 18px;}
+    .sign-form-col .or-col {margin-bottom: 45px;}
+
+}
+
+@media (min-width: 3000px) {
+    .login-wrapper {max-width: 2280px;}
+    .login-form-col form .MuiInputLabel-root {font-size: 22px;}
+    .login-form-col form .MuiInputBase-input {height: 42px;font-size: 22px;}
+    .login-form-col form .sign-btn {padding: 16px;font-size: 20px;margin-bottom: 50px;}
+    body .social-login-btns .MuiButton-root {padding: 18px;font-size: 18px;}
+    .signup-link {font-size: 20px;margin-bottom: 50px;}
+    .or-col {margin-bottom: 50px;}
+    .signup-link small {font-size: 22px;}
+    .login-form-col > form > .MuiFormControl-root {margin-bottom: 30px;}
+    .login-form-col form .password-link {font-size: 22px;}
+    .sign-form-col {padding: 50px 170px;}
+}
+
+@media (min-width: 4000px) {
+    .login-wrapper {max-width: 3400px;}
+    .login-form-col form .MuiInputLabel-root {font-size: 30px;}
+    .login-form-col form .MuiInputBase-input {height: 70px;font-size: 34px;}
+    .login-form-col form .sign-btn {padding: 24px;font-size: 30px;}
+    .login-form-col form .password-link {font-size: 40px;margin-bottom: 40px;}
+    .signup-link {font-size: 28px;}
+    .signup-link small {font-size: 31px;}
+    body .social-login-btns .MuiButton-root {padding: 27px;font-size: 26px;}
+}
+
+@media (max-width: 1400px) {
+    .login-wrapper {max-width: 1300px;}
+    .login-info-col {width: 41%;}
+    .login-form-col {padding: 30px 70px;}
+    .login-form-col .logo {margin-bottom: 20px;}
+    .login-form-col form .sign-btn {margin-bottom: 25px;}
+}
+
+@media (max-width: 991px) {
+    .login-wrapper {padding: 30px;}
+    .login-info-col {display: none;}
+    .login-form-col {width: 100%;padding: 40px 30px;border-radius: 10px;}
+    .signup-wrapper {padding: 30px;}
+    .sign-form-col {width: 100%;padding: 40px 30px;border: 0;border-radius: 10px;}
+}
+
+@media (max-width: 767px) {
+    .sign-form-col form .usr_typ {margin-bottom: 10px;}
+    .sign-form-col .usr_typ_opt {width: 100%;margin-bottom: 15px;}
+    .sign-form-col .view-toggle {width: 100%;margin-bottom: 10px;}
+    .sign-form-col .plans_optns {width: 100%;justify-content: flex-start;}
+    .sign-form-col .view-toggle > span {padding: 6px 27px;}
+
+    .forgot-password-wrapper .form-col {width: 93%;padding: 30px 20px;}
+    .forgot-password-wrapper .form-inner {max-width: 100%;}
+
+    .login-wrapper {padding: 16px;align-items: center;}
+    .login-wrapper .login-form-col {padding: 50px 20px;}
+    .login-form-col .logo-wrapper {margin-bottom: 25px;}
+    .login-info-col video {display: none;}
+    .signup-link {font-size: 14px;}
+    .signup-wrapper {padding: 16px;}
+    .signup-wrapper .sign-form-col {border: 0 !important;}
+
+}

@@ -1,0 +1,47 @@
+.home-page-verify-mfa-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 32px;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.configure-mfa-set-up-container,.verify-mfa-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    justify-content: center;
+    align-items: center;
+    height: 206px;
+}
+
+.verify-mfa-container{
+    max-width: 500px;
+}
+
+.otp-box{
+    width:50px;
+    height:50px;
+}
+
+.scan-qr-code-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    row-gap:32px;
+    max-width:440px;
+    text-align: center;
+}
+
+.scan-qr-code-container .primary_btns,.verify-qr-code-btn{
+    width:200px;
+    min-height:44px;
+}
+

@@ -1,0 +1,24 @@
+
+/* Tab Color Content CSS*/
+.thm-light .dashboard-tabs {
+    border:.5px solid var(--lightBoxBorderColor); 
+    border-bottom: 0px;   
+    color:var(--lightTitleColor);
+    background: var(--lightSecondaryColor);
+}
+.thm-light .dashboard-tabs.Mui-selected { 
+    color:var(--lightTitleColor);
+    background: var(--lightPrimaryColor);
+    box-shadow: none;
+    border: none;
+}
+.thm-light .tab-panel-content {
+    border: 0.25px solid var(--lightBoxBorderColor);
+}
+
+.thm-light#simple-tabpanel-2.thm-light.border-line{
+    border: 0.25px solid #021223;
+}
+.thm-light.border-line{
+    border: 0.25px solid #021223;
+}

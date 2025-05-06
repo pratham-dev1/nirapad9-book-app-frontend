@@ -1,0 +1,76 @@
+
+.thm-light .MuiDialog-container .popup-header,
+.thm-light .MuiDialog-container .MuiDialogTitle-root {
+    background-color: var(--lightPopupHeaderBG);
+    color: var(--black1);
+}
+
+.thm-light .MuiDialog-container .popup-header h2,
+.thm-light .MuiDialog-container .popup-header h1,
+.thm-light .MuiDialog-container .popup-header p,
+.thm-light .MuiDialog-container .MuiDialogTitle-root h2,
+.thm-light .MuiDialog-container .MuiDialogTitle-root h1,
+.thm-light .MuiDialog-container .MuiDialogTitle-root p {
+    color: var(--black1); 
+}
+
+.thm-light .MuiDialog-container .popup-header h2 > svg,
+.thm-light .MuiDialog-container .popup-header h1 > svg,
+.thm-light .MuiDialog-container .popup-header p > svg,
+.thm-light .MuiDialog-container .MuiDialogTitle-root h2 > svg,
+.thm-light .MuiDialog-container .MuiDialogTitle-root h1 > svg,
+.thm-light .MuiDialog-container .MuiDialogTitle-root p > svg {
+    filter: invert(1);
+}
+
+.thm-light .MuiDialog-container .popup-header .MuiSvgIcon-root,
+.thm-light .MuiDialog-container .MuiDialogTitle-root .MuiSvgIcon-root {
+    fill: var(--black1);
+}
+
+.thm-light .MuiDialog-root textarea {
+    border-color: var(--lightInputBorderColor);
+}
+
+.thm-light .MuiDialog-root textarea:focus {
+    outline: none;
+    border-color: var(--lightInputHoverBorderColor);
+}
+
+
+/* Plan & Pricing Modal Popup */
+.thm-light .plan-item .plan-details {
+    background-color: var(--light1);
+}
+
+.thm-light .plan-details .plan-name {
+    color: var(--black1);
+}
+
+.thm-light .plan-feature {
+    border-color: var(--light1);
+}
+
+.thm-light .plan-feature svg > path {
+    fill: var(--lightPrimaryColor);
+}
+
+.thm-light .plan-item:hover .plan-feature {
+    background-color: var(--lightBG);
+}
+
+.thm-light .billing-cycle-col > p > span {
+    color: var(--lightPrimaryColor);
+}
+
+.thm-light .billing-daurations .duration-item {
+    border-color: var(--light1);
+}
+
+.thm-light .billing-daurations .duration-item.active-item {
+    background-color: var(--lightBG);
+}
+
+.thm-light .billing-daurations .duration-item .best-value {
+    background-color: var(--lightPrimaryColor);
+}

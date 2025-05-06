@@ -1,0 +1,36 @@
+/* ------ Faq Search Input CSS ------- */
+.faq_srch_col .MuiInputBase-root {
+    background-color: var(--white1);
+    border-radius: 15px;
+    border: 0;
+}
+.faq_srch_col .MuiInputBase-root input::placeholder {
+    color: var(--blue1);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* ---- Faq Item CSS ------- */
+.faq-item {
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+.faq_icn {
+    position: absolute;
+    left: 0;
+    top: -4px;
+}
+.faq-item > h3 {
+    margin: 0 0 10px;
+}
+.faq-item > p{
+    font-weight: 500;
+    margin: 0;
+}
+
+.faq-item > ul, .faq-item > ol {
+    font-weight: 500;
+    margin: 0;
+    padding-left: 25px;
+}

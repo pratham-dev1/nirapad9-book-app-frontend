@@ -1,0 +1,66 @@
+
+/* Modal Popup Color CSS*/
+.thm-orange .MuiDialog-container .popup-header,
+.thm-orange .MuiDialog-container .MuiDialogTitle-root {
+    background-color: var(--dark1PopupHeaderBG);
+    color: var(--white1);
+}
+
+.thm-orange .MuiDialog-container .popup-header h2,
+.thm-orange .MuiDialog-container .popup-header h1,
+.thm-orange .MuiDialog-container .popup-header p,
+.thm-orange .MuiDialog-container .MuiDialogTitle-root h2,
+.thm-orange .MuiDialog-container .MuiDialogTitle-root h1,
+.thm-orange .MuiDialog-container .MuiDialogTitle-root p {
+    color: var(--white1); 
+}
+
+.thm-orange .MuiDialog-container .popup-header .MuiSvgIcon-root,
+.thm-orange .MuiDialog-container .MuiDialogTitle-root .MuiSvgIcon-root {
+    fill: var(--white1);
+}
+
+.thm-orange .MuiDialog-root textarea {
+    border-color: var(--dark1InputBorderColor);
+}
+
+.thm-orange .MuiDialog-root textarea:focus {
+    outline: none;
+    border-color: var(--dark1InputHoverBorderColor);
+}
+.thm-orange  .edit-event-popup-inner .MuiFormControl-root .MuiInputBase-root {
+    background: transparent;
+    border: 1px solid var(--dark1InputBox);
+}
+
+.thm-orange .MuiDialog-paper, 
+.thm-orange .right-slide-popup .MuiPaper-elevation .popup-inner {
+    background-color: var(--dark1PopupBG);
+    color: var(--dark1PrimaryTextColor);
+}
+
+.thm-orange .edit-event-popup .MuiPaper-elevation {
+    background-color: var(--dark1PopupBG);
+    color: var(--dark1PrimaryTextColor);
+}
+
+.thm-orange .edit-event-popup .MuiPaper-elevation .MuiFormLabel-root {
+    color: var(--dark1PrimaryTextColor);
+}
+
+.thm-orange .open-dialog-link {
+    color: var(--orangePrimaryBtn);
+}
+
+.thm-orange .MuiPaper-root.MuiDrawer-paper {
+    color: var(--dark1PrimaryTextColor);
+}
+
+.thm-orange .cls_icn svg path {
+    stroke: var(--white1);
+}
+
+/* Upgrade Plan Offer Popup */
+.thm-orange .MuiDialog-root.upgrd_ftur_pup .MuiPaper-elevation {
+    background-color: var(--white1);
+}

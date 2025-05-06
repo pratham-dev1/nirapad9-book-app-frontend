@@ -1,0 +1,188 @@
+
+
+/* Layout CSS Files */
+@import 'styles/layout/layout.css';
+@import 'styles/layout/HeaderStyle.css';
+
+/* Common Base CSS Files */
+@import 'styles/base/typography.css';
+
+/* Components CSS Files*/
+@import 'styles/components/button.css';
+@import 'styles/components/form.css';
+@import 'styles/components/modal.css';
+@import 'styles/components/table.css';
+@import 'styles/components/table-toolbar.css';
+@import 'styles/components/tab.css';
+@import 'styles/components/carousel.css';
+
+/* Theme CSS Files*/
+@import 'styles/themes/BlueTheme.css';
+@import 'styles/themes/light-theme/LightTheme.css';
+@import 'styles/themes/orange-theme/OrangeTheme.css';
+@import 'styles/themes/green-theme/GreenTheme.css';
+
+
+/*Custom Classes CSS File */
+@import 'styles/components/custom.css';
+
+
+:root {
+  /* Common Color Theme Variable*/
+  --white1 : #fff;
+  --black1: #000;
+  --black2: #262D33;
+  --black3: #585858;
+  --black4: #3b3b3b;
+  --grey1: #ddd;
+  --grey2 : #EBECF0;
+  --grey3: #666;
+  --grey4: #767676;
+  --grey5: #A4ABAF;
+  --grey6: #f7f7f7;
+  --grey7: #797979;
+  --grey8: #D9D9D9;
+  --grey9: #495156;
+  --purple1: #C5DEF7;
+  --lightgreen1: #A5DBE5;
+  --lightblue1: #89C8F1;
+  --errorColor: #e91010;
+  --Color_Theme-active_pnt-bg-clr: #00FF38;
+
+  --primary-skill-label-color: #A5DBE5;
+  --secondary-skill-label-color: #FFF79A;
+
+  --mndtry_Usr-hghlgt-color: #FF00C6;
+  --optnl_Usr-hghlgt-color: #6CC5F8;
+
+
+  --filterToolbarLabelColor: rgba(0,0,0,0.6);
+  --light_BackCTA-Color: #a7a5a5;
+
+  /* Light Blue Color Theme Variable */
+  --blue1 : #6298BB;
+  --blue2 : #C5DEF7;
+  --blue3 : #2283C1;
+  --blue4 : #79AEE7;
+  --blue5: #0288FF;
+  --blue6: #f2f7fa;
+  --blue7: #EAF6FF;
+  --blue8: #F2F9FF;
+  --blue9: #deeaf5;
+  --blueBG : #F2F9FF;
+  --bluePro_Box-Bg: rgba(222,237,247,0.7);
+  --blue_grd-bg-1: linear-gradient(#79AEE8, #A5DBE5);
+
+  --blueCardBox_brd-color: #A5DBE5;
+  
+  
+  --inputTextColor: #484747;
+  --inputBorderColor: #6298BB;
+  --inputHoverBorderColor: #2283C1;
+
+  --light_Tbl-hdr_txt-clr: #aaa;
+  --light_Tbl-data_txt-clr: #505050;
+
+  --blueFormLabelColor: #6298BB;
+  --blue_Dropdown-bg: #C5DEF7;
+  --blue_Cstmr_mndtry-Bdr-clr: #FF00C6;
+
+  --blueTabColor: #79AEE8;
+  --blueTabTextColor: #192D39;
+  --blueTabActiveGradient1: #79AEE8;
+  --blueTabActiveGradient2: rgba(165, 219, 229, 0.50);
+  --blueTabBoxBorderColor: #C5DEF7;
+  --blue_AddIcon-bg: #C5DEF7;
+
+  --blueCTA : #2283C1;
+  --blueSecondaryCTA: #fff;
+  --blueSecondaryCTAHover: #EAF6FF;
+
+  --bluePlanDetails-Box-BG-Color: #C5DEF7;
+  --compareFeatureCTA-Font-size: 16px;
+  --compareFeatureCTA-BG-Color: #C5DEF7;
+  --compareFeatureCTA-Text-Color: #262D33;
+  --compareTable-Border-color: #767676;
+
+
+  --linkColor: #1f9ced;
+  --deleteBtn: #b82f2f;
+  --blueCalendarSelectDate: #2283C1;
+
+  --BlueTableHoverColor: #e2ecf3;
+  --blueNotificationBG: #edf8ff;
+  --bluePopupHeaderBG: #6298BB;
+  --bottomPopupBG: #dce9f6;
+  --bottomPopupBorder: #86cced;
+
+  --templateTitleBg__blue: #d0e0eb;
+  --templateEditBg__blue: #81ADC9;
+  --templatePreviewBg__blue: #91B7CF;
+  --templateDeleteBg__blue: #B1CCDD;
+
+  --blue_Clndr-agnda-tabl-hdr_bg-clr: #b1cee0;
+  --blue_cmunty_usrPrfle-bg-clr-1: #89B6AC;
+}
+
+
+/* Days Chips Tag Design */
+.days-chip {
+  padding: 5px;
+  margin-right: 15px;
+  border-radius: 50px;
+  width: 100px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.report-style-class {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.report-style-class::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 45px;
+  top: 0;
+  left: 1px;
+  background-color: var(--white1);
+}
+.container-width {
+  padding: 0 2rem 0rem;
+  width: 100%;
+}
+
+/* Error Page CSS Design */
+.error_col .error_icn svg {
+  width: 75px;
+  height: 75px;
+}
+.error_col .error_icn svg path {
+  stroke: var(--blue3);
+}
+.error_col .bck_btn {
+  text-decoration: none;
+  padding: 11px 30px 13px;
+  border-radius: 25px;
+  border: 1px solid var(--blueCTA);
+  color: var(--blueCTA);
+}
+
+
+@media (min-width: 1720px) {
+  .page-wrapper, .container-width {max-width: 80%;}
+  body .user-main-page {max-width: 80%;margin: 80px 40px;}
+}
+
+@media (max-width: 1400px) {
+  #root .MuiAutocomplete-root ~ .MuiAutocomplete-popper > div > ul  {max-height: 140px;}
+  #root .MuiAutocomplete-root ~ .MuiAutocomplete-popper > div > ul {font-size: 10px;padding-left: 0;}
+}
+
+.report-style-class {
+  height: 100vh;
+  width:auto
+}

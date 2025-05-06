@@ -1,0 +1,247 @@
+
+/* Predefined Events Table */
+.thm-green .predefind-events-col {
+    border-color: var(--dark2Event-box_Border-color);
+}
+
+.thm-green .predefind-events-col .add_icon {
+    background-color: var(--dark2-simple_table_link-bg-clr);
+}
+
+.thm-green .predefind-events-col .add_icon > svg {
+    filter: invert(1);
+}
+
+.thm-green .tbl_opt_act > .tbl_act_drp {
+    border-color: var(--dark2Event-box_Border-color);
+    background-color: var(--dark2Event-box_bg-clr);
+}
+
+.thm-green .tbl_opt_act > .tbl_act_drp > li:hover {
+    background-color: var(--dark2CTAColor);
+}
+
+/* ----------------------------------------------------------- */
+
+
+/* Create Event Options Tab */
+.thm-green .book-slot-opt .create-events-options .create-event-box-option {
+    border-color: var(--dark2Event-box_Border-color);
+}
+.thm-green .adv_crt_evnt_col .evnt_duratn > .MuiTextField-root .MuiInputBase-root {
+    background: var(--dark2_custm_drpdwn_bg-clr);
+}
+.thm-green .evnt_cl_typ_item .mt_opt_itms .mt_opt_itm .mt_dtls {
+    background: var(--green6);
+    border-color: var(--green5);
+}
+.thm-green .create-event-box-option .create-event-time-options > li {
+    background-color: var(--dark2_evnt-tme_opt-bg-clr);
+}
+
+.thm-green .create-event-box-option .create-event-time-options > li:hover {
+    background-color: var(--dark2CTAColor);
+}
+
+.thm-green .create-event-box-option .create-event-time-options > li > svg > path {
+    stroke: var(--dark2_white_text-color);
+}
+
+.thm-green .create-events-options .cstm-crt-evnt-opt .add-icon {
+    background-color: var(--dark2_evnt-tme_opt-bg-clr);
+}
+
+.thm-green .create-events-options .cstm-crt-evnt-opt .add-icon > svg path {
+    fill: var(--dark2_white_text-color);
+}
+
+.thm-green .frequently-events-box {
+    border-color: var(--dark2Event-box_Border-color);
+}
+
+.thm-green .create-events-options .cstm-crt-evnt-opt {
+    border-color: var(--dark2Event-box_Border-color);
+}
+
+.thm-green .gnrl_usr .adv_ftr_gnrl_usr {
+    border-color: var(--dark2Event-box_Border-color);
+}
+
+/* ---------------------------------------------- */
+
+
+/* Upgrade Box Hover Color */
+.thm-green .upgrade_col::before {
+ background-color: var(--dark2_Pro_Box--hvr-Bg);
+}
+
+
+/* Upcoming Events Cards */
+.thm-green .upcoming-event {
+    background-color: var(--dark2-Upcomng_evnt_card-bg-clr);
+}
+
+.thm-green .upcoming-event .event-time > span {
+    background-color: var(--dark2-Upcomng_evnt_card_tme-bg-clr);
+}
+
+.thm-green .upcoming-event .event-time > span > svg > path {
+    stroke: var(--dark2_white_text-color);
+}
+
+.thm-green .carousel-button svg > path {
+    stroke: var(--dark2PrimaryIcon_clr);
+}
+
+/* -------------------------------------------------------- */
+
+
+
+/* Simple Data Switch Tab for Event Hub */
+.thm-green .MuiTabs-root .simple-tab {
+    color: var(--dark2_white_text-color);
+}
+
+.thm-green .MuiTabs-root .simple-tab.Mui-selected {
+    color: var(--dark2_white_text-color);
+    border-color: var(--dark2-Simple_tab_actv_Borer-color);
+}
+
+
+/* Simple Data Table for Event Hub */
+.thm-green .simple-table .col-head > span {
+    background-color: var(--dark2_Simple-tbl-head_bg-color);
+}
+
+.thm-green .simple-table .col-head > span > svg > path {
+    stroke: var(--dark2_white_text-color);
+}
+.thm-green .simple-table .col-head > span > img {
+    filter: invert(1);
+}
+.thm-green .simple-table .tbl_opt_act > svg > path {
+    stroke: var(--dark2_white_text-color);
+}
+
+/* ---------------------------------------------------------- */
+
+
+
+/* Create Event Form CSS */
+.thm-green .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item {
+    border-color: var(--dark2_custm_slct_usr_inpt-bdr-clr);
+}
+
+.thm-green .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item:hover, 
+.thm-green .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item.active_item {
+    background-color: var(--dark2_custm_slct_usr_inpt-bg-clr);
+}
+
+.thm-green .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item svg {
+    filter: invert(1);
+}
+
+.thm-green .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item .drp_icn svg {
+    filter: invert(0);
+}
+
+.thm-green .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item .mt_opt_itms {
+    border-color: var(--dark2_custm_drpdwn_bdr-clr);
+    background-color: var(--dark2_custm_drpdwn_bg-clr);
+}
+
+.thm-green .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item .mt_opt_itms > li:hover, 
+.thm-green .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item .mt_opt_itms > li.active_item {
+    background-color: var(--dark2_custm_drpdwn_opt-actv-bg-clr);
+}
+.thm-green .adv_crt_evnt_col .slct_evnt_tmp > .input-label {
+    background-color: var(--dark2TabBoxBG);
+    border-color: var(--dark2_custm_slct_usr_inpt-bdr-clr);
+}
+.thm-green .adv_crt_evnt_col .slct_evnt_tmp > .input-label svg path,
+.thm-green .adv_crt_evnt_col .slct_evnt_tmp > .input-label svg rect {
+    stroke: var(--dark2PrimaryIcon_clr);
+}
+.thm-green .draft-opt .draft-icon.drft_txt {
+    border-color: var(--dark2_custm_slct_usr_inpt-bdr-clr); 
+    color: var(--dark2_custm_slct_usr_inpt-bdr-clr);   
+}
+.thm-green .draft-opt .draft-icon svg path {
+    stroke: var(--dark2PrimaryIcon_clr);
+}
+
+
+
+/* Contact/Member User list CSS */
+.thm-green .adv_crt_evnt_col .contact-user-list {
+    background-color: var(--dark2_cntct_usr_lst-col-bg-clr);
+}
+
+.thm-green .adv_crt_evnt_col .contact-user-list .user-avlty {
+    color: var(--dark2_white_text-color);
+}
+
+.thm-green .adv_crt_evnt_col .contact-user-list .contact-item .contact-remove {
+    background-color: var(--dark2_cntct_usr_crd-bdr-clr);
+}
+
+.thm-green .adv_crt_evnt_col .contact-user-list .contact-item:hover {
+    background-color: var(--dark2_cntct_usr_crd-hvr-bg-clr);
+}
+
+.thm-green .adv_crt_evnt_col .contact-user-list .usr_nme,
+.thm-green .adv_crt_evnt_col .contact-user-list .usr_eml {
+    color: var(--dark2_white_text-color);
+}
+
+.thm-green .adv_crt_evnt_col .contact-user-list .contact-item .usr_tg {
+    background-color: var(--dark2_cntct_usr_tag-bg-clr);
+    color: var(--dark2_white_text-color);
+}
+
+.thm-green .adv_crt_evnt_col .evnt_duratn .MuiAutocomplete-root {
+    background-color: var(--dark2_custm_drpdwn_bg-clr);
+}
+
+
+/* ---- Reoccening Event CSS Design ---- */
+.thm-green .reoccur_evnt_pup .MuiPaper-elevation .popup-inner {
+    background-color: var(--dark2_rcurng_bx-bg-clr);
+}
+.thm-green .reoccur_evnt_pup .day-circle {
+    border-color: var(--greenPrimaryBtn);
+    color: var(--dark2_white_text-color);
+}
+.thm-green .reoccur_evnt_pup .day-circle.selected {
+    background-color: var(--greenPrimaryBtn);
+    color: var(--black1);
+}
+.thm-green .reoccur_evnt_pup .MuiPaper-root {
+    border: 0;
+}
+
+/* ------------ Advanced Events Form CSS Design  ------------- */
+.thm-green .event_types_opt, .thm-green .event_types_opt .evnt_opts .evnt_opt {
+    border-color: var(--dark2_custm_slct_usr_inpt-bdr-clr);
+}
+.thm-green .event_types_opt .evnt_opts .evnt_opt:hover {
+    background-color: var(--dark2_custm_slct_usr_inpt-bg-clr);
+}
+.thm-green .event_types_opt .MuiFormControlLabel-root .MuiFormControlLabel-label {
+    color: var(--dark2FormLabelColor);
+}
+.thm-green .event_types_opt .evnt_opts .evnt_opt svg path {
+    stroke: var(--white1);
+}
+.thm-green .membar_item .indx_nmb {
+    background-color: var(--greenPrimaryBtn);
+}
+.thm-green .member_list .membar_item {
+    border-color: var(--orange3);
+}
+.thm-green .member_list .membar_item .membr_remove {
+    background-color: var(--orangePrimaryBtn);
+}
+.thm-green .MuiAutocomplete-root .dropdown-with-bg > .MuiInputBase-root {
+    background-color: var(--dark2_custm_slct_usr_inpt-bg-clr);
+}

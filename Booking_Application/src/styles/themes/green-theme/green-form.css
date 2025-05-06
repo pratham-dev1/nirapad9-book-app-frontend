@@ -1,0 +1,127 @@
+/*Color of input fields*/
+.thm-green .MuiFormControl-root .MuiInputBase-root {
+    border-color: var(--greenInputBorder);
+}
+.thm-green .MuiFormControl-root .MuiInputBase-root.Mui-focused {
+    border-color: var(--greenInputHoverBorder);
+}
+.thm-green .MuiInputBase-root.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border-color: var(--greenInputBorder);
+}
+.thm-green .MuiFormControl-root .MuiInputBase-root.Mui-error {
+    border-color: var(--errorColor);
+}
+.thm-green .MuiInputBase-root.MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {
+    border-color: var(--errorColor);
+}
+
+.thm-green .form-input {
+    border-color: var(--greenInputBorder);
+}
+.thm-green .form-input:hover,
+.thm-green .form-input:focus {
+    border-color: var(--greenInputHoverBorder);
+}
+
+.thm-green .MuiFormLabel-colorPrimary, 
+.thm-green .MuiInputBase-input {
+    color: var(--dark2PrimaryTextColor); 
+    -webkit-text-fill-color: var(--dark2PrimaryTextColor);
+}
+
+.thm-green .MuiAutocomplete-tag {
+    background-color: var(--grey1);
+}
+
+/* Green Theme -- Form Label Color CSS */
+.thm-green .form-label, 
+.thm-green .input-label,
+.thm-green .MuiFormControl-root > label,
+.thm-green .MuiRadioGroup-root .MuiTypography-root,
+.thm-green .MuiFormControl-root label.Mui-focused {
+    color: var(--white1);
+}
+
+/* Input Autofill background Color CSS */
+.thm-green .MuiInputBase-input:-webkit-autofill, 
+.thm-green .MuiInputBase-input:-webkit-autofill:hover, 
+.thm-green .MuiInputBase-input:-webkit-autofill:focus, 
+.thm-green .MuiInputBase-input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #252525 inset !important;
+    -webkit-text-fill-color: var(--white1) !important;
+    transition: background-color 5000s ease-in-out 0s;
+    caret-color: var(--white1);
+}
+.thm-green .MuiInputBase-input:-webkit-autofill::first-line {
+    color: var(--white1) !important;
+}
+
+
+/* Textarea Box CSS Design */
+.thm-green .ql-toolbar.ql-snow,
+.thm-green .ql-container.ql-snow {
+    border-color: var(--greenInputBorder);
+}
+
+.thm-green .ql-snow .ql-picker {
+    color: var(--dark2PrimaryTextColor);
+}
+.thm-green .ql-snow .ql-stroke {
+    stroke: var(--dark2PrimaryTextColor);
+}
+
+.thm-green .ql-snow .ql-formats .ql-picker:hover,
+.thm-green .ql-snow .ql-formats .ql-picker-label:hover {
+    color: var(--green1);
+}
+.thm-green .ql-snow .ql-formats .ql-picker-label:hover .ql-stroke, 
+.thm-green .ql-snow .ql-formats button:hover .ql-stroke {
+    stroke: var(--green1);
+}
+
+/* ------------------------------------------ */
+
+
+
+/* Default Dropdown CSS */
+.thm-green #root .MuiAutocomplete-root ~ .MuiAutocomplete-popper > div > ul {
+    border-color: var(--dark2_custm_drpdwn_bdr-clr);
+    background-color: var(--dark2_custm_drpdwn_bg-clr);
+}
+
+.thm-green #root .MuiAutocomplete-root ~ .MuiAutocomplete-popper > div > ul {
+    background-color: var(--dark2_custm_drpdwn_bg-clr);
+    color: var(--white1);
+}
+.thm-green #root .MuiAutocomplete-root ~ .MuiAutocomplete-popper > div > ul .MuiListSubheader-root {
+    background-color: var(--dark2_custm_drpdwn_bg-clr);
+    color: var(--white1);
+}
+.thm-green .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option:hover,
+.thm-green .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option[aria-selected="true"] {
+    background-color: var(--dark2_custm_drpdwn_opt-actv-bg-clr);
+}
+
+
+/* Country Dropdown List CSS */
+.thm-green .react-tel-input .country-list,
+.thm-green .react-tel-input .country-list .search {
+    background-color: var(--dark2_custm_drpdwn_bg-clr);
+}
+
+.thm-green .react-tel-input .country-list .search-box {
+    background-color: var(--dark2_custm_drpdwn_bg-clr);
+    color: var(--white1);
+}
+
+.thm-green .react-tel-input .country-list .country:hover,
+.thm-green .react-tel-input .country-list .country.highlight {
+    background-color: var(--dark2_custm_drpdwn_opt-actv-bg-clr);
+}
+
+.thm-green .react-tel-input .country-list .country .dial-code {
+    color: var(--white1);
+}
+.thm-green .react-tel-input .selected-flag .arrow {
+    border-top-color: var(--greenInputBorder);
+}

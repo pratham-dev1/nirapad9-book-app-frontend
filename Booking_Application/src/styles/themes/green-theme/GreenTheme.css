@@ -1,0 +1,419 @@
+/* Green Theme Variable */
+@import 'green-variable.css';
+
+/* Header CSS*/
+@import 'green-header.css';
+
+/* Button CSS*/
+@import 'green-button.css';
+
+/* Modal Popup CSS*/
+@import 'green-modal.css';
+
+/* tab CSS */
+@import 'green-tab.css';
+
+/* Filter Toolbar CSS */
+@import 'green-filter-toolbar.css';
+
+/* Table CSS */
+@import 'green-table.css';
+
+/* Table CSS */
+@import 'green-form.css';
+
+/* Event Hub CSS */
+@import 'green-eventhub.css';
+
+/* Setting Page CSS */
+@import 'green-setting.css';
+
+
+.thm-green .primary_color {
+    color: var(--green7);
+}
+.thm-green .bdr-btm-1 {
+    border-color: var(--green5);
+}
+.thm-green .grdnt-bg-1 {
+    background: var(--dark2_grdnt-bg-clr-2);
+}
+.thm-green .sec-bg-2 {
+    background: var(--green8);
+}
+.thm-green .temp_preview_content a {
+    color: var(--greenPrimaryBtn);
+}
+
+.thm-green .availabilty-days-content {
+    color: var(--dark2_white_text-color);
+}
+.thm-green .days-chip {
+    color: var(--dark1textcolor2);
+}
+.thm-green .bookslot_tab-panel {
+    color: var(--dark2_white_text-color);
+}
+
+
+
+.thm-green .settings-sidebar {
+    background: var(--dark2SidebarBG);
+}
+
+.thm-green .hover-icon-text:hover {
+    background-color: var(--dark2SidebarHoverBG);
+    color: var(--dark2_white_text-color);
+}
+
+.thm-green .settings-inner-options .MuiButton-root {
+    background-color: var(--greenPrimaryBtn);
+    border-color: var(--greenPrimaryBtn);
+}
+
+.thm-green .settings-inner-options .MuiButton-root:hover {
+    background-color: var(--greenPrimaryBtnHover);
+    border-color: var(--greenPrimaryBtnHover);
+}
+
+.thm-green .add-tag-popup .add-tag-form > .MuiButtonBase-root {
+    background-color: var(--greenPrimaryBtn);
+    border-color: var(--greenPrimaryBtn);
+}
+
+.thm-green .add-tag-popup .add-tag-form > .MuiButtonBase-root:hover {
+    background-color: var(--greenPrimaryBtnHover);
+    border-color: var(--greenPrimaryBtnHover);
+}
+
+.thm-green .settings-inner-options .taglist-table .MuiPaper-elevation table tr td a:hover {
+    background-color: var(--greenPrimaryBtn);
+}
+
+
+
+.thm-green .card-box {
+    background-color: var(--dark2TabBoxBG);
+    border:0;color: var(--dark2PrimaryTextColor);
+}
+
+.thm-green .user-page-main-container .about-content {
+    color: var(--dark2PrimaryTextColor);
+}
+
+.thm-green .create-event-form > h3 {
+    color: var(--dark2PrimaryTextColor);
+}
+
+.thm-green .settings-h1-style {
+    color: var(--dark2PrimaryTextColor);
+}
+
+.thm-green .settings-sidebar p.side-p-style {
+    color: var(--dark2PrimaryTextColor);
+}
+
+.thm-green .MuiFormControl-root .MuiInputBase-root .MuiOutlinedInput-notchedOutline {
+    border-color:  var(--dark2PrimaryTextColor);
+}
+
+.thm-green .MuiDataGrid-virtualScroller .MuiDataGrid-row:hover {
+    background-color: var(--dark2BGHover);
+}
+
+.thm-green  .settings-options .settings-inner-options {
+    background: var(--dark2TabBoxBG);
+    border: 0;
+    color:#fff;
+}
+
+.thm-green .user-profile .MuiAvatar-circular {
+    background: var(--green1);
+}
+
+.thm-green .user-profile .MuiAvatar-circular .MuiSvgIcon-root {
+    fill: #fff;
+}
+
+.thm-green .dark-thm-white-icon {
+    filter: invert(1);
+}
+
+.thm-green .about-content small {
+    color: var(--dark2linkColor);
+}
+
+.thm-green .login-wrapper input:-webkit-autofill, 
+.thm-green .login-wrapper input:-webkit-autofill:hover,
+.thm-green .login-wrapper input:-webkit-autofill:focus,
+.thm-green .login-wrapper input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 0px #fff !important;
+    -webkit-text-fill-color: #000;
+}
+
+.thm-green .login-wrapper .MuiFormLabel-colorPrimary, 
+.thm-green .login-wrapper .MuiInputBase-input {
+    -webkit-text-fill-color: #000;
+}
+
+
+
+.thm-green .settings-inner-options .taglist-table .MuiPaper-elevation table td {
+    color: var(--dark2PrimaryTextColor)
+}
+.thm-green .settings-inner-options .taglist-table .MuiPaper-elevation table tr td a {
+    color: var(--dark2PrimaryTextColor)
+}
+
+
+.thm-green .MuiFormHelperText-root.Mui-error {
+    color: var(--dark1ErrorTextColor);
+}
+
+
+.thm-green .MuiFormHelperText-root.Mui-error {
+    color: var(--dark1ErrorTextColor);
+}
+
+.thm-green .settings-inner-options .taglist-table .MuiPaper-elevation table tr td a {
+    color: var(--dark1PrimaryTextColor);
+}
+
+.thm-green .MuiSwitch-root .MuiSwitch-switchBase.Mui-checked {
+    color: var(--green1);
+}
+
+.thm-green .MuiSwitch-root .MuiSwitch-switchBase.Mui-checked ~ .MuiSwitch-track {
+    background-color: var(--green1);
+}
+
+
+.thm-green .personality-item label {
+    color: var(--greenPrimaryBtnTextColor);
+    font-weight: 600;
+}
+
+/* Merge Calendar CSS */
+.thm-green #big-calendar-dashboard #big-calendar-left .MuiTextField-root {
+    background: transparent;
+}
+.thm-green .MuiSvgIcon-root {
+    fill: var(--greenIconColor);
+}
+
+.thm-green #view-change>.activeView {
+    border: 1px solid var(--green1);
+}
+
+.thm-green .rbc-calendar .rbc-toolbar #event-btn {
+    background-color: var(--greenPrimaryBtn);
+    border-color: var(--greenPrimaryBtn);
+}
+
+.thm-green .rbc-calendar .rbc-toolbar #event-btn:hover {
+    background-color: var(--greenPrimaryBtnHover);
+    border-color: var(--greenPrimaryBtnHover);
+}
+.thm-green .rbc-time-header-cell .rbc-header {
+    background-color: var(--dark2MergeCalendarBG);
+}
+.thm-green .rbc-calendar>.rbc-toolbar {
+    background-color: var(--dark2MergeCalendarBG);
+    border: 0.5px solid var(--dark2BorderColor1);
+}
+.thm-green .rbc-calendar>.rbc-toolbar .rbc-btn-group button {
+    color: var(--dark2PrimaryTextColor);
+}
+.thm-green .rbc-calendar>.rbc-toolbar .rbc-btn-group button:hover {
+    background: var(--green1);
+    color: var(--dark2_white_text-color);
+}
+.thm-green .rbc-calendar>.rbc-toolbar .rbc-btn-group button.activeView {
+    color: var(--greenPrimaryBtnTextColor);
+}
+.thm-green .calendar-toolbar-item .personal-calendar .MuiButtonBase-root:hover,
+.thm-green .calendar-toolbar-item .personal-calendar .MuiButtonBase-root.Mui-selected {
+    background-color: var(--green4);
+}
+
+.thm-green .rbc-header>.rbc-button-link {
+    font-size: 13px;
+    font-weight: 400;
+}
+.thm-green .rbc-time-view .rbc-allday-cell {
+    background-color: var(--dark2MergeCalendarBG);
+}
+.thm-green .rbc-time-view .rbc-time-content {
+    background-color: var(--dark2MergeCalendarBG);
+}
+.thm-green .rbc-time-content > .rbc-time-gutter > .rbc-timeslot-group {
+    background-color: var(--dark2MergeCalendarBG);    
+}
+.thm-green .rbc-today {
+    background: var(--dark2CalendarTodayDateBG);
+}
+.thm-green .rbc-day-slot .rbc-time-slot {
+    border-top: 1px solid #3d3d3d;
+}
+.thm-green #view-change>.activeView {
+    color: var(--dark2_white_text-color);
+    background: var(--green1);
+    border:0;
+}
+.thm-green .rbc-month-row {
+    background-color: var(--dark2MergeCalendarBG);   
+}
+.thm-green .rbc-off-range-bg {
+    background-color: var(--green_Off_clndr_rng-bg-clr);
+}
+.thm-green .rbc-agenda-view table.rbc-agenda-table {
+    border: 0;
+}
+.thm-green .rbc-agenda-view table.rbc-agenda-table thead > tr > th {
+    background: var(--green_Clndr-agnda-tabl-hdr_bg-clr);
+}
+
+.thm-green .rbc-row-content .rbc-show-more {
+    color: var(--greenPrimaryBtn);
+}
+.thm-green .rbc-agenda-view table.rbc-agenda-table tbody > tr + tr {
+    color: var(--black1);
+}
+
+
+
+/* Plan & Pricing Modal Popup */ 
+.thm-green .plan-item .plan-details {
+    background-color: var(--green3);
+}
+
+.thm-green .checkout-steps > li {
+    color: var(--black1);
+}
+
+.thm-green .plan-details .plan-name {
+    color: var(--dark2_white_text-color);
+}
+
+.thm-green .plan-feature {
+    background-color: var(--green4);
+}
+
+.thm-green .plan-feature svg > path {
+    fill: var(--greenPrimaryBtn);
+}
+
+.thm-green .plan-item:hover .plan-feature {
+    background-color: var(--green5);
+}
+
+.thm-green .billing-cycle-col > h3 {
+    color: var(--dark2_white_text-color);
+}
+
+.thm-green .billing-cycle-col > p {
+    color: var(--dark1PrimaryTextColor);
+}
+
+.thm-green .billing-daurations .duration-item > h4 {
+    color: var(--dark2_white_text-color);
+}
+
+.thm-green .billing-daurations .duration-item .best-value {
+    background-color: var(--greenPrimaryBtn);
+}
+
+.thm-green .billing-daurations .duration-item.active-item {
+    background-color: var(--green6);
+}
+
+/* Contact Pick List CSS */
+.thm-green .MuiDrawer-root.contact_pick_lst .MuiPaper-root {
+    background-color: var(--dark2_cntct_pck_lst-bg-clr);
+}
+.thm-green .contact-user-list .contact-item:hover {
+    background-color: var(--green6);
+}
+.thm-green .contact-user-list .contact-item .usr_tg {
+    background-color: var(--dark2_cntct_usr_tag-bg-clr);
+    color: var(--white1);
+}
+.thm-green .contact-user-list .contact-item .contact-remove {
+    background-color: var(--greenPrimaryBtn);
+}
+.thm-green .contact-user-list .usr_nme,
+.thm-green .contact-user-list .usr_eml {
+    color: var(--white1);
+}
+.thm-green .contact-user-list .contact-item .contact-remove svg path {
+    fill: var(--white1);
+}
+.thm-green .contact_pick_lst .contact-user-list .contact-item {
+    border-color: var(--green4);
+}
+.thm-green .contact_pick_lst .contact-item.added {
+    border-color: var(--green7);
+    background-color: var(--green2);
+}
+.thm-green .contact_pick_lst .contact-item.added::after {
+    background-color: var(--green1);
+}
+.thm-green .contact_pick_lst .cls_icn svg path {
+    stroke: var(--white1);
+}
+
+/* -------------  Selected User from Group  --------------- */
+.thm-green .member_list .membar_item.added {
+    border-color: var(--green7);
+    background-color: var(--green2);
+}
+.thm-green .member_list .membar_item.added::after {
+    background-color: var(--green1);
+}
+.thm-green .member_list .membar_item.added .usr_nme,
+.thm-green .member_list .membar_item.added .usr_eml {
+    color: var(--white1);
+}
+
+
+/* ------------- Faq CSS Design Start -------------- */
+.thm-green .faq_srch_col .MuiInputBase-root input::placeholder {
+    color: var(--green5);
+    -webkit-text-fill-color: var(--green5); 
+}
+.thm-green .faq_srch_col .MuiInputBase-root input {
+    color: var(--black1);
+    -webkit-text-fill-color: var(--black1);
+}
+
+.thm-green .faq_icn svg path {
+    stroke: var(--green7);
+}
+
+.thm-green .srch_rpt_page .table_filter .MuiInputBase-input {
+    color: var(--black2);
+    -webkit-text-fill-color: var(--black2);
+}
+.thm-green .srch_rpt_page .table_filter .MuiButton-root.secondary_btns {
+    background-color: var(--white1);
+}
+
+.thm-green .api-key-action {
+    border: 0;
+    background-image: linear-gradient(to bottom, #E8F0B1, #2A9D8F);
+
+    
+}
+.thm-green .api-key-action.Mui-selected {
+    background: var(--dark2TabActiveBG);
+    color: var(--white1);
+    box-shadow: none;
+    border: 0.5px solid var(--dark2TabBorderColor);
+}
+
+.thm-green .react-phone-lib .active {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    border-bottom: none;
+}

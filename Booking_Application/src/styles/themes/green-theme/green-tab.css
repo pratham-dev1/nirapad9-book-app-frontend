@@ -1,0 +1,22 @@
+
+/* Tab Color Content CSS*/
+.thm-green .dashboard-tabs {
+    background: url('../green-tab-bg.png');
+    border: 0;
+    background-position: bottom;
+}
+.thm-green .dashboard-tabs.Mui-selected {
+    background: var(--dark2TabActiveBG);
+    color: var(--white1);
+    box-shadow: none;
+    border: 0.5px solid var(--dark2TabBorderColor);
+}
+
+.thm-green .tab-panel-content {
+    background: var(--dark2TabBoxBG);
+    border:1px solid var(--dark2TabBorder);
+}
+.thm-green #simple-tabpanel-2 {
+    background: var(--dark2TabBoxBG);
+    border:1px solid var(--dark2TabBorder);
+}

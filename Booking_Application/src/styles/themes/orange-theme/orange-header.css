@@ -1,0 +1,13 @@
+/* Header CSS*/
+.thm-orange {background-image: linear-gradient(to bottom, var(--dark1Bodybg1), var(--dark1Bodybg2));color: var(--white1);}
+.thm-orange .main-navbar {background-color: var(--dark1HeaderBG1);}
+.thm-orange .main-navbar .user-icon .MuiAvatar-circular {background: var(--dark1UserIcon);}
+.thm-orange .main-navbar .user-icon .MuiAvatar-circular > svg {fill:var(--dark1ToolbarBG2);}
+.thm-orange .MuiSvgIcon-root {fill: var(--dark1UserIcon);}
+.thm-orange .logout_btn::before {border-color:var(--dark1UserIcon);}
+.thm-orange .hdr-search > .srch_icn svg path {
+    stroke: var(--orange3);
+}
+.thm-orange .hdr-search > .MuiAutocomplete-root .MuiInputBase-input {
+    -webkit-text-fill-color: var(--black1) !important;
+}

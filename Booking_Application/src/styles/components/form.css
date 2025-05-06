@@ -1,0 +1,399 @@
+/* Form Element CSS Design */
+.form-colm {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 25px;
+}
+
+.form-col-2 {
+    width: 48%;
+    margin-bottom: 25px;
+}
+
+/*Form Static Label*/
+.form-label {
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 12px;
+    font-weight: var(--semiBoldFont);
+}
+
+.MuiFormControl-root > label {
+    position: relative;
+    top:2px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    transform: initial;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: var(--primaryFont);
+    font-weight: var(--semiBoldFont);
+}
+
+.MuiFormControl-root label.Mui-focused {
+    color: var(--black1);
+}
+
+.input-label {
+    text-align: left;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: var(--semiBoldFont);
+    line-height: 1.4;
+}
+
+fieldset.MuiFormControl-root > label {
+    margin: 0;
+    font-size: 14px;
+}
+
+fieldset.MuiFormControl-root > label .MuiTypography-root {
+    font-size: 14px;
+}
+
+/* Placeholder Label CSS*/
+.MuiFormControl-root.placeholder-label > label {
+    top: 15px;
+    position: absolute;
+    left: 15px;
+}
+
+.MuiAutocomplete-input{
+    font-size: 16px;
+    margin: 1.5px;
+}
+
+.MuiInputBase-root fieldset {
+    border: 0;
+}
+
+.Mui-disabled .MuiSvgIcon-root {opacity: 0.3;}
+
+.MuiInputBase-root fieldset legend {
+    display: none;
+}
+
+.MuiFormControl-root .MuiInputBase-root {
+    border: 1px solid;
+    padding-top: 4px;
+}
+
+.MuiFormControl-root .MuiInputBase-root.Mui-disabled {
+    opacity: 0.5;
+}
+
+.MuiFormLabel-colorPrimary {
+    line-height: 2.6;
+}
+
+.MuiStack-root {
+    overflow: hidden;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{-webkit-box-shadow: 0 0 0 30px white inset !important;}
+
+body .MuiAutocomplete-root ~ .MuiAutocomplete-popper {
+    overflow: hidden !important;
+    border-radius: 4px;
+    border:1px solid var(--grey1);
+}
+
+body .MuiAutocomplete-root ~ .MuiAutocomplete-popper > div, 
+body .MuiAutocomplete-root ~ .MuiAutocomplete-popper > div ul{
+    font-size: 12px;
+    border-radius: 0px;
+}
+
+.MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option:hover,
+.MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option[aria-selected="true"] {
+    background-color: var(--blue2);
+}
+
+.form-act-fixed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.1rem 2rem;
+    width: 100%;
+}
+
+.form-input {
+    border: 1px solid var(--blue3);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0;
+}
+.input-text .MuiInputBase-root {
+    padding: 0;
+    height: 46px;
+    font-size: 14px;
+    width: 100%;
+    background-color: var(--white1);
+}
+
+.inpt_bdr_btm .MuiInputBase-root {
+    border: 0;
+    border-bottom: 1px solid;
+    border-radius: 0;
+}
+
+.ql-toolbar.ql-snow {
+    border-radius: 5px 5px 0 0;
+}
+
+.ql-container.ql-snow {
+    border-radius: 0 0 5px 5px;
+}
+
+.thm-blue .ql-toolbar.ql-snow, 
+.thm-blue .ql-container.ql-snow {
+    border-color: var(--inputBorderColor);
+}
+
+/* Form Label Color CSS */
+.form-label, 
+.input-label,
+.MuiFormControl-root > label,
+.MuiFormControl-root label.Mui-focused {
+    color: var(--blueFormLabelColor);
+}
+
+/* Telephone Country  Input */
+body .react-tel-input .flag-dropdown {
+    background: transparent;
+    border: 0;
+}
+
+/* Update Telephone Input Border Color */
+body .react-tel-input .form-control {
+    border-color: var(--inputBorderColor);
+    width: 100%;
+    height: 45px;
+}
+
+.thm-light .react-tel-input .form-control {
+    border-color: var(--lightInputBorderColor);
+}
+
+.thm-orange .react-tel-input .form-control {
+    border-color: var(--dark1InputBorderColor);
+    background: transparent;
+    color: var(--dark1PrimaryTextColor);
+}
+
+.thm-green .react-tel-input .form-control {
+    border-color: var(--greenInputBorder);
+    background: transparent;
+    color: var(--dark2PrimaryTextColor);
+}
+
+
+
+/* Blue Calendar Color CSS Design */
+.MuiDayCalendar-root .MuiPickersDay-root:hover {
+    border: 1px solid var(--black1);
+}
+.MuiDayCalendar-root .MuiPickersDay-root.Mui-selected {
+    background-color: var(--blueCalendarSelectDate);
+    border-color: var(--blueCalendarSelectDate);
+}
+
+/* Light Calendar Color CSS Design */
+.thm-light .MuiDayCalendar-root .MuiPickersDay-root:hover {
+    border: 1px solid var(--black1);
+    background-color: var(--lightCalendarHoverDate);
+}
+.thm-light .MuiDayCalendar-root .MuiPickersDay-root.Mui-selected {
+    background-color: var(--lightCalendarSelectDate);
+    border-color: var(--lightCalendarSelectDate);
+}
+
+/* Orange Calendar Color CSS Design */
+.thm-orange .MuiDayCalendar-root .MuiPickersDay-root.MuiPickersDay-today {
+    background-color: var(--white1);
+    border-color: var(--white1);
+}
+.thm-orange .MuiDayCalendar-root .MuiPickersDay-root:hover {
+    border: 1px solid var(--white1);
+    background-color: var(--dark1CalendarHoverDate);
+    color: var(--white1);
+}
+.thm-orange .MuiDayCalendar-root .MuiPickersDay-root.Mui-selected {
+    background-color: var(--dark1CalendarSelectDate);
+    border-color: var(--dark1CalendarSelectDate);
+}
+
+/* Green Calendar Color CSS Design */
+.thm-green .MuiDayCalendar-root .MuiPickersDay-root.MuiPickersDay-today {
+    background-color: var(--white1);
+    border-color: var(--white1);
+}
+.thm-green .MuiDayCalendar-root .MuiPickersDay-root:hover {
+    border: 1px solid var(--white1);
+    background-color: var(--greenCalendarHoverDate);
+    color: var(--white1);
+}
+.thm-green .MuiDayCalendar-root .MuiPickersDay-root.Mui-selected {
+    background-color: var(--greenCalendarSelectDate);
+    border-color: var(--greenCalendarSelectDate);
+}
+
+
+.MuiSelect-select {
+    border: 1px solid var(--blue3);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0;  
+}
+
+.MuiTextField-root .MuiInputBase-input::placeholder {
+    color: var(--black3);
+    display: block;
+    opacity: 1;
+}
+
+
+
+/* Form Center view Templates CSS Design */
+/* Forgot Password Page Design CSS*/
+.form-page-wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-page-wrapper .form-col {
+    background-color: var(--white1);
+    padding: 60px 90px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 665px;
+}
+
+.form-page-wrapper .form-col > p {
+    color: #8f8e8e;
+    font-size: 14px;
+}
+
+.form-page-wrapper .form-inner {
+    width: 460px;
+}
+
+
+
+body .react-tel-input .flag-dropdown.open .selected-flag,
+body .react-tel-input .selected-flag:hover, 
+body .react-tel-input .selected-flag:focus,
+body .react-tel-input .flag-dropdown.open {
+    background: transparent;
+}
+
+body .react-tel-input .country-list .country.highlight {
+    background-color: #9d9d9d;
+}
+
+body .react-tel-input .country-list {
+    bottom: 30px;
+}
+
+
+/* Radio Button CSS */
+.MuiRadioGroup-root .MuiRadio-root {
+    padding-right: 4px;
+}
+.MuiRadioGroup-root .MuiTypography-root {
+    font-size: 14px;
+    color: var(--blueFormLabelColor);
+}
+
+/* Date & Time Input Col CSS */
+body .MuiStack-root {
+    padding: 0;
+}
+
+/* ---------- Custom Dropdown CSS Start --------------- */
+.MuiAutocomplete-root .dropdown-with-bg > .MuiInputBase-root {
+    padding: 0 5px;
+    border-radius: 32px;
+    background-color: var(--blue2);
+}
+.MuiAutocomplete-root .dropdown-with-bg > .MuiInputBase-root .MuiInputBase-input {
+    font-size: 14px;
+}
+/* ---------- Custom Dropdown CSS End --------------- */
+
+
+/* -------------- Number Input Spinner CSS Start ---------------- */
+/* For Webkit browsers (e.g., Chrome, Safari) */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: auto;
+    margin: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    display: block;
+}
+
+/* -------------- Number Input Spinner CSS End ---------------- */
+
+
+
+
+@media (max-width: 1400px) {
+    .form-label, 
+    .input-label,
+    .MuiFormControl-root > label {
+        font-size: 10px;
+    }
+    .MuiInputBase-root .MuiInputBase-input {
+        font-size: 12px;
+    }
+
+    fieldset.MuiFormControl-root > label .MuiTypography-root {
+        font-size: 12px;
+    }
+
+    .MuiYearCalendar-root {
+        max-width: 100%;
+    }
+    .MuiPickersYear-root button.MuiPickersYear-yearButton {
+        width: 50px;
+        height: 24px;
+        font-size: var(--baseFontSize__small-Desktop);
+    }
+
+    /* Rich Textarea CSS for Small Screen */
+    .ql-snow .ql-picker {
+        font-size: 10px;
+    }
+    .ql-toolbar.ql-snow .ql-picker-label svg {
+        margin-top: -7px;
+        width: 13px;
+        height: 13px;
+    }
+    .ql-snow.ql-toolbar button svg, .ql-snow .ql-toolbar button svg {
+        width: 14px;
+    }
+    form p {
+        font-size: 10px;
+    }
+
+    .MuiRadioGroup-root .MuiTypography-root {
+        font-size: 11px;
+    }
+
+    body .react-tel-input .form-control {
+        height: 39px;
+    }
+}

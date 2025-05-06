@@ -1,0 +1,86 @@
+
+/* Button Color CSS*/
+.thm-orange .MuiButton-root {
+    background-color: var(--dark1CTAColor);
+    border-color: var(--dark1CTAColor);
+    color: var(--black1);
+}
+.thm-orange .MuiButton-root.Mui-disabled {
+    background-color: var(--dark1CTAColor);
+    color: var(--black1);
+}
+.thm-orange .primary_btns, 
+.thm-orange .submit-btn,
+.thm-orange .MuiButtonBase-root.MuiButton-root {
+    background-color: var(--dark1CTAColor);
+    border-color: var(--dark1CTAColor);
+    color: var(--black1);
+}
+.thm-orange .primary_btns:hover, 
+.thm-orange .submit-btn:hover,
+.thm-orange .MuiButtonBase-root.MuiButton-root:hover {
+    background-color: var(--dark1CTAColorHover);
+    border-color: var(--dark1CTAColorHover);
+}
+.thm-orange .MuiButton-root.secondary_btns, 
+.thm-orange .MuiButton-root.cancel-btn {
+    border-color: var(--dark1SecondaryColorBtn);
+    color: var(--dark1SecondaryColorBtn);
+    background-color: transparent;
+}
+
+.thm-orange .MuiButton-root.secondary_btns:hover,
+.thm-orange .MuiButton-root.cancel-btn:hover {
+    background-color: var(--dark1SecondaryHoverColorBtn);
+}
+
+/*Button for Empty Data Table  */
+.thm-orange .no-tbl_data_msg .trgt_link {
+    background-color: var(--dark1CTAColor);
+}
+
+/* Pick Contact list Button Dropdown */ 
+.thm-orange .pck_cntct_list_drpdwn > button {
+    filter: invert(1);
+}
+.thm-orange .pck_cntct_list_drpdwn:hover > button {
+    background-color: var(--light3);
+}
+.thm-orange .pck_cntct_list_drpdwn > ul {
+    border-color: var(--dark1_custm_drpdwn_bdr-clr);
+    background-color: var(--dark1_custm_drpdwn_bg-clr);
+}
+.thm-orange .pck_cntct_list_drpdwn > ul > li:hover {
+    background-color: var(--dark1_custm_drpdwn_opt-actv-bg-clr);
+}
+
+.thm-orange .secondary_btns .linear-icon svg,
+.thm-orange .secondary_btns .linear-icon svg path,
+.thm-orange .linear-icon svg path {
+  stroke: var(--dark1CTAColor);
+}
+
+.thm-orange .btn_wth_opts svg path {
+    fill: var(--dark1CTAColor);
+}
+.thm-orange .btn_wth_opts > .opnts {
+    background-color: var(--dark1_custm_drpdwn_bg-clr);
+}
+.thm-orange .btn_wth_opts > .opnts > li:hover {
+    background-color: var(--orange3);
+}
+.thm-orange .btn_wth_opts > .opnts > li > a {
+    color: var(--white1);
+    text-decoration: none;
+}
+
+/* Back to Arrow */
+.thm-orange .back-to > svg > path {
+    stroke: var(--white1);
+}
+
+.thm-orange .primary_btns.svg-linr-icns svg,
+.thm-orange .primary_btns.svg-linr-icns svg path {
+  fill: none;
+  stroke: var(--black1);
+}

@@ -1,0 +1,697 @@
+/*Add Plans Compare CSS */ 
+@import 'plans.css';
+
+/* Add Community CSS File */
+@import 'Community.css';
+
+.settings-page-container {
+    padding: 0px 60px 40px;
+    align-items: flex-start;
+    flex-flow: column wrap;
+}
+
+.settings-page-container > header {
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.settings-page-container > .setting-inner-wrapper {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    font-family: "Quicksand", sans-serif;
+    padding: 0 20px;
+}
+
+.settings-sidebar {
+    padding: 0;
+    border-radius: 10px;
+    width: 27%;
+    background-color: #d8f0ff;
+}
+
+.settings-options {
+    width: 66%;
+    padding: 0;
+    margin-left:2px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.settings-options .settings-inner-options {
+    margin: 0 0 40px;
+    width: 100%;
+    border: 1px solid #ddd;
+    background-color: var(--white1);
+    border-radius: 10px;
+    padding:  16px 32px;
+    font-size: var(--baseFontSize);
+}
+
+.settings-options .cust-autocomp {
+    width: 400px;
+    background-color: #eae7e7;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.settings-options .cust-autocomp .MuiFormLabel-root{
+    top: -10px;
+    left: 12px;
+    font-size: var(--baseFontSize);
+    font-weight: var(--semiBoldFont);
+}
+
+.settings-sidebar{
+    width:25%;
+    background-color: #e9f0f6;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2vh;
+    flex-direction: column;
+}
+
+
+.side-icons{
+    margin-right: 16px;
+}
+
+.icon-text{
+    display: flex;
+    align-items: center;
+    padding: 20px 25px;
+    flex-wrap: wrap;
+}
+
+.hover-icon-text:hover {
+    background-color: #dde9f4;
+    cursor: pointer;
+}
+.settings-icon-style{
+    margin-right: 16px; 
+}
+.user-info-col > svg {
+    cursor: pointer;
+}
+
+
+/* Theme Color Nodes CSS */
+.box1-color{
+    background-color:var(--blue1);
+}
+.box2-color{
+    background-color:var(--light1);
+}
+.box3-color{
+    background-color:var(--orange1);
+}
+.box4-color{
+    background-color:var(--green1);
+}
+.color-box{
+    font-size:16px;
+    width:24px;
+    height:24px;
+    margin: 10px;
+}
+.settings-color-mode .color-box {
+    cursor: pointer;
+}
+
+.settings-inner-options .MuiButton-root {
+    background-color: var(--blue1);
+}
+.settings-cus-p-style{
+    font-size: var(--baseFontSize);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 20px 0;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(222, 221, 221);
+}
+.settings-color-mode{
+    display: flex;
+    flex-direction: row;
+}
+.settings-display-p-style{
+    font-size: var(--baseFontSize);
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(222, 221, 221);
+} 
+
+.settings-login-cust-textfield{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+.settings-options .cust-autocomp .MuiInputBase-root {
+    margin: 0;
+}
+.settings-options .cust-autocomp .MuiInputBase-root::before {
+    border-bottom: 0;
+}
+.MuiInput-root:hover:not(.Mui-disabled, .Mui-error):before {
+    border-bottom: 0;
+}
+.settings-options .cust-autocomp .Mui-focused {
+    top: -4px;
+}
+.user-info-col {
+    border-bottom: 1px solid #ddd;
+}
+.user-info-col .user-label {
+    width: 240px;
+    text-align: left;
+    padding: 12px 0;
+}
+
+.settings-options .update-user-phone {
+    padding: 1rem 0; 
+    border-bottom: 1px solid #ddd;
+}
+.settings-options .update-user-phone .user-label {
+    width: 240px;
+    text-align: left;
+}
+.settings-inner-options .form-open-available .MuiButton-root {
+    height: 40px;
+    width: 100px;
+}
+.settings-inner-options .update-user-phone svg {
+    cursor: pointer;
+}
+.settings-inner-options .update-user-phone .MuiFormControl-root {
+    margin-right: 25px;
+}
+
+
+.settings-inner-options .form-open-available .Mui-error.MuiFormHelperText-root {
+    position: absolute;
+    bottom: -20px;
+}
+.form-open-available .MuiInputBase-root .MuiInputBase-input {
+    height: 26px;
+}
+.form-open-available .MuiFormLabel-root {
+    top: -4px;
+    font-size: 14px;
+}
+.form-open-available .form-input {
+    margin-right: 5px;
+}
+
+
+
+.settings-inner-options .login-form-outer-div {
+    margin-top: 0; 
+    margin-bottom: 20px;
+}
+.settings-inner-options .user-info-col {
+    width: 100%;
+}
+
+.tag_txt {
+    font-size: 12px;
+}
+
+
+
+/* Update Phone Number Modal Popup CSS Design */
+.update-number-dialog .phone-list {
+    margin:30px 0;
+    padding: 0px;
+    border-radius: 10px;
+}
+.update-number-dialog .phone-list .list-item {
+    display: flex;
+    align-items: center;
+    margin:0 0 10px;
+    font-size: var(--baseFontSize);
+    font-weight: var(--semiBoldFont);
+}
+
+.update-number-dialog .phone-list .phone-numbers {
+    font-size: var(--baseFontSize);
+    line-height: 1.45;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.update-number-dialog .phone-list .list-item svg.MuiSvgIcon-root {
+    width: 20px;
+}
+
+.update-number-dialog .phone-list  .phone-numbers > span {
+    padding: 0 5px;
+}
+
+.update-number-dialog .phone-list .MuiFormControl-root > .MuiInputBase-root {
+    border: 0;
+    padding: 0;
+    opacity: 1;
+}
+
+.update-number-dialog .phone-list .MuiInputBase-input {
+    padding: 0;
+    border: 0;
+    font-size: var(--baseFontSize);
+    font-weight: 500;
+    color: var(--black1);
+    -webkit-text-fill-color: var(--black1);
+    font-family: var(--primaryFont);
+
+}
+
+.update-number-dialog .phone-list .MuiTypography-root {
+    font-size: 12px;
+}
+.update-number-dialog .add-phone-form .MuiFormControl-root {
+    margin-bottom: 0;
+    margin-right: 25px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+
+.userId-dialog .user-details-view .verify-link{
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    text-decoration: underline;
+    color: var(--blue1);
+    margin-left: 7px;
+    line-height: 1;
+} 
+
+.userId-dialog .MuiPaper-elevation .MuiDialogContent-root {
+    margin: 0;
+}
+
+.settings-inner-options .taglist-table .MuiPaper-elevation table td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+
+/* Time Zone CSS */
+.current-time {
+    font-size: var(--baseFontSize__small-Desktop);
+    font-weight: var(--semiBoldFont);
+}
+.current-time span {
+    padding: 5px 10px;
+    border: 1px dashed;
+}
+
+
+/* Predefined Event Template */
+.crt_evnt_tmplt_frm .MuiStack-root {
+    padding-top: 0;
+}
+
+.crt_evnt_tmplt_frm .MuiStack-root > div {
+    width: 100%;
+}
+
+.evnt_tmplt_itm_wrp .tmplt_snp_view {
+    padding: 30px 35px;
+}
+
+.evnt_tmplt_itm_wrp .tmplt_snp_view .evnt_dtls {
+    background-color: var(--blueBG);
+    width: 100%;
+    padding: 35px 25px;
+    font-weight: var(--semiBoldFont);
+}
+
+.evnt_tmplt_lst_vew .list-view-template .tmplt_lst .tmplt_list_item .tmplt_nme {
+    width: 35%;
+}
+
+.evnt_tmplt_lst_vew .list-view-template .tmplt_lst .tmplt_list_item .tmplt_typ {
+    font-weight: var(--semiBoldFont);
+    text-align: center;
+    width: 15%;
+}
+
+/* Group Grid View Card CSS Design */
+.tmplt_box .tmplt_doc_dtls_snp {
+    background-color: var(--blueBG);
+    width: 100%;
+    padding: 20px 25px;
+    border: 0;
+    font-weight: var(--semiBoldFont);
+}
+
+/* Group Creation CSS Design */
+.member_list {
+    background-color: var(--grey6);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.member_list .membar_item {
+    border: 1px solid var(--blue3);
+    border-radius: 10px;
+    position: relative;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.member_list .membar_item .usr_img  {
+    margin-right: 5px;
+    line-height: 1;
+}
+
+.member_list .membar_item .usr_dtl {
+    width: 72%;
+}
+
+.member_list .membar_item .usr_nme {
+    color: var(--grey7);
+    font-size: 12px;
+    font-weight: var(--semiBoldFont);
+    line-height: 1.3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.member_list .membar_item .usr_eml {
+    color: var(--grey7);
+    font-size: 10px;
+    font-weight: var(--semiBoldFont);
+    line-height: 1;
+    text-decoration: underline;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.member_list .membar_item .membr_remove {
+    position: absolute;
+    right: 11px;
+    top: 15px;
+    padding: 3px 5px 1px;
+    border-radius: 50px;
+    background-color: var(--blue2);
+    cursor: pointer;
+}
+
+.group_crtn_frm .member_list .membr_remove > svg {
+    width: 17px;
+    height: 17px;
+}
+
+.add_group_frm_wpr {
+    position: relative;
+}
+
+.group_crtn_frm .member_list {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    bottom: 0;
+    overflow: auto;
+    width: 315px;
+    border-radius: 0 12px 12px 0;
+}
+
+.add_group_frm_wpr .view-toggle {
+    background: transparent;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.add_group_frm_wpr .view-toggle > span {
+    padding: 5px 0;
+    margin: 0 20px 0 0;
+}
+
+.add_group_frm_wpr .view-toggle .active-frm-grp {
+    color: var(--blue3);
+    font-weight: var(--semiBoldFont);
+}
+
+.add_group_frm_wpr .view-toggle .icon_circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: var(--blue2);
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_group_frm_wpr .view-toggle .icon_circle svg {
+    width: 11px;
+    height: 11px;
+}
+
+
+
+/* Current Group list View */
+.group_crtn_frm .crnt_grp_mmbr_lst.member_list {
+    width: 350px;
+    position: absolute;
+    right: 400px;
+    top: 0;
+    bottom: 0;
+    padding: 40px 30px;
+    background-color: var(--grey6);
+}
+
+.crt_evnt_tmplt_frm .metng_opts_items > span {
+    border: 1px solid var(--inputBorderColor);
+    padding: 14px 28px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* View Group CSS */
+.view_details_card .group_crtn_frm {
+    padding-left: 80px;
+}
+.view_details_card .group_crtn_frm .grp_nme {
+    position: relative;
+}
+.view_details_card .group_crtn_frm .grp_nme .grp_thmb {
+    position: absolute;
+    left: -80px;
+    width: 55px;
+    height: 55px;
+    background: var(--blue4);
+    color: var(--white1);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 12px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.crt_evnt_tmplt_frm .metng_opts_items > span:hover,
+.crt_evnt_tmplt_frm .metng_opts_items > span.actv_opt {
+    background-color: var(--blue2);
+}
+
+.crt_evnt_tmplt_frm .metng_opts_items > span > svg {
+    height: 15px;
+    margin-right: 7px;
+}
+
+/* All Contact List CSS */
+.contact-list-wrapper {
+    background-color: var(--white1);
+    box-shadow: 0 0 7px rgba(0,0,0,0.1);
+    border-radius: 15px;
+}
+.contact-list-wrapper .tbl_srch_optns_col {
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    background: var(--blue_grd-bg-1);
+}
+.contact-list-wrapper .all-contact-list {
+    max-height: 62vh;
+    overflow: auto;
+    padding: 15px 25px 0px; 
+}
+.list-view-template .tmplt_lst .tmplt_list_item .tmplt_nme.prsn_nme {
+    width: 65%;
+}
+.list-view-template .tmplt_lst .tmplt_list_item .tmplt_nme.prsn_eml {
+    width: 35%;
+}
+.list-view-template .tmplt_lst .tmplt_list_item .tmplt_nme.prsn_phn {
+    width: 25%;
+}
+.list-view-template .tmplt_lst .tmplt_list_item .tmplt_nme.prsn_cmpny {
+    width: 20%;
+}
+.all-contact-list .tmplt_nme.prsn_nme .text {
+    font-weight: 600;
+}
+.all-contact-list .tmplt_nme.prsn_nme svg path {
+    fill: var(--black1);
+}
+.all-contact-list .tmplt_nme.prsn_eml svg path,
+.all-contact-list .tmplt_nme.prsn_phn svg path {
+    fill: var(--grey4);
+}
+
+.all-contact-list .tmplt_nme .text {
+    font-weight: 500;
+    color: var(--grey4);
+}
+.all-contact-list .tmplt_nme.prsn_nme .text {
+    font-weight: 600;
+    color: var(--black1);
+}
+.all-contact-list .prsn_nme svg {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+}
+
+
+
+/* All Questions List Item CSS */
+.list-view-template .tmplt_lst .tmplt_list_item .tmplt_nme.qus-title {
+    width: 65%;
+}
+.list-view-template .tmplt_lst .tmplt_list_item .tmplt_nme.qus-type {
+    width: 25%;
+}
+.list-view-template .tmplt_lst .tmplt_list_item .tmplt_nme.qus-type span {
+    font-weight: 400;   
+}
+.list-view-template .tmplt_lst .tmplt_list_item .tmplt_nme.qus-title span {
+    padding-left: 26px;
+    position: relative;
+}
+.list-view-template .tmplt_lst .tmplt_list_item .tmplt_nme.qus-title span::before {
+    position: absolute;
+    left: 0;
+    content: 'Q';
+    top: -8px;
+    font-size: 20px;
+}
+
+
+/* ----------- Select Questions ---------- */
+.add-tag-form .slctd_qus_itm {
+    border: 1px solid var(--grey1);
+    padding: 20px;
+    border-radius: 10px;
+}
+.add-tag-form .chs_qus_itm .MuiCheckbox-root {
+    padding: 0 10px 0 0;
+}
+
+/* View Details CSS Design */
+.view_details_card .MuiFormLabel-root.Mui-disabled {
+    color: var(--black3);
+}
+.view_details_card .MuiFormControl-root .MuiInputBase-root.Mui-disabled {
+    opacity: 1;
+    border: 0;
+}
+.view_details_card .MuiFormControl-root .MuiInputBase-root.Mui-disabled input {
+    padding: 0;
+    -webkit-text-fill-color: var(--black1);
+    font-weight: 600;
+}
+.view_details_card .MuiFormControl-root .MuiInputBase-root.Mui-disabled .MuiAutocomplete-endAdornment {
+    display: none;
+}
+
+.view_details_card .grp_nme .MuiInputBase-root.Mui-disabled input {
+    font-size: 24px;
+    -webkit-text-fill-color: var(--blue1);
+}
+
+.view_details_card .member_list {
+    position: relative;
+    width: 100%;
+    border: 1px solid var(--grey8);
+    border-radius: 10px;
+    padding: 40px;
+}
+.view_details_card .member_list .member_items {
+    display: flex;
+    flex-flow: row wrap;
+}
+.view_details_card .member_list .membar_item .usr_eml {
+    font-size: 13px;
+}
+.view_details_card .member_list .membar_item .usr_img {
+    margin-right: 15px;
+}
+.view_details_card .member_list .member_items .membar_item {
+    width: 31%;
+    margin-right: 2%;
+    margin-bottom: 30px;
+    background-color: var(--white1);
+}
+
+
+@media (max-width: 1400px) {
+    .update-number-dialog .phone-list .list-item svg.MuiSvgIcon-root {
+        width: 17px;
+    }
+
+    .tmplt_box {
+        width: 31%;
+        margin-left: 3.5%;
+    }
+
+    .tmplt_box:nth-child(4n+1) {
+        margin-left: 3.5%;
+    }
+
+    .tmplt_box:nth-child(3n+1) {
+        margin-left: 0; 
+    }
+
+    .crt_evnt_tmplt_frm .metng_opts_items > span {
+        padding: 10px 12px;
+    }
+
+    .group_crtn_frm .crnt_grp_mmbr_lst.member_list {
+        width: 300px;
+        right: 340px;
+    }
+}
+
+
+
+/* Settings page media query */
+@media (max-width: 945px) {
+    .settings-sidebar{width:10%;align-items: center;}
+    .settings-options{width:90%;}
+    .settings-h1-style{display: none;}
+    .side-icons{margin-right: 0px;}
+    .settings-icon-style{margin-right:0px;}
+}

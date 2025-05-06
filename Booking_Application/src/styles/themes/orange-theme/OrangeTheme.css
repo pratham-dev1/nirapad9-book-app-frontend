@@ -1,0 +1,469 @@
+/* Orange Theme Variable */
+@import 'orange-variable.css';
+
+/* Header CSS*/
+@import 'orange-header.css';
+
+/* Button CSS*/
+@import 'orange-button.css';
+
+/* Modal Popup CSS*/
+@import 'orange-modal.css';
+
+/* tab CSS */
+@import 'orange-tab.css';
+
+/* Filter Toolbar CSS */
+@import 'orange-filter-toolbar.css';
+
+/* Table CSS */
+@import 'orange-table.css';
+
+/* form CSS */
+@import 'orange-form.css';
+
+/* Setting CSS */
+@import 'orange-setting.css';
+
+/* Event Hub CSS */
+@import 'orange-eventhub.css';
+
+
+.thm-orange .bdr-btm-1 {
+    border-color: var(--orange3);
+}
+.thm-orange .grdnt-bg-1 {
+    background: var(--dark1_grdnt-bg-clr-2);
+}
+.thm-orange .sec-bg-2 {
+    background: var(--orange8);
+}
+.thm-orange .temp_preview_content a {
+    color: var(--orange5);
+}
+
+/* Main Menu Text Color */
+.thm-orange .main-navbar a {color: var(--dark1MenuTextColor);}
+.thm-orange .main-navbar a.active {border-bottom:3px solid var(--dark1MenuTextColor);}
+.thm-orange .primary_color {
+    color: var(--orange1);
+}
+
+
+
+.thm-orange .MuiMultiSectionDigitalClock-root .MuiMenuItem-root.Mui-selected {
+    background-color: var(--orangePrimaryBtn);
+}
+
+.thm-orange #view-change>.activeView {
+    border: 1px solid var(--orange1);
+} 
+.thm-orange .rbc-calendar .rbc-toolbar #event-btn {
+    background-color: var(--orangePrimaryBtn);
+    border-color: var(--orangePrimaryBtn);
+}
+.thm-orange .rbc-calendar .rbc-toolbar #event-btn:hover {
+    background-color: var(--orange3);
+    border-color: var(--orange3);
+}
+
+
+/* Setting Page Color CSS*/
+.thm-orange .settings-sidebar {
+    background-color: var(--dark1SidebarBG);
+}
+.thm-orange .hover-icon-text:hover {
+    background-color: var(--dark1BGHover); 
+    color:var(--dark1PrimaryTextColor);
+}
+
+.thm-orange .settings-inner-options .taglist-table .MuiPaper-elevation table tr td a:hover {
+    background-color: var(--orangePrimaryBtn);
+}
+.thm-orange .settings-inner-options .taglist-table .MuiPaper-elevation table td {
+    color: var(--dark1PrimaryTextColor)
+}
+
+.thm-orange  .settings-options .settings-inner-options {
+    background: var(--dark1TabBoxBG);
+    border: 0;
+    color: var(--white1);
+}
+
+
+.thm-orange .card-box {
+    background-color: var(--dark1TabBoxBG);
+    border: 1px solid var(--dark1_card-box-bdr-clr);
+    color: var(--dark1PrimaryTextColor);
+}
+
+.thm-orange .user-page-main-container .about-content {
+    color: var(--dark1PrimaryTextColor);
+}
+
+.thm-orange .create-event-form > h3 {color: var(--dark1PrimaryTextColor);}
+.thm-orange  .settings-h1-style {color: var(--dark1PrimaryTextColor);}
+.thm-orange .settings-sidebar p.side-p-style {color: var(--dark1PrimaryTextColor);}
+.thm-orange .MuiFormControl-root .MuiInputBase-root .MuiOutlinedInput-notchedOutline {
+    border-color: var(--dark1InputBox) /* Default border color */
+}
+
+.thm-orange .MuiFormControl-root .MuiInputBase-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: var(--dark1TabBorder);
+}
+
+.thm-orange .MuiDataGrid-virtualScroller .MuiDataGrid-row:hover {background-color: var(--dark1BGHover);}
+
+.thm-orange .user-profile .MuiAvatar-circular {background: var(--orange1);}
+.thm-orange .user-profile .MuiAvatar-circular .MuiSvgIcon-root {fill: var(--dark1HeaderBG1)}
+.thm-orange .dark-thm-white-icon {filter: invert(1);}
+
+.thm-orange .filter-toolbar .MuiButton-root:hover {background-color: var(--orangePrimaryBtn);border-color: var(--orangePrimaryBtn);}
+.thm-orange .filter-toolbar .MuiInputBase-input {color: var(--dark1textcolor2); -webkit-text-fill-color: var(--dark1textcolor2);}
+
+.thm-orange .availabilty-days-content {color: #fff;}
+.thm-orange .days-chip {color: var(--dark1textcolor2);}
+.thm-orange .bookslot_tab-panel {color: #fff;}
+.thm-orange .MuiAutocomplete-tag {background-color: #ddd;}
+
+.thm-orange .right-slide-popup .history-filter-panel > .MuiStack-root > .MuiFormControl-root {background: transparent;}
+.thm-orange .right-slide-popup .history-filter-panel .MuiAutocomplete-root .MuiInputBase-root {background: transparent;border: 1px solid var(--dark1InputBox);}
+.thm-orange .right-slide-popup .history-filter-panel > .MuiStack-root .MuiInputBase-root {background: transparent;}
+.thm-orange .right-slide-popup .MuiPaper-elevation {background: transparent;}
+.thm-orange .right-slide-popup .MuiPaper-elevation  .popup-inner {border: 1px solid var(--dark1PopupBorder);}
+.thm-orange .right-slide-popup .history-filter-panel .MuiInputLabel-root.Mui-focused {color: #fff;}
+
+
+.thm-orange .MuiDataGrid-overlayWrapper .MuiDataGrid-overlay {background: transparent;}
+.thm-orange .book_slot_table .MuiDataGrid-main .MuiDataGrid-columnHeaders {background: var(--dark1TabBoxBG);}
+.thm-orange .MuiDataGrid-footerContainer {color: #fff;}
+.thm-orange .MuiDataGrid-footerContainer .MuiToolbar-root {color: #fff;}
+.thm-orange .book_slot_table form {background: #38302d;border: 0;}
+
+.thm-orange .MuiDialog-root .MuiPaper-elevation {background-color: var(--dark1PopupBG);color: var(--dark1PrimaryTextColor);}
+.thm-orange .MuiDialog-root .MuiPaper-elevation .MuiDialogContent-root {color: var(--dark1PrimaryTextColor);}
+.thm-orange .MuiDialog-root .MuiPaper-elevation .MuiDialogContentText-root {color: var(--dark1PrimaryTextColor);}
+
+.thm-orange .add-about-popup .epr-main.EmojiPickerReact {background-color: #222226;border: 0;}
+.thm-orange .epr-emoji-category .epr-emoji-category-label {background-color: transparent;font-weight: 300;}
+.thm-orange .confirm-popup .MuiDialog-paper .MuiDialogContent-root p {color: var(--dark1PrimaryTextColor);}
+.thm-orange .about-content small {color: var(--dark1linkColor);}
+
+.thm-orange .MuiAutocomplete-tag .MuiSvgIcon-root {fill: #787878;}
+.thm-orange .MuiSwitch-root .MuiSwitch-switchBase.Mui-checked {color: var(--orange1);}
+.thm-orange .MuiSwitch-root .MuiSwitch-switchBase.Mui-checked ~ .MuiSwitch-track {background-color: var(--orange2);}
+
+
+.thm-orange .MuiDialog-root input:-webkit-autofill, 
+.thm-orange .MuiDialog-root input:-webkit-autofill:hover, 
+.thm-orange .MuiDialog-root input:-webkit-autofill:focus, 
+.thm-orange .MuiDialog-root input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px #3a3a3c inset !important;
+    color: var(--dark1PrimaryTextColor);
+}
+
+.thm-orange .login-wrapper input:-webkit-autofill, 
+.thm-orange .login-wrapper input:-webkit-autofill:hover,
+.thm-orange .login-wrapper input:-webkit-autofill:focus,
+.thm-orange .login-wrapper input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 0px #fff !important;
+    -webkit-text-fill-color: #000;
+}
+
+.thm-orange .login-wrapper .MuiFormLabel-colorPrimary, 
+.thm-orange .login-wrapper .MuiInputBase-input {
+    -webkit-text-fill-color: #000;
+}
+
+
+
+.thm-orange .book_slot_table .MuiDataGrid-main {background-color: var(--dark1TableBG);border:0;}
+.thm-orange .book_slot_table .MuiDataGrid-main {background-color: var(--dark1TableBG);border:0;}
+.thm-orange .book_slot_table .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:first-child,
+.thm-orange .book_slot_table .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:nth-child(2) {
+    background-color: var(--dark1TableBG);   
+}
+
+
+
+.thm-orange .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row:hover .MuiDataGrid-cell:first-child,
+.thm-orange .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row.Mui-selected .MuiDataGrid-cell:first-child,
+.thm-orange .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:first-child:hover,
+.thm-orange .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row:hover .MuiDataGrid-cell:nth-child(2),
+.thm-orange .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:nth-child(2):hover,
+.thm-orange .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row.Mui-selected .MuiDataGrid-cell:nth-child(2) {
+    background-color: var(--dark1BGHover);
+}
+
+.thm-orange .userId-dialog .details-view {background-color: #2a2a2b;}
+.thm-orange .userId-dialog .user-details-view .verify-link {color: var(--orange1);}
+
+
+.thm-orange .update-number-dialog .phone-list .MuiFormControl-root .MuiInputBase-input {color: #fff;-webkit-text-fill-color: #fff;}
+
+.thm-orange .update-number-dialog .phone-list .MuiFormControl-root.primary-number .MuiFormLabel-root {color: var(--dark1linkColor);-webkit-text-fill-color: var(--dark1linkColor);}
+.thm-orange .MuiFormHelperText-root.Mui-error {color: var(--dark1ErrorTextColor);}
+
+.thm-orange .settings-inner-options .taglist-table .MuiPaper-elevation table tr td a {color: var(--dark1PrimaryTextColor);}
+.thm-orange #big-calendar-dashboard #big-calendar-left .MuiTextField-root {background: transparent;}
+
+
+/* Notification Dropdown CSS Design */
+.thm-orange #notification-panel .MuiPaper-root {
+    background: var(--dark1PopupBG);
+    color: var(--dark1PrimaryTextColor);
+}
+.thm-orange #notification-panel .MuiList-root .MuiMenuItem-root .notification-txt {
+    color: var(--dark1PrimaryTextColor);
+    font-weight: 100;
+    opacity: 0.7;
+}
+.thm-orange #notification-panel .MuiList-root .MuiMenuItem-root .ntfc_tme {
+    color: var(--dark1PrimaryTextColor);
+}
+.thm-orange #notification-panel .MuiList-root .MuiMenuItem-root a {
+    color: var(--dark1linkColor);
+}
+
+/* Notification CSS */
+.thm-orange #notification-panel .notification-list,
+.thm-orange .all_ntfct_lnk {border-color: var(--orange7);}
+.thm-orange #notification-panel .notification-list > li:hover {
+    background-color: var(--orange8);
+}
+.thm-orange #notification-panel .MuiList-root .MuiMenuItem-root .ntf_icn {
+    border-color: var(--orangePrimaryBtn);
+}
+.thm-orange #notification-panel .ntf_icn svg path {
+    stroke: var(--orangePrimaryBtn);
+}
+.thm-orange #notification-panel .MuiList-root .MuiMenuItem-root a {
+    color: var(--orangePrimaryBtn);
+}
+
+
+.thm-orange .all-notification-list .notification-item {
+    background-color: var(--dark1_list_box-bg-clr);
+    border: 0;
+}
+.thm-orange .all-notification-list .notification-item:hover {
+    background-color: var(--orange8);
+    border: 0;
+}
+.thm-orange .all-notification-list .notification-item .notification-icon{
+    border-color: var(--orangePrimaryBtn);
+}
+.thm-orange .all-notification-list .notification-item .notification-icon svg path {
+    stroke: var(--orangePrimaryBtn);
+}
+
+
+
+/* Merge Calendar CSS */
+.thm-orange .rbc-time-header-cell .rbc-header {
+    background-color: var(--dark1MergeCalendarHeaderBG);
+}
+.thm-orange .rbc-calendar>.rbc-toolbar {
+    background-color: var(--dark1MergeCalendarHeaderBG);
+    border: 0.5px solid var(--dark2BorderColor1);
+}
+.thm-orange .rbc-calendar>.rbc-toolbar .rbc-btn-group button {
+    color: var(--dark2PrimaryTextColor);
+}
+.thm-orange .calendar-toolbar-item .personal-calendar .MuiButtonBase-root:hover,
+.thm-orange .calendar-toolbar-item .personal-calendar .MuiButtonBase-root.Mui-selected {
+    background-color: var(--orange6);
+}
+
+.thm-orange .rbc-calendar>.rbc-toolbar .rbc-btn-group button:hover {
+    background-color: var(--dark1CTAColorHover);
+}
+.thm-orange #view-change>.activeView {
+    color: var(--white1);
+    background: var(--dark1CTAColorHover);
+    border:0;
+}
+.thm-orange .rbc-header>.rbc-button-link {
+    font-size: 13px;
+    font-weight: 400;
+}
+.thm-orange .rbc-time-view .rbc-allday-cell {
+    background-color: var(--dark1MergeCalendarHeaderBG);
+}
+.thm-orange .rbc-time-view .rbc-time-content {
+    background-color: var(--dark1MergeCalendarHeaderBG);
+}
+.thm-orange .rbc-time-content > .rbc-time-gutter > .rbc-timeslot-group {
+    background-color: var(--dark1MergeCalendarHeaderBG);    
+}
+.thm-orange .rbc-today {
+    background: var(--dark2CalendarTodayDateBG);
+}
+.thm-orange .rbc-day-slot .rbc-time-slot {
+    border-top: 1px solid #3d3d3d;
+}
+.thm-orange .rbc-month-row {
+    background-color: var(--dark1_clndr-mnth-vew_bg-clr);   
+}
+.thm-orange .rbc-off-range-bg {
+    background-color: var(--dark1_Off_clndr_rng-bg-clr);
+}
+.thm-orange .rbc-agenda-view table.rbc-agenda-table {
+    border: 0;
+}
+.thm-orange .rbc-agenda-view table.rbc-agenda-table thead > tr > th {
+    background: var(--dark1_Clndr-agnda-tabl-hdr_bg-clr);
+}
+.thm-orange .rbc-row-content .rbc-show-more {
+    color: var(--orangePrimaryBtn);
+}
+.thm-orange .rbc-agenda-view table.rbc-agenda-table tbody > tr + tr {
+    color: var(--black1);
+}
+
+
+/* Plan & Pricing Modal Popup */
+.thm-orange .plan-item .plan-details {
+    background-color: var(--dark1Bodybg2);
+}
+
+.thm-orange .checkout-steps > li {
+    color: var(--black1);
+}
+
+.thm-orange .plan-details .plan-name {
+    color: var(--white1);
+}
+
+.thm-orange .plan-feature {
+    background-color: var(--dark1HeaderBG1);
+    border-color: var(--dark1Bodybg2);
+}
+
+.thm-orange .plan-feature svg > path {
+    fill: var(--orange3);
+}
+
+.thm-orange .plan-item:hover .plan-feature {
+    background-color: var(--orangeBG);
+}
+.thm-orange .billing-daurations .duration-item {
+    border-color: var(--orange1);
+}
+
+.thm-orange .billing-daurations .duration-item.active-item {
+    background-color: var(--orange6);
+}
+
+.thm-orange .billing-daurations .duration-item .best-value {
+    background-color: var(--orangePrimaryBtn);
+}
+
+.thm-orange .billing-cycle-col > h3 {
+    color: var(--white1);
+}
+
+.thm-orange .billing-cycle-col > p {
+    color: var(--dark1PrimaryTextColor)
+}
+
+.thm-orange .billing-daurations .duration-item > h4 {
+    color: var(--white1);
+}
+
+/* Contact Pick List CSS */
+.thm-orange .MuiDrawer-root.contact_pick_lst .MuiPaper-root {
+    background-color: var(--dark1_cntct_pck_lst-bg-clr);
+}
+
+.thm-orange .contact-user-list .contact-item:hover {
+    background-color: var(--orange8);
+}
+.thm-orange .contact-user-list .contact-item .usr_tg {
+    background-color: var(--dark1_cntct_usr_tag-bg-clr);
+    color: var(--white1);
+}
+.thm-orange .contact-user-list .contact-item .contact-remove {
+    background-color: var(--orangePrimaryBtn);
+}
+.thm-orange .contact-user-list .contact-item .contact-remove svg path {
+    fill: var(--white1);
+}
+.thm-orange .contact-user-list .usr_nme,
+.thm-orange .contact-user-list .usr_eml {
+    color: var(--white1);
+}
+
+.thm-orange .contact_pick_lst .contact-user-list .contact-item {
+    border-color: var(--orange9);
+}
+.thm-orange .contact_pick_lst .contact-item.added {
+    border-color: var(--orange1);
+    background-color: var(--orange7);
+}
+.thm-orange .contact_pick_lst .contact-item.added::after {
+    background-color: var(--orange1);
+}
+.thm-orange .contact_pick_lst .cls_icn svg path {
+    stroke: var(--white1);
+}
+
+/* -------------  Selected User from Group  --------------- */
+.thm-orange .member_list .membar_item.added {
+    border-color: var(--orange1);
+    background-color: var(--orange7);
+}
+.thm-orange .member_list .membar_item.added::after {
+    background-color: var(--orange1);
+}
+.thm-orange .member_list .membar_item .usr_nme,
+.thm-orange .member_list .membar_item .usr_eml {
+    color: var(--dark1PrimaryTextColor);
+}
+.thm-orange .member_list .membar_item .membr_remove svg path {
+    fill: var(--dark1PrimaryTextColor);
+}
+
+
+/* ------------- Faq CSS Design Start -------------- */
+.thm-orange .faq_srch_col .MuiInputBase-root input::placeholder {
+    color: var(--orange3);
+    -webkit-text-fill-color: var(--orange3); 
+}
+.thm-orange .faq_srch_col .MuiInputBase-root input {
+    color: var(--black1);
+    -webkit-text-fill-color: var(--black1);
+}
+.thm-orange .faq_icn svg path {
+    stroke: var(--orange5);
+}
+
+.thm-orange .srch_rpt_page .table_filter .MuiInputBase-input {
+    color: var(--black2);
+    -webkit-text-fill-color: var(--black2);
+}
+.thm-orange .srch_rpt_page .table_filter .MuiButton-root.secondary_btns {
+    background-color: var(--white1);
+}
+
+.thm-orange .api-key-action {
+    background: var(--dark1TabBG);
+    border:1px solid var(--dark1TabBorder); 
+    color: var(--dark1HeaderBG1);
+    box-shadow: 
+    0 4px 8px rgba(0, 0, 0, 0.4), 
+    0 2px 4px rgba(255, 255, 255, 0.2);
+}
+.thm-orange .api-key-action.Mui-selected {
+    color: #000;background: var(--dark1TabActiveBG);
+    border:0;
+    color: var(--dark1HeaderBG1);
+}
+
+
+.thm-orange .react-phone-lib .active {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    border-bottom: none;
+}

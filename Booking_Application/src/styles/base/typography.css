@@ -1,0 +1,152 @@
+
+/* Primary Font File/CDN */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    /* Primary Font */
+  --primaryFont: "Quicksand", sans-serif;
+
+  /* Global Font Properties */
+  --smallFontSize: 12px; 
+  --baseFontSize: 14px;
+  --mediumFontSize: 16px; 
+  --baseFontSize__small-Desktop: 12px; 
+
+  --lightFont: 300;
+  --regularFont: 400;
+  --mediumBoldFont: 500;
+  --semiBoldFont: 600;
+  --boldFont: 900;
+}
+
+
+/* ----------- Custom Text align & Styling Classes CSS -----------*/
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.align-center {
+  text-align: center;
+}
+.ln-hgt-0 {
+  line-height: 0;
+}
+.text-underline {
+  text-decoration: underline;
+}
+
+
+/* --------- Font Weight Classes CSS ---------*/
+.font-light {
+  font-weight: var(--lightFont);
+}
+.font-regular {
+  font-weight: var(--regularFont);
+}
+.font-medium {
+  font-weight: var(--mediumBoldFont);
+}
+.font-bold{
+  font-weight: var(--semiBoldFont);
+}
+.font-bolder{
+  font-weight: var(--boldFont);
+}
+
+
+/* --------- Font Sizes Classes CSS ---------*/
+.font-12 {
+  font-size: var(--smallFontSize);
+}
+.font-14 {
+  font-size: var(--baseFontSize);
+}
+.font-16 {
+  font-size: var(--mediumFontSize);
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-24 {
+  font-size: 24px;
+}
+
+
+/* ----------- Responsive CSS ------------- */
+
+/* Exiting */
+/* @media (max-width: 1400px) {
+  body {
+    font-size: var(--smallFontSize);
+  }
+} */
+
+/* End of Existing */
+
+
+/* Begin Of Changes By Naveen */
+
+/* ----------- Responsive CSS ------------- */
+
+/* Ultra-wide screens */
+@media (min-width: 1800px) {
+  body {
+    font-size: calc(var(--smallFontSize) * 1.2); /* Increase font size for larger screens */
+  }
+}
+
+/* Standard large screens */
+@media (max-width: 1400px) {
+  body {
+    font-size: var(--smallFontSize);
+  }
+}
+
+/* Medium screens */
+@media (max-width: 1200px) {
+  body {
+    font-size: calc(var(--smallFontSize) * 0.9);
+  }
+}
+
+/* Small screens */
+@media (max-width: 992px) {
+  body {
+    font-size: calc(var(--smallFontSize) * 0.8);
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 768px) {
+  body {
+    font-size: calc(var(--smallFontSize) * 0.7);
+  }
+}
+
+/* Very small screens */
+@media (max-width: 576px) {
+  body {
+    font-size: calc(var(--smallFontSize) * 0.6);
+  }
+}
+
+/* Extra tiny screens */
+@media (max-width: 400px) {
+  body {
+    font-size: calc(var(--smallFontSize) * 0.5); /* Smallest size for very tiny screens */
+  }
+}
+
+
+/* End of Changes By Naveen */

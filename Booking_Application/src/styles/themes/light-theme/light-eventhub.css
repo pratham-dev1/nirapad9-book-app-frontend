@@ -1,0 +1,158 @@
+.thm-light .predefind-events-col {
+    border-color: var(--lightEvent-box_Border-color);
+}
+
+.thm-light .predefind-events-col .add_icon {
+    background-color: var(--light3);
+}
+
+.thm-light .predefind-events-col .add_icon:hover {
+    background-color: var(--light1);
+}
+
+.thm-light .tbl_opt_act > .tbl_act_drp {
+    border-color: var(--lightEvent-box_Border-color);
+}
+
+.thm-light .tbl_opt_act > .tbl_act_drp > li:hover {
+    background-color: var(--light3);
+}
+
+.thm-light .book-slot-opt .create-events-options .create-event-box-option {
+    border-color: var(--lightEvent-box_Border-color);
+}
+
+.thm-light .frequently-events-box {
+    border-color: var(--lightEvent-box_Border-color);
+}
+
+.thm-light .create-events-options .cstm-crt-evnt-opt {
+    border-color: var(--lightEvent-box_Border-color);
+}
+
+.thm-light .gnrl_usr .adv_ftr_gnrl_usr {
+    border-color: var(--lightEvent-box_Border-color);
+}
+
+/* Simple Table */
+.thm-light .simple-table .col-head > span {
+    background-color: var(--light-Simple_tbl_Head-bg-color);
+}
+
+/* SImple Tab */
+.thm-light .MuiTabs-root .simple-tab.Mui-selected {
+    border-color: var(--light-Simple_tab_actv_Borer-color);
+}
+
+/* Advacne Event Option */
+.thm-light  .create-event-box-option .create-event-time-options > li {
+    background-color: var(--light3);
+}
+
+.thm-light  .create-event-box-option .create-event-time-options > li:hover {
+    background-color: var(--light1);
+}
+
+.thm-light .create-events-options .cstm-crt-evnt-opt .add-icon {
+    background-color: var(--light3);
+}
+
+.thm-light .create-events-options .cstm-crt-evnt-opt .add-icon:hover {
+    background-color: var(--light1);
+}
+
+.thm-light .upcoming-event {
+    background-color: var(--light-Upcomng_evnt_card-bg-clr);
+}
+
+.thm-light .upcoming-event .event-time > span {
+    background-color: var(--light-Upcomng_evnt_card_tme-bg-clr);
+}
+
+
+/* Create Event Form CSS Design */
+
+.thm-light .adv_crt_evnt_col .evnt_duratn .MuiAutocomplete-root {
+    background-color: var(--light_custm_slct_usr_inpt-bg-clr);
+}
+.thm-light .evnt_cl_typ_item .mt_opt_itms .mt_opt_itm .mt_dtls {
+    border-color: var(--light2);
+    background-color: var(--light4);
+}
+.thm-light .adv_crt_evnt_col .evnt_duratn > .MuiTextField-root .MuiInputBase-root {
+    background-color: var(--light_custm_slct_usr_inpt-bg-clr);
+}
+
+.thm-light .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item {
+    border-color: var(--light_custm_slct_usr_inpt-bg-clr);
+}
+
+.thm-light .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item:hover, 
+.thm-light .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item.active_item {
+    background-color: var(--light_custm_slct_usr_inpt-bg-clr);
+}
+
+.thm-light .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item .drp_icn > svg > path {
+    fill: var(--light_custm_drp-icon-clr);
+}
+
+
+.thm-light .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item .mt_opt_itms {
+    border-color: var(--lightEvent-box_Border-color);
+}
+
+.thm-light .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item .mt_opt_itms > li:hover,
+.thm-light .adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item .mt_opt_itms > li.active_item {
+    background-color: var(--light3);
+}
+
+.thm-light .adv_crt_evnt_col .slct_evnt_tmp > .input-label {
+    border-color: var(--light_custm_drpdwn-bdr-clr);
+}
+.thm-light .adv_crt_evnt_col .slct_evnt_tmp > .input-label svg path,
+.thm-light .adv_crt_evnt_col .slct_evnt_tmp > .input-label svg rect {
+    stroke: var(--light_custm_drpdwn-bdr-clr);
+}
+.thm-light .adv_crt_evnt_col .slct_evnt_tmp > .input-label .arw_icn svg path {
+    fill: var(--light_custm_drpdwn-bdr-clr);
+    stroke:none;
+}
+.thm-light .draft-opt .draft-icon.drft_txt {
+    border-color: var(--light_custm_drpdwn-bdr-clr); 
+    color: var(--light_custm_drpdwn-bdr-clr);   
+}
+.thm-light .draft-opt .draft-icon svg path {
+    stroke: var(--light_custm_drpdwn-bdr-clr);
+} 
+.thm-light .draft-opt .draft-icon .drp_icn svg path {
+    fill: var(--light_custm_drpdwn-bdr-clr);
+}
+
+
+/* Upgrade Pro Box */
+.thm-light .upgrade_col:before {
+    background-color: var(--lightPro_Box-bg-clr);
+}
+
+
+/* User Member list CSS Design */
+.thm-light .adv_crt_evnt_col .contact-user-list .contact-item {
+    border-color: var(--light-member_crd-brd_clr);
+}
+
+.thm-light .adv_crt_evnt_col .contact-user-list .contact-item .usr_tg {
+    background-color: var(--light-member_card-icn_bg-clr);
+}
+
+.thm-light .adv_crt_evnt_col .contact-user-list .contact-item .contact-remove {
+    background-color: var(--light-member_card-icn_bg-clr);    
+}
+
+/* ---- Reoccening Event CSS Design ---- */
+.thm-light .reoccur_evnt_pup .day-circle {
+    border-color: var(--light2);
+}
+.thm-light .reoccur_evnt_pup .day-circle.selected {
+    border-color: var(--lightPrimaryColor);
+    background-color: var(--lightPrimaryColor);
+}

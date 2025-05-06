@@ -1,0 +1,436 @@
+
+body {
+    font-family: var(--primaryFont); /* Sets primary font from a variable */
+    margin: 0; /* Removes default margin */
+    min-height: 100vh; /* Ensures body fills full viewport height */
+    font-size: var(--baseFontSize); /* Sets base font size */
+}
+
+.logo-img {
+    max-width: 100px; /* Limits logo width for responsive design */
+}
+
+#main-nav {
+    display: flex; /* Aligns navigation items in a row */
+    align-items: center; /* Vertically centers items */
+    justify-content: space-between; /* Spaces items across width */
+    width: 100%; /* Occupies full width of container */
+    font-size: 12px; /* Sets font size for nav items */
+}
+
+#nav-items {
+    display: flex; /* Horizontally aligns nav items */
+    align-items: center; /* Centers them vertically */
+    gap: 20px; /* Adds space between items */
+}
+
+.active {
+    color: var(--white1); /* Active item color */
+    text-decoration: none; /* Removes underline */
+    border-bottom: 3px solid var(--white1); /* Bottom border for active state */
+    padding: 0 10px 5px; /* Adds padding for spacing */
+    font-weight: bold; /* Bold font style */
+    font-size: 18px; /* Larger font size */
+}
+
+.not-active {
+    color: var(--white1);           /* Sets the text color using a custom variable named '--white1'. This could be a shade of white or light color defined in your CSS variables. */
+    text-decoration: none;          /* Removes any default text decoration, such as underlines, from the inactive link items. */
+    border-bottom: none;            /* Ensures there's no bottom border, differentiating it visually from active or selected items. */
+}
+
+.search-in-header .MuiInputBase-input {
+    padding: 0 10px 5px 2px !important;  /* Adds padding inside the input field */
+    border-bottom: 3px solid var(--white1);  /* Adds a bottom border in the theme's color */
+    color: var(--white1);  /* Sets text color to match the theme */
+    outline: none;  /* Removes the default outline when the input is focused */
+}
+
+.search-in-header .MuiInputBase-root.Mui-focused,
+.search-in-header .MuiInputBase-root {
+    border-color: transparent !important;  /* Removes the border color, making it transparent */
+}
+
+.search-in-header > div {
+    padding: 0px !important;  /* Removes any padding from the div */
+}
+
+
+
+.main-navbar {
+    background-color: var(--blue1);  /* Sets the background color of the navbar to the value of --blue1 */
+    padding: 0 1rem;  /* Adds horizontal padding to the navbar */
+    z-index: 99;  /* Ensures the navbar stays above other elements on the page */
+    height: 60px;  /* Sets the navbar height to 60px */
+}
+
+#nav-items {
+    margin-left: 3.4rem;  /* Adds a left margin to the navigation items, pushing them to the right */
+}
+
+.main-navbar .nav-links-items a {
+    font-size: 1rem;  /* Sets the font size for the links in the navbar to 1rem */
+    padding: 0.2rem 1rem 0.2rem;  /* Adds padding around the links for spacing */
+    border-bottom: 3px solid transparent;  /* Adds a transparent bottom border to create spacing for when the link is active */
+    font-weight: 700;  /* Makes the link text bold */
+    margin-left: 1.2rem;  /* Adds a left margin to space out the links */
+}
+
+.main-navbar .nav-links-items a.active {
+    border-bottom: 3px solid var(--white1);  /* When the link is active, the bottom border color changes to white */
+}
+
+.logout_btn {
+    margin-left: 10px;  /* Adds a left margin to the logout button for spacing */
+}
+
+.user_type {
+    font-size: 13px;  /* Sets the font size for the user type label */
+    font-weight: 200;  /* Makes the text lighter */
+    border: 1px dashed #cdc1c1;  /* Adds a dashed border with a light grey color */
+    padding: 3px 20px 5px;  /* Adds padding inside the user type label */
+}
+
+#main-nav button img {
+    max-width: 30px;  /* Limits the width of images inside buttons to 30px */
+    height: auto;  /* Maintains the image aspect ratio */
+}
+
+.main-navbar .user-icon .MuiAvatar-circular {
+    background-color: #A5DBE5;  /* Sets a light blue background for user avatar */
+    width: 45px;  /* Sets the avatar width to 45px */
+    height: 45px;  /* Sets the avatar height to 45px */
+    border: 1px solid var(--black1);  /* Adds a border with the black color defined in CSS variables */
+}
+
+.main-navbar .user-icon .MuiAvatar-circular > svg {
+    width: 50px;  /* Sets the width of the SVG (icon) inside the avatar to 50px */
+    height: 45px;  /* Sets the height of the SVG to 45px */
+    color: #6298BB;  /* Sets the SVG icon color to a shade of blue */
+}
+
+body {
+    background-color: var(--blueBG);  /* Sets the background color of the page using a CSS variable */
+}
+
+/* Header Color Mode CSS */
+.color-mode-col {
+    width: 100%;  /* Makes the color mode container take up full width */
+    padding: 0 32px;  /* Adds padding to the left and right */
+    display: flex;  /* Uses flexbox to align children */
+    justify-content: flex-end;  /* Aligns content to the right */
+    position: absolute;  /* Positions the container absolutely */
+    bottom: -90px;  /* Moves the container 90px below its parent */
+    right: 10px;  /* Moves the container 10px from the right edge */
+}
+
+.color-mode-col > .theme-options {
+    position: relative;  /* Positions the theme options container relative to its normal position */
+    z-index: 9;  /* Ensures the theme options are stacked above other elements */
+    right: -22px;  /* Moves the container 22px to the right */
+}
+
+.theme-options > span {
+    position: relative;  /* Positions each span element relative to its normal position */
+    cursor: pointer;  /* Changes the cursor to a pointer on hover, indicating it's clickable */
+}
+
+.theme-options .blue-opt {
+    left: 23px;  /* Moves the blue option 23px to the left */
+}
+
+.theme-options .green-opt {
+    right: 23px;  /* Moves the green option 23px to the right */
+}
+
+.theme-options > span {
+    position: relative;  /* Ensures each span is positioned relative for flexibility */
+    padding: 0;  /* Removes padding from the span */
+    border: 0;  /* Removes borders from the span */
+    display: inline-block;  /* Displays the span as an inline block element */
+}
+
+.theme-options .blue-opt::before,
+.thm-light .theme-options .light-opt::before,
+.thm-orange .theme-options .orange-opt::before,
+.thm-green .theme-options .green-opt::before {
+    position: absolute;  /* Positions the pseudo-element absolutely within its parent */
+    content: '';  /* Ensures an empty content value to create the visual effect */
+    width: 12px;  /* Sets the width of the circle */
+    height: 12px;  /* Sets the height of the circle */
+    background-color: var(--Color_Theme-active_pnt-bg-clr);  /* Applies the active point background color */
+    border-radius: 50%;  /* Makes the pseudo-element circular */
+}
+
+.thm-light .theme-options .blue-opt::before,
+.thm-orange .theme-options .blue-opt::before,
+.thm-green .theme-options .blue-opt::before {
+    display: none;  /* Hides the circle on blue-opt for light, orange, and green themes */
+}
+
+.theme-options .blue-opt::before {top: 5px; left: 6px;}  /* Positions the blue dot within the blue option */
+.theme-options .light-opt::before {top: 6px; left: 7px;}  /* Positions the dot for light theme */
+.theme-options .orange-opt::before {top: 6px; left: 8px;}  /* Positions the dot for orange theme */
+.theme-options .green-opt::before {top: 6px; left: 24px;}  /* Positions the dot for green theme */
+
+
+/* Setting Theme Color Mode */
+.settings-color-mode .box1-color {
+    border: 3px solid #00ff38;  /* Sets a 3px solid green border around box1-color */
+}
+
+.thm-light .settings-color-mode .box2-color,
+.thm-orange .settings-color-mode .box3-color,
+.thm-green .settings-color-mode .box4-color {
+    border: 3px solid #00ff38;  /* Sets a 3px solid green border around box2, box3, and box4 colors for respective themes */
+}
+
+.thm-light .settings-color-mode .box1-color,
+.thm-orange .settings-color-mode .box1-color,
+.thm-green .settings-color-mode .box1-color {
+    border: 0;  /* Removes the border from box1-color for light, orange, and green themes */
+}
+
+.logout_btn {
+    position: relative;  /* Ensures the button can be positioned relative to its normal position */
+    margin: 0;  /* Removes any default margin */
+    padding: 6px 12px 3px 13px;  /* Applies padding to the button, with specific adjustments for top, right, bottom, and left */
+    cursor: pointer;  /* Changes the cursor to a pointer when hovering over the button */
+}
+
+.logout_btn::before {
+    position: absolute;  /* Positions the pseudo-element absolutely within the logout button */
+    content: '';  /* Ensures the pseudo-element has no textual content */
+    right: 0;  /* Aligns the pseudo-element to the right edge of the button */
+    width: 103px;  /* Sets the width of the pseudo-element */
+    height: 43px;  /* Sets the height of the pseudo-element */
+    background-color: var(--white1);  /* Gives the pseudo-element a white background */
+    border-radius: 25px;  /* Rounds the corners of the pseudo-element */
+    border: 1px solid var(--black1);  /* Applies a black border around the pseudo-element */
+    z-index: -1;  /* Places the pseudo-element behind the button's content */
+    top: 1px;  /* Moves the pseudo-element slightly down (1px) from the top of the button */
+}
+
+.notifation-count-badge .MuiBadge-badge {
+    width: 33px;  /* Sets the width of the badge element inside the notification count to 33px */
+}
+
+/* Notification Dropdown List Styling */
+#notification-panel .MuiPaper-root {
+    padding: 0px;  /* Removes padding inside the notification panel */
+    border-radius: 10px;  /* Rounds the corners of the panel */
+    max-width: 400px;  /* Restricts the maximum width of the notification panel to 400px */
+}
+
+#notification-panel .notification-list {
+    border-top: 1px solid var(--blue2);  /* Adds a border at the top of the notification list with the color defined by --blue2 */
+    padding: 10px 0;  /* Adds vertical padding of 10px to the notification list */
+    overflow: auto;  /* Enables scrolling if the content overflows the container */
+    max-height: 325px;  /* Restricts the maximum height of the notification list to 325px */
+}
+
+#notification-panel .MuiList-root .MuiMenuItem-root {
+    display: flex;  /* Uses flexbox layout for the menu items */
+    justify-content: space-between;  /* Distributes space evenly between elements */
+    align-items: center;  /* Vertically centers the items */
+    padding: 15px 20px 15px 60px;  /* Adds padding around the item, with more space on the left */
+    font-size: 12px;  /* Sets the font size of the notification item text */
+    position: relative;  /* Positions child elements relative to this item */
+}
+
+
+
+#notification-panel .MuiList-root .MuiMenuItem-root .ntf_icn {
+    position: absolute;  /* Positions the notification icon absolutely within the item */
+    left: 12px;  /* Places the icon 12px from the left edge */
+    border: 1px solid var(--blue2);  /* Adds a border around the icon with a color defined by --blue2 */
+    border-radius: 50px;  /* Makes the icon's border rounded */
+    padding: 4px 6px 3px;  /* Adds padding inside the icon */
+    top: 17px;  /* Positions the icon 17px from the top of the item */
+}
+
+#notification-panel .MuiList-root .MuiMenuItem-root .ntfc_tit {
+    font-weight: 500;  /* Sets the font weight of the title to 500 for emphasis */
+}
+
+#notification-panel .MuiList-root .MuiMenuItem-root .ntfc_tme {
+    color: var(--black3);  /* Sets the text color for the time to a shade defined by --black3 */
+    font-size: 11px;  /* Makes the time text smaller */
+    font-weight: 500;  /* Sets the font weight of the time text to 500 */
+}
+
+#notification-panel .MuiList-root .MuiMenuItem-root .notification-txt {
+    font-size: 11px;  /* Sets the font size for notification text */
+    white-space: normal;  /* Allows the text to wrap normally within the container */
+    width: 100%;  /* Ensures the text takes up the full width of the item */
+    color: var(--black3);  /* Sets the text color to a shade defined by --black3 */
+}
+
+#notification-panel .MuiList-root .MuiMenuItem-root
+#notification-panel .MuiList-root .MuiMenuItem-root a {
+    font-size: 11px;  /* Sets the font size for links within menu items */
+}
+
+#notification-panel .MuiMenu-list .no-notification {
+    width: 260px;  /* Sets the width of the "no notifications" section */
+}
+
+#notification-panel .MuiMenu-list .no-notification .notification-txt {
+    width: 100%;  /* Ensures the "no notifications" text takes up the full width */
+    font-size: var(--baseFontSize);  /* Uses a base font size for consistency */
+    text-align: center;  /* Centers the text */
+    padding: 10px;  /* Adds padding around the "no notifications" text */
+}
+
+.all_ntfct_lnk {
+    border-top: 1px solid var(--blue2);  /* Adds a top border with the color defined by --blue2 */
+    padding: 14px 20px 7px;  /* Adds padding inside the link, with extra padding on the left and right */
+    font-weight: 700;  /* Makes the text bold */
+}
+
+/* All Notifications Page CSS */
+.all-notification-list ul {
+    padding: 0;  /* Removes padding from the unordered list */
+    list-style: none;  /* Removes bullet points from the list */
+}
+
+.all-notification-list ul > li {
+    background: #fff;  /* Sets the background color of each notification item to white */
+    margin-bottom: 20px;  /* Adds space between notification items */
+    border: 1px solid #ddd;  /* Adds a light border around each notification */
+    padding: 20px 20px 20px 60px;  /* Adds padding to the notification item, with extra space on the left */
+    position: relative;  /* Positions elements within the notification item relative to it */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);  /* Adds a subtle shadow to give depth */
+}
+
+.all-notification-list ul > li:hover {
+    background-color: var(--blue6);  /* Changes the background color when the notification item is hovered */
+}
+
+.notification-item .notification-icon {
+    position: absolute;  /* Positions the notification icon absolutely within the item */
+    left: 12px;  /* Places the icon 12px from the left */
+    border: 1px solid var(--blue2);  /* Adds a border around the icon with a color defined by --blue2 */
+    border-radius: 50px;  /* Rounds the corners of the icon */
+    padding: 4px 6px 3px;  /* Adds padding inside the icon */
+    top: 17px;  /* Places the icon 17px from the top of the item */
+}
+
+.notification-item .evnt_tit {
+    margin: 0;  /* Removes default margin around the event title */
+}
+
+.notification-item .notification-dscrptn {
+    margin: 0;  /* Removes margin around the description */
+    font-size: 12px;  /* Sets the font size for the description to 12px */
+}
+
+#nav-items {
+    width: 60%;  /* Sets the width of the navigation items container */
+}
+
+#nav-items .hdr-menu-items {
+    width: 42%;  /* Sets the width of the header menu items */
+    display: flex;  /* Uses flexbox layout for aligning items */
+    align-items: center;  /* Vertically centers the menu items */
+}
+
+.nav-items .hdr-menu-items > a {
+    margin-right: 30px;  /* Adds space between menu items */
+}
+
+.hdr-search {
+    width: 50%;  /* Sets the width of the search container */
+    position: relative;  /* Positions the container relative to its parent */
+}
+
+.hdr-search > .MuiAutocomplete-root {
+    width: 100%;  /* Makes the autocomplete input span the full width */
+    margin: 0;  /* Removes margin around the autocomplete */
+    position: relative;  /* Positions the autocomplete relative to its parent */
+}
+
+.hdr-search > .srch_icn {
+    position: absolute;  /* Positions the search icon absolutely */
+    left: 17px;  /* Positions the icon 17px from the left */
+    top: 12px;  /* Positions the icon 12px from the top */
+}
+
+.hdr-search > .MuiAutocomplete-root .MuiInputBase-input {
+    border: 0;  /* Removes the border from the input field */
+    background: #fff;  /* Sets the background color to white */
+    height: 32px;  /* Sets the input field height */
+    border-radius: 22px;  /* Rounds the corners of the input field */
+    padding: 5px 20px 1px 50px !important;  /* Adds padding inside the input, with extra space for the icon */
+    font-size: 13px;  /* Sets the font size */
+    color: var(--black1);  /* Sets the text color */
+    font-weight: 600;  /* Makes the font weight semi-bold */
+}
+
+.hdr-search > .MuiAutocomplete-root .MuiInputBase-input::placeholder {
+    font-weight: 500;  /* Sets the placeholder font weight */
+}
+
+.hdr-search > .MuiAutocomplete-root .MuiAutocomplete-endAdornment .MuiSvgIcon-root {
+    display: none;  /* Hides the default end adornment icon */
+}
+
+/* Media Queries */
+@media (max-width: 1400px) {
+    .main-navbar .nav-links-items a {
+        font-size: 13px;  /* Reduces font size of navbar links on smaller screens */
+    }
+
+    .user_type {
+        font-size: 12px;  /* Reduces the font size of the user type label */
+        padding: 4px 17px;  /* Adjusts padding for smaller screens */
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #nav-items {
+        display: none;  /* Hides the navigation items on screens smaller than 900px */
+    }
+}
+
+@media (max-width: 768px) {
+    .main-header-wrapper {
+        margin-bottom: 120px;  /* Adds bottom margin to the header on small screens */
+    }
+
+    .main-header-wrapper .color-mode-col {
+        bottom: -63px;  /* Adjusts the position of the color mode toggle */
+    }
+
+    .page-wrapper.top_algn-clr-mode {
+        top: -22px;  /* Adjusts the top position for certain page wrappers */
+    }
+
+    .main-navbar {
+        padding: 0;  /* Removes padding from the navbar on small screens */
+    }
+
+    .user_type {
+        padding: 4px 10px;  /* Reduces padding for the user type label */
+        font-size: 10px;  /* Decreases the font size */
+        margin-right: 10px !important;  /* Forces right margin to 10px */
+    }
+
+    #main-nav {
+        justify-content: flex-end;  /* Aligns the navbar items to the right */
+    }
+
+    #main-nav .MuiButtonBase-root {
+        padding: 12px 8px;  /* Adjusts padding for buttons in the navbar */
+    }
+
+    .main-navbar > .MuiToolbar-root > .MuiButtonBase-root > svg path {
+        fill: var(--white1);  /* Changes the fill color of the icons to white */
+    }
+
+    .main-header-wrapper .color-mode-col {
+        padding-right: 14px;  /* Adjusts right padding for the color mode toggle */
+    }
+}
+
+

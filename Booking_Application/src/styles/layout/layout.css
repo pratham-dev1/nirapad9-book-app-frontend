@@ -1,0 +1,366 @@
+.page-wrapper {
+    padding: 0 2rem 0rem;
+}
+
+
+/* Column Width Classes CSS */
+.w-5 {width: 5%;}
+.w-8 {width: 8%;}
+.w-10 {width: 10%;}
+.w-12 {width: 12%;}
+.w-15 {width: 15%;}
+.w-20 {width: 20%;}
+.w-24 {width: 24%;}
+.w-25 {width: 25%;}
+.w-28 {width: 28%;}
+.w-30 {width: 30%;}
+.w-31 {width: 31%;}
+.w-32 {width: 32%;}
+.w-35 {width: 35%;}
+.w-40 {width: 40%;}
+.w-42 {width: 42%;}
+.w-45 {width: 45%;}
+.w-48 {width: 48%;}
+.w-49 {width: 49%;}
+.w-50 {width: 50%;}
+.w-52 {width: 52%;}
+.w-55 {width: 55%;}
+.w-60 {width: 60%;}
+.w-66 {width: 66%;}
+.w-70 {width: 70%;}
+.w-73 {width: 73%;}
+.w-75 {width: 75%;}
+.w-80 {width: 80%;}
+.w-85 {width: 85%;}
+.w-90 {width: 90%;}
+.w-95 {width: 95%;}
+.w-100{width: 100%}
+
+.mw-300 {max-width: 300px;margin-left:auto;margin-right:auto;}
+.mw-400 {max-width: 400px;margin-left:auto;margin-right:auto;}
+.mw-500 {max-width: 500px;margin-left:auto;margin-right:auto;}
+.mw-700 {max-width: 700px;margin-left:auto;margin-right:auto;}
+.mw-800 {max-width: 800px;margin-left:auto;margin-right:auto;}
+.mw-1000 {max-width: 1000px;margin-left:auto;margin-right:auto;}
+.vw-100 {width: 100vw;}
+.vh-100 {height: 100vh;}
+
+/* ------------------------------------------------------------------- */
+
+
+/* Grid view CSS */
+.tmplt_box {
+    width: 22.5%;
+    margin-left: 3.33%;
+    background-color: var(--white1);
+    border: 1px solid var(--grey8);
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.crt_nw_tmplt {
+    border: 1px dashed var(--blue1);
+}
+
+.tmplt_box:nth-child(4n+1) {
+    margin-left: 0;
+}
+
+.tmplt_snp_view {
+    padding: 30px 60px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    max-height: 300px;
+}
+
+.tmplt_snp_view > .tmplt_doc {
+    border: 1px solid var(--black1);
+    width: 100%;
+    overflow: hidden;
+}
+
+.tmplt_add_doc {
+    padding: 30px 60px;
+    min-height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tmplt_add_doc .add_tmplt {
+    padding: 3px 6px;
+    border: 1px dashed var(--blue1);
+    cursor: pointer;
+}
+
+.tmplt_add_doc .add_tmplt > svg {
+    width: 60px;
+    height: 60px;
+}
+
+.tmplt_add_doc .add_tmplt > svg path {
+    fill: var(--blue1);
+}
+
+.templt_act {
+    position: absolute;
+    opacity: 0;
+    top: 90px;
+    transition: top 0.6s;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    bottom: 81px;
+}
+
+.tmplt_name {
+    background-color: var(--templateTitleBg__blue);
+    padding: 10px 20px;
+    color: var(--black1);
+    font-weight: var(--semiBoldFont);   
+    font-size: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    text-align: center;
+}
+
+.tmplt_name .tmplt_clone {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.tmplt_name .tmplt_clone > svg {
+    width: 20px;
+    height: 20px;
+}
+
+.tmplt_box:hover .templt_act {
+    opacity: 1;
+    top: 17px;
+}
+
+.templt_act > span {
+    padding: 15px;
+    text-align: center;
+    color: var(--black1);
+    width: 100%;
+    flex: 1;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--semiBoldFont);
+}
+
+.templt_act > .tmplt_edit {
+    background-color: var(--templateEditBg__blue);
+}
+
+.templt_act > .tmplt_prevw {
+    background-color: var(--templatePreviewBg__blue);
+}
+
+.templt_act > .tmplt_dlt {
+    background-color: var(--templateDeleteBg__blue);
+}
+
+/* ---------------------------------------------------------------------------- */
+
+
+/* List View CSS */
+.list-view-template .add_tmplt_wrp {
+    background-color: var(--white1);
+    padding: 12px;
+    border: 2px dashed var(--blue1);
+    cursor: pointer;
+}
+
+.list-view-template .add_tmplt_wrp:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.list-view-template .add_tmplt_wrp .add_tmplt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: var(--semiBoldFont);
+}
+
+.list-view-template .add_tmplt_icon {
+    padding: 3px 6px;
+    border: 1px dashed var(--blue1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.list-view-template .add_tmplt_icon > svg {
+    width: 30px;
+    height: 30px;
+}
+
+.list-view-template .add_tmplt_icon > svg path {
+    fill: var(--blue1);
+}
+
+.list-view-template .tmplt_lst .tmplt_list_item {
+    background-color: var(--white1);
+    padding: 15px 40px 13px;
+    margin-bottom: 15px;
+    border: 1px solid var(--grey8);
+    position: relative;
+}
+
+.list-view-template .tmplt_lst .tmplt_list_item.itm_delete::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.71);
+    pointer-events: none;
+}
+
+.list-view-template .tmplt_lst .tmplt_list_item .tmplt_nme {
+    width: 60%;
+    font-weight: var(--semiBoldFont);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 10px;
+}
+
+.list-view-template .tmplt_lst .tmplt_list_item .tmplt_col {
+    font-weight: var(--semiBoldFont);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 10px;
+}
+
+
+
+.list-view-template .tmplt_lst .tmplt_list_item .tmplt_date {
+    width: 30%;
+    font-weight: var(--semiBoldFont);
+    padding: 0 40px;
+}
+
+.list-view-template .tmplt_lst .tmplt_list_item .tmplt_act {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-view-template .tmplt_lst .tmplt_list_item.itm_delete .tmplt_act {
+    z-index: 1;
+}
+
+.list-view-template .tmplt_lst .tmplt_list_item .tmplt_act .tmplt_copy {
+    cursor: pointer;
+}
+
+.list-view-template .tmplt_lst .tmplt_list_item .tmplt_act .tmplt_opt {
+    position: relative;
+    margin: 0 15px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.list-view-template .tmplt_lst .opt_item {
+    position: absolute;
+    padding: 10px 0;
+    border: 1px solid var(--blue1);
+    background-color: var(--white1);
+    list-style: none;
+    right: 0;
+    top: 0px;
+    display: none;
+    transition: all 0.5s;
+    width: 150px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.list-view-template .tmplt_lst .tmplt_opt:hover .opt_item {
+    display: block;
+    top: 6px;
+}
+
+.list-view-template .tmplt_lst .opt_item > li {
+    padding: 4px 15px;
+    cursor: pointer;
+}
+
+.list-view-template .tmplt_lst .opt_item > li:hover {
+    background-color: var(--blue2);
+}
+
+
+.view_details_card {
+    min-height: 80vh;
+}
+
+@media (max-width: 767px) {
+    .page-wrapper {padding: 0 10px;}
+    .top_algn-clr-mode {top: 0;}
+    .page-wrapper .MuiBox-root {margin-left: 0;margin-right: 0;}
+
+    /* Color Theme Mode Option CSS */
+    .color-mode-col > .theme-options .blue-opt {
+        left: 21px;
+        top: 1px;
+    }
+    .color-mode-col > .theme-options > .light-opt {
+        left: 4px;
+    }
+    .color-mode-col > .theme-options > .orange-opt {
+        left: 4px;
+    }
+    .color-mode-col > .theme-options > .green-opt {
+        left: -14px;
+        top: 1px;
+    }
+    .color-mode-col > .theme-options > .blue-opt img {
+        width: 32px;
+    }
+    .color-mode-col > .theme-options > .light-opt img {
+        width: 18px;
+    }
+    .color-mode-col > .theme-options > .orange-opt img {
+        width: 18px;
+    }
+    .color-mode-col > .theme-options > .green-opt img {
+        width: 31px;
+    }
+
+    .color-mode-col .theme-options .blue-opt::before, 
+    .thm-light  .color-mode-col .theme-options .light-opt::before, 
+    .thm-orange .color-mode-col .theme-options .orange-opt::before, 
+    .thm-green .color-mode-col .theme-options .green-opt::before {
+        width: 8px;
+        height: 8px;
+    }
+    .color-mode-col .theme-options .blue-opt::before {
+        top: 6px;
+    }
+    .thm-light  .color-mode-col .theme-options .light-opt::before,
+    .thm-orange .color-mode-col .theme-options .orange-opt::before {
+        top: 6px;
+        left: 5px;
+    }
+    .thm-green .color-mode-col .theme-options .green-opt::before {
+        left: 19px;
+    }
+}

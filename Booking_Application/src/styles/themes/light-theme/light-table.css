@@ -1,0 +1,50 @@
+.thm-light .MuiDataGrid-virtualScroller .MuiDataGrid-row:hover {
+    background-color: var(--lightTableHoverColor);
+}
+.thm-light .MuiDataGrid-virtualScroller .MuiDataGrid-row.Mui-selected {
+    background-color: var(--lightTableHoverColor);
+}
+.thm-light .MuiDataGrid-main .MuiDataGrid-row {
+    border-bottom: 1px solid var(--lightTableBorderColor);
+}
+.thm-light .MuiDataGrid-main .MuiDataGrid-row .MuiDataGrid-cell {
+    border-bottom: 0;
+}
+
+
+
+
+.thm-light .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row:hover .MuiDataGrid-cell:first-child,
+.thm-light .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row.Mui-selected .MuiDataGrid-cell:first-child,
+.thm-light .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:first-child:hover,
+.thm-light .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row:hover .MuiDataGrid-cell:nth-child(2),
+.thm-light .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:nth-child(2):hover,
+.thm-light .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row.Mui-selected .MuiDataGrid-cell:nth-child(2) {
+    background-color: var(--lightTableHoverColor);
+}
+
+/* Book Slot Table CSS */
+.thm-light.book_slot_table .MuiDataGrid-main .MuiDataGrid-columnHeaders{
+    background-color: var(--lightBG);
+}
+.thm-light .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row:hover .MuiDataGrid-cellCheckbox { 
+    background-color: var(--lightBG);  
+}
+.thm-light .book_slot_table > .MuiStack-root .MuiChip-root.primary-skills-label { 
+    background-color: var(--primary-skill-label-color); 
+}
+.thm-light .book_slot_table > .MuiStack-root .MuiChip-root.secondary-skills-label { 
+    background-color: var(--secondary-skill-label-color);
+}
+.thm-light .book_slot_table .MuiDataGrid-main .MuiDataGrid-columnHeaders {
+    background-color: var(--lightBG);
+}
+.thm-light .book_slot_table .MuiDataGrid-main .MuiDataGrid-columnHeadersInner > div .MuiDataGrid-columnHeader:first-child,
+.thm-light .book_slot_table .MuiDataGrid-main .MuiDataGrid-columnHeadersInner > div .MuiDataGrid-columnHeader:nth-child(2){
+    background-color: var(--lightBG);
+}
+
+.thm-light .no-tbl_data_msg .trgt_link {
+    background-color: var(--lightCTAColor);
+    color: var(--white1);
+}

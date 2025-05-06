@@ -1,0 +1,351 @@
+/* Event Hub CSS Design */
+@import 'EventHub.css'; 
+
+.rbc-toolbar>.rbc-btn-group {
+    display: flex;
+}
+.css-heg063-MuiTabs-flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Align Dashboard tab with Color Mode */
+.top_algn-clr-mode {
+    position: relative;
+    top: -44px;
+}
+.bookslot_tab-panel {
+    padding: 0rem 1rem 0.3rem;
+}
+
+.book_slot_table form {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 4rem 0 5rem;
+    padding: 35px 35px 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 1px solid var(--grey1);
+    background-color: var(--white1);
+}
+
+.book_slot_table > .MuiStack-root  .MuiChip-root {
+    padding: 20px 30px;
+    font-family: var(--primaryFont);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.book_slot_table > .MuiStack-root  .MuiChip-root.primary-skills-label {
+    background-color: var(--primary-skill-label-color);
+    border-radius: 25px;
+
+}
+
+.book_slot_table > .MuiStack-root  .MuiChip-root.secondary-skills-label {
+    background-color: var(--secondary-skill-label-color);
+    border-radius: 25px;
+}
+
+.book_slot_table .MuiDataGrid-main {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 1px solid #efe2e2;
+    background-color: #fcfbfb;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+/* Apply background color to the column headers */
+.book_slot_table .MuiDataGrid-main .MuiDataGrid-columnHeaders {
+    background-color: var(--blueBG);
+}
+  
+
+
+.rbc-calendar .rbc-toolbar #event-btn {
+    background-color: var(--blueCTA);
+    color: var(--white1);
+}
+
+.skills-filter-act .MuiButton-colorPrimary.Mui-disabled {
+    opacity: 0;
+}
+
+
+
+.rbc-calendar>.rbc-toolbar {
+    border-radius: 10px;
+    background-color: var(--white1);
+    margin-bottom: 25px;
+}
+.rbc-time-view {
+    background-color: var(--white1);
+}
+.rbc-time-view .rbc-row {
+    min-height: 30px;
+}
+.rbc-time-header-cell .rbc-header {
+    background-color: #efefef;
+}
+
+
+#big-calendar-dashboard #big-calendar-left .MuiTextField-root {
+    background-color: #fff;
+}
+#big-calendar-dashboard #big-calendar-left .MuiInputBase-formControl .MuiAutocomplete-tag {
+    margin: 10px 3px 5px;
+}
+
+/* Agenda Table CSS */
+.rbc-agenda-view table.rbc-agenda-table thead > tr > th {
+    background-color: var(--blue_Clndr-agnda-tabl-hdr_bg-clr);
+}
+
+.rbc-row-content .rbc-show-more {
+    background-color: transparent;
+}
+
+/* Event text colors for Calendar*/
+.rbc-day-slot .rbc-events-container .rbc-event .rbc-event-label {
+    color: var(--black1);
+    font-weight: 600;
+}
+.rbc-event, .rbc-event-content {
+    color: var(--black1);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+
+
+/* Open Availability Form CSS */
+.tab-panel-content .availabilty-days-content .MuiFormControl-root {
+    padding: 0;
+}
+.tab-panel-content .availabilty-days-content .MuiFormControl-root label {
+    position: static;
+    margin: 0 0 0 16px;
+}
+
+
+/* Reason Popup */
+.reason-popup .MuiDialogContent-root > p {
+    color: #a0a0a0;
+    margin:0 0 10px;
+}
+.reason-popup .MuiDialogContent-root .MuiFormControl-root {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Right Slide Popup CSS */
+.right-slide-popup .history-filter-panel .MuiAutocomplete-root {
+    width: 100%;
+}
+.right-slide-popup .history-filter-panel .MuiAutocomplete-root .MuiInputBase-root {
+    background-color: var(--white1);
+}
+.right-slide-popup .history-filter-panel .MuiAutocomplete-root fieldset {
+    display: none;
+}
+
+
+/*Edit Event Popup*/
+.edit-event-popup-inner {
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.edit-event-popup-inner .MuiFormControl-root {
+    width: 100%;
+}
+.edit-event-popup-inner svg {
+    cursor: pointer;
+}
+.edit-event-popup-inner .MuiFormControl-root fieldset {
+    display: none;
+}
+.edit-event-popup-inner .form-act {
+    margin-top: 30px;
+}
+
+
+/* Interview Invite Popup CSS */
+.interview-invite-popup .MuiPaper-elevation {
+    min-width: 550px;
+    background-color: var(--grey2);
+    overflow-x: hidden;
+    font-size: 16px;
+}
+.interview-invite-popup .MuiPaper-elevation form {
+    position: relative;
+}
+.interview-invite-popup .MuiAutocomplete-root {
+    width: 90%;
+    margin-bottom: 30px;
+    position: relative;
+    padding-top: 40px;
+}
+.interview-invite-popup .MuiFormControl-root {
+    position: relative;
+}
+.interview-invite-popup .MuiPaper-elevation .MuiDialogContent-root {
+    padding: 40px;
+}
+.interview-invite-popup .MuiFormControl-root label {
+    position: absolute;
+    top:-50px;
+    font-size: 14px;
+    font-weight: 500;
+    transform: none;
+}
+.interview-invite-popup .MuiFormControl-root label.Mui-focused {
+    color: #000;
+    top:-50px;
+    font-size: 14px;
+}
+.interview-invite-popup .MuiFormControl-root .MuiInputBase-root {
+    background-color: var(--white1);
+}
+.interview-invite-popup .MuiFormControl-root fieldset {
+    display: none;
+}
+.interview-invite-popup .MuiAutocomplete-popper div{
+    position: absolute;
+    background-color: var(--white1);
+    max-width: 200px;
+    left:0;
+}
+.interview-invite-popup .MuiAutocomplete-popper {
+    left: 0;
+    width: 400px;
+    overflow: hidden;
+    height: 400px;
+    z-index: 999 !important;
+}
+
+
+
+
+.create-event-form .MuiFormControl-root > .Mui-error.MuiFormHelperText-contained {
+    font-size: 11px;
+}
+.adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item {
+    position: relative;
+}
+
+.adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item .drp_icn {
+    position: absolute;
+    bottom: 0;
+    right: 4px;
+}
+
+.adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item .mt_opt_itms {
+    position: absolute;
+    padding: 10px 0;
+    border: 1px solid var(--blue1);
+    background-color: var(--white1);
+    list-style: none;
+    right: -110px;
+    top: 10px;
+    display: none;
+    transition: all 0.5s;
+    width: 150px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item:hover .mt_opt_itms {
+    display: block;
+    top: 38px;
+    font-size: 12px;
+}
+
+.evnt_cl_typ_item .mt_opt_itms .mt_opt_itm {
+    position: relative;
+}
+
+.evnt_cl_typ_item .mt_opt_itms .mt_opt_itm .mt_dtls {
+    position: absolute;
+    top: 20px;
+    left: 88px;
+    min-width: 180px;
+    min-height: 40px;
+    font-weight: var(--semiBoldFont);
+    display: none;
+    background-color: var(--white1);
+    border: 1px solid var(--blue2);
+    padding: 11px 10px;
+    border-radius: 15px;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.evnt_cl_typ_item .mt_opt_itms .mt_opt_itm:hover .mt_dtls {
+    display: block;
+}
+
+.adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item:hover .mt_opt_itm:hover,
+.adv_crt_evnt_col .evnt_cl_typ .evnt_cl_typ_item:hover .mt_opt_itm.active_item {
+    background-color: var(--blue2);
+}
+
+.upcoming-event .event-time > span > svg {
+    margin-right: 5px;
+}
+
+
+/* Search Page Design CSS */
+.srch_rpt_page .table_filter {
+    gap: 0;
+}
+.srch_rpt_page .table_filter .MuiAutocomplete-root {
+    margin: 0 10px 0 0;
+}
+.srch_rpt_page .table_filter .MuiAutocomplete-root .MuiInputBase-input::placeholder {
+    color: var(--black1);
+}
+.srch_rpt_page .table_filter .MuiStack-root > .MuiFormControl-root {
+    padding: 0;
+}
+.srch_rpt_page .table_filter .MuiInputLabel-formControl {
+    position: static;
+    display: block;
+    color: var(--white1);
+}
+
+
+@media (max-width: 1400px) {
+    .right-slide-popup .history-filter-panel {margin-top: 10px;}
+    .right-slide-popup .history-filter-panel > .MuiStack-root {margin-bottom: 10px;}
+
+    .rbc-calendar>.rbc-toolbar {font-size: 12px;}
+    .rbc-calendar>.rbc-toolbar .rbc-btn-group button {font-size: 13px;}
+    .rbc-calendar .rbc-toolbar #event-btn {font-size: 11px;}
+    .rbc-toolbar .new-event b {font-size: 14px;padding-left: 10px;}
+    .color-mode-col {bottom: -77px;}
+    .MuiDateCalendar-root {width: 230px;height: 243px;}
+    .MuiDateCalendar-root .MuiPickersCalendarHeader-root {margin-top: 4px;padding-left: 20px;}
+    .MuiPickersCalendarHeader-root .MuiPickersCalendarHeader-label {font-size: 11px;}
+    .MuiDayCalendar-root .MuiPickersDay-root {width: 26px;height: 26px;font-size: 10px;}
+    .MuiDayCalendar-root .MuiDayCalendar-weekDayLabel {width: 26px;height: 26px;font-size: 10px;}
+    .MuiPickersLayout-root .MuiMultiSectionDigitalClock-root {max-height: 150px;}
+}
+
+@media screen and (max-width: 492px) {
+    .css-heg063-MuiTabs-flexContainer {
+        justify-content: center;
+    }
+ 
+    .dashboard-tabs {
+        padding: 0px 15px 0px 15px;
+    }
+
+    .dashboard-tabs {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 2400px) {
+    .right-slide-popup .MuiPaper-elevation {height: 82vh;}
+}

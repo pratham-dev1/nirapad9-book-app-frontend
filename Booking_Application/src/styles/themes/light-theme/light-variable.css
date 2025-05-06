@@ -1,0 +1,86 @@
+
+/* Custom Light Theme Variables */
+
+:root {
+
+    --light1: #E7DFCF;
+    --light2: #848380;
+    --light3: #eeebe3;
+    --light4: #f4f2eb;
+    --light5: #ffa361;
+    --light6: #f4efe4;
+    --light7: #efeeed;
+    --lightbg3: #f4f1e9;
+    --lightPrimaryColor: #FFA361;
+    --lightBG: #FBF9F6;
+    --lightHeaderBG: #E1D8C8;
+    --light_grd-bg-1: linear-gradient(#beb099, #eeece8);
+
+    --lightCard_box-bdr_clr: #e7d7cd;
+  
+    --lightCTAColor: #E06600;
+    --lightPrimaryBtn: #E06600;
+    --lightPrimaryBtnHover: #FFA361;
+    --lightSecondaryColor: #e9e5db;
+    --lightSecondaryHoverColor: #E1D8C8;
+    --lightPrimaryIconColor: #ffa361;
+
+    --lightInputBorderColor: #E1D8C8;
+    --lightInputHoverBorderColor: #AC8B74;
+    --lightFormLabelColor: #AC8B74;
+
+    --light_custm_slct_usr_inpt-bg-clr: #edebe8;
+    --light_custm_drp-icon-clr: #624f41;
+    --light_custm_drpdwn-bdr-clr: #AC8B74; 
+
+    --lightCalendarHoverDate: #F4F1E9;
+    --lightCalendarSelectDate: #E06600;
+
+    --lightPopupHeaderBG: #E1D8C8;
+
+    --lightTitleColor:#311610;
+    --lightLabelColor: #57534c;
+
+    --lightTableBorderColor: #E6E6E6;
+    --lightTableHoverColor: #f6f2ec;
+  
+    --lightBoxBorderColor: #AC8B74;
+    --lightToolbarBG: #E7DFCF;
+    --lightIconColorBG: #5b5f62;
+    --lightlinkColor: #ffa361;
+
+    --lightPro_Box-bg-clr: rgba(249,241,226,0.51);
+
+    --lightEvent-box_Border-color: #AC8B74;
+    --light-Simple_tbl_Head-bg-color: #f5f3ee;
+    --light-Simple_tab_actv_Borer-color: #ded9cd;
+
+    --light-Upcomng_evnt_card-bg-clr: #f6f5f2;
+    --light-Upcomng_evnt_card_tme-bg-clr: #e1dfda;
+
+    --light-member_crd-brd_clr: #d1a96e;
+    --light-member_card-icn_bg-clr: #ede0ce;
+
+    --light-Togl-vew_opt-slct_bg-clr: linear-gradient(#b47533, rgb(237 203 168));
+
+    --light_Grid_tmp-nme_bg-clr: #d9d4c8;
+    --light_Grid_tmp-snp-dtls_bg-clr: #f6f5f2;
+    --light_Grid_tmp-dlt-bg-clr: #b8b09e;
+    --light_Grid_tmp-prvew-bg-clr: #c4bdac;
+    --light_Grid_tmp-edt-bg-clr: #d0c8b4;
+    --light_Grid_Add_new_tmp-brd-clr: #ffa361;
+    --light_Grid_dtls_crd-bg-clr: #f7f4ee;
+
+    --light_list_vew-act-opt_bdr-clr: #c6b596;
+    --light_list_vew-act-opt_hvr-clr: #E7DFCF;
+    
+    --light_curnt_pln_stp-stck_bg-clr: #ffd0a9;
+    --light_subs_mng_stp-stck_bg-clr: #f5be91;
+    --light_checkout_stp-stck_bg-clr: #f3b27b;
+    --light_cmpre_btn-bg-clr: #ffe8d7;
+    --light_actv_billing_cycle_tab-bg-clr: #fff5ed;
+
+    --light_Clndr-agnda-tabl-hdr_bg-clr: #dfd8cb;
+    --light_Cntct-pck-lst_bg-clr: #fffefb;
+
+}

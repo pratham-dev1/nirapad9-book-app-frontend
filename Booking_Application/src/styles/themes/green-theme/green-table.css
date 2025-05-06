@@ -1,0 +1,87 @@
+
+.thm-green .MuiDataGrid-main {
+    color: var(--white1);
+}
+.thm-green .MuiDataGrid-overlayWrapper .MuiDataGrid-overlay {background: transparent;}
+.thm-green .book_slot_table .MuiDataGrid-main .MuiDataGrid-columnHeaders {background: var(--dark2TabBoxBG);}
+.thm-green .MuiDataGrid-footerContainer {color: #fff;}
+.thm-green .MuiDataGrid-footerContainer .MuiToolbar-root {color: #fff;}
+.thm-green .book_slot_table form {background: #292f30;border: 0;}
+.thm-green .book_slot_table .MuiDataGrid-footerContainer {border: 0;}
+.thm-green .book_slot_table .MuiDataGrid-main .MuiDataGrid-columnHeadersInner > div .MuiDataGrid-columnHeader:first-child, 
+.thm-green .book_slot_table .MuiDataGrid-main .MuiDataGrid-columnHeadersInner > div .MuiDataGrid-columnHeader:nth-child(2) {
+    background: var(--dark2TabBoxBG);
+}
+.thm-green .user-table-wrapper .MuiDataGrid-columnHeaders {
+    background-color: var(--dark2TabBoxBG);
+}
+
+.thm-green .MuiDataGrid-main .MuiDataGrid-virtualScroller .MuiDataGrid-row {border-bottom: 1px solid #fff;}
+.thm-green .history-table-wrapper .MuiDataGrid-main {color: var(--dark2PrimaryTextColor);}
+.thm-green .history-table-wrapper .MuiDataGrid-columnHeadersInner {background-color: var(--dark2TabBoxBG);}
+.thm-green .MuiDataGrid-main .MuiDataGrid-columnHeadersInner > div .MuiDataGrid-columnHeader:first-child,
+.thm-green .MuiDataGrid-main .MuiDataGrid-columnHeadersInner > div .MuiDataGrid-columnHeader:nth-child(2) {
+    background: var(--dark2TabBoxBG);
+}
+
+.thm-green .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:first-child,
+.thm-green .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:first-child:hover,
+.thm-green .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:nth-child(2),
+.thm-green .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:nth-child(2):hover {
+    background: var(--dark2TabBoxBG);
+}
+.thm-green .MuiDataGrid-main .MuiDataGrid-virtualScroller .MuiDataGrid-row:hover {
+    background-color: var(--dark2BGHover);
+}
+
+.thm-green .MuiTableCell-root {
+    color: var(--dark2PrimaryTextColor);
+}
+
+.thm-green .MuiDataGrid-virtualScroller .MuiDataGrid-row:hover {background-color: var(--dark2TableHoverColor);}
+.thm-green .MuiDataGrid-virtualScroller .MuiDataGrid-row.Mui-selected {background-color: var(--dark2TableHoverColor);}
+.thm-green .MuiDataGrid-main .MuiDataGrid-row {border-bottom: 1px solid var(--inputBorderColor);}
+.thm-green .MuiDataGrid-main .MuiDataGrid-row .MuiDataGrid-cell {border-bottom: 0;}
+
+
+.thm-green .book_slot_table .MuiDataGrid-main {background-color: #292f30;border:0;color: var(--dark2PrimaryTextColor);}
+.thm-green .book_slot_table .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:first-child,
+.thm-green .book_slot_table .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:nth-child(2) {
+    background-color: #292f30;
+}
+
+.thm-green .book_slot_table .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:first-child:hover,
+.thm-green .book_slot_table .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:nth-child(2):hover,
+.thm-green .book_slot_table .MuiDataGrid-main .MuiDataGrid-virtualScroller .MuiDataGrid-row:hover {
+    background-color: var(--dark2TableHoverColor);
+}
+
+
+
+.thm-green .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row:hover .MuiDataGrid-cell:first-child,
+.thm-green .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row.Mui-selected .MuiDataGrid-cell:first-child,
+.thm-green .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:first-child:hover,
+.thm-green .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row:hover .MuiDataGrid-cell:nth-child(2),
+.thm-green .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row .MuiDataGrid-cell:nth-child(2):hover,
+.thm-green .MuiDataGrid-main .MuiDataGrid-virtualScrollerRenderZone .MuiDataGrid-row.Mui-selected .MuiDataGrid-cell:nth-child(2) {
+    background-color: var(--dark2TableHoverColor);
+}
+
+
+.thm-green .MuiDataGrid-main .MuiDataGrid-row.makeStyles-rowWithLineThrough-1, 
+.thm-green .MuiDataGrid-main .MuiDataGrid-row.jss2 {
+    opacity: 0.14;
+}
+.thm-green .MuiDataGrid-columnHeaderTitleContainer {
+    color: var(--dark_Tbl-hdr_txt-clr);
+}
+.thm-green .history-table-wrapper .MuiDataGrid-main .MuiDataGrid-row .MuiDataGrid-cell {
+    color: var(--dark_Tbl-data_txt-clr);
+}
+.thm-green .MuiDataGrid-main .MuiDataGrid-row .MuiDataGrid-cell[data-field='title'] {
+    color: var(--white1);
+}
+
+.thm-green .tab-panel-content .MuiDataGrid-main .MuiDataGrid-cell a {
+    color: var(--dark1PrimaryTextColor);
+}

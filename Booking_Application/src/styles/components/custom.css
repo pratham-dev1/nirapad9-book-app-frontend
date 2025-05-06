@@ -1,0 +1,246 @@
+
+* {
+    box-sizing: border-box;
+    word-break: break-word;
+}
+.position-relative {
+    position: relative;
+}
+.opacity-5 {
+    opacity: 0.4;
+}
+.pointer-none {
+    pointer-events: none;
+}
+
+
+/* ---- Padding Custom Classes CSS ----*/
+.no-padding {
+    padding: 0;
+}
+.pl-0 {
+    padding-left: 0;
+}
+.pl-5 {
+    padding-left: 5px;
+}
+.pl-10 {
+    padding-left: 10px;
+}
+.pl-20 {
+    padding-left: 20px;
+}
+.pl-50 {
+    padding-left: 50px;
+}
+
+.pr-0 {
+    padding-right: 0;
+}
+.pr-10 {
+    padding-right: 10px;
+}
+.pr-20 {
+    padding-right: 20px;
+}
+.pr-50 {
+    padding-right: 50px;
+}
+
+.pt-0 {
+    padding-top: 0;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pt-30 {
+    padding-top: 30px;
+}
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pb-0 {
+    padding-bottom: 0;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pad-20 {
+    padding: 20px;
+}
+.pad-30 {
+    padding: 30px;
+}
+.pad-50 {
+    padding: 50px;
+}
+/* ----------------------------*/
+
+
+/* ---- Margin Custom Classes CSS ----*/
+.m-zero {margin: 0;}
+
+.mt-0 {margin-top: 0;}
+.mt-10 {margin-top: 10px;}
+.mt-20 {margin-top: 20px;}
+.mt-30 {margin-top: 30px;}
+.mt-50 {margin-top: 50px;}
+.mt-70 {margin-top: 70px;} 
+.mt-100 {margin-top: 100px;} 
+
+.mb-zero {margin-bottom: 0 !important;}
+.mb-5 {margin-bottom: 5px;}
+.mb-10 {margin-bottom: 10px;}
+.mb-15 {margin-bottom: 15px;}
+.mb-20 {margin-bottom: 20px;}
+.mb-30 {margin-bottom: 30px;}
+.mb-50 {margin-bottom: 50px;}
+.mb-70 {margin-bottom: 70px;}
+.mb-90 {margin-bottom: 90px;}
+.mb-100 {margin-bottom: 100px;}
+.mb-120 {margin-bottom: 120px;}
+.mb-130 {margin-bottom: 130px;}
+
+.mr-0 {margin-right: 0;}
+.mr-5 {margin-right: 5px;}
+.mr-10 {margin-right: 10px;}
+.mr-15 {margin-right: 15px;}
+.mr-20 {margin-right: 20px;}
+.mr-25{margin-right: 25px;}
+.mr-40{margin-right: 40px;}
+
+.ml-5 {margin-left: 5px;}
+.ml-10 {margin-left: 10px;}
+.ml-15 {margin-left: 15px;}
+.ml-20 {margin-left: 20px;}
+.ml-25 {margin-left: 25px;}
+/* ----------------------------*/
+
+
+/* ---- Flex box Classes CSS ----*/
+.d-flex{
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+.items-center {
+    align-items: center;
+}
+.align-start {
+    align-items: flex-start;
+}
+.align-end {
+    align-items: flex-end;
+}
+.flex-row {
+    flex-flow: row wrap;
+}
+.flex-column {
+    flex-flow: column wrap;
+}
+/* ----------------------------*/
+
+
+/* Border Classes CSS */
+.no-border {
+    border: 0;
+}
+.bdr-btm-1 {
+    border-bottom: 1px solid var(--blue2);
+}
+
+/* Border Radius Classes CSS */
+.br-10 {
+    border-radius: 10px;
+}
+.br-15 {
+    border-radius: 15px;
+}
+.br-20 {
+    border-radius: 20px;
+}
+.br-50 {
+    border-radius: 50px;
+}
+
+img {
+    max-width: 100%;
+}
+.color-white {
+    color: var(--white1);
+}
+.word-break-normal {
+    word-break: normal;
+}
+.transparent-btn {
+    background: transparent;
+}
+.cursur-pointer{
+    cursor: pointer;
+}
+.pointer {
+    cursor: pointer;
+}
+
+
+/* Gradient Background Classes CSS */
+.grdnt-bg-1 {
+    background-image: var(--blue_grd-bg-1);
+}
+.sec-bg-2 {
+    background-color: var(--blue7);
+}
+
+/* Colorful Background */
+.rainbow-bg {
+    background: linear-gradient(120deg, #FFDAEB 7.77%, #FDD1C1 21.7%, #FCF6BD 31%, #D0F4DE 54.3%, #A9DEF9 77.56%, #E4C1F9 100.82%);
+}
+
+/* Rainbow Color Button */
+.rainbow-btn {
+    background: linear-gradient(120deg, #FFDAEB 7.77%, #FDD1C1 21.7%, #FCF6BD 31%, #D0F4DE 54.3%, #A9DEF9 77.56%, #E4C1F9 100.82%);
+}
+
+/* Rainbow Border Color */
+.rainbow-border {
+  border: 13px solid transparent !important;
+  border-image: linear-gradient(119.84deg, #FFDAEB 7.77%, #FDD1C1 21.7%, #FCF6BD 31%, #D0F4DE 54.3%, #A9DEF9 77.56%, #E4C1F9 100.82%) !important;
+  border-image-slice: 1 !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey; 
+    border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #bbb; 
+    border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #a1a1a1;
+}
